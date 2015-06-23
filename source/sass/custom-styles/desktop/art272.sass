@@ -1,0 +1,26 @@
+.art-272
+    .content
+        article
+            h1
+                @include font-mask( normal, em( 22, 16 ), 1.5em, $lato-regular, $text-gray )
+                float: left
+            h2
+                @include font-mask( normal, em( 22, 16 ), 1.5em, $lato-regular, $text-gray )
+                float: right
+                a
+                    color: $black-color
+                    text-decoration: none
+                    &:hover
+                        color: $text-highlighted
+                        text-decoration: underline
+            h3
+                @include font-mask( normal, em( 20, 16 ), 1.5em, $lato-regular, $text-gray )
+            p
+                margin: 0.5em auto
+                strong
+            ol
+                margin: 0.5em auto
+                li
+                    @include font-mask( normal, em( 16, 16 ), 1.5em, $lato-regular, $text-gray )
+                    list-style: upper-roman inside
+                    margin: 0.5em auto

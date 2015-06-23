@@ -1,0 +1,22 @@
+.art-81
+    .content
+        article
+            h1
+                @include font-mask( normal, em( 22, 16 ), 1.5em, $lato-regular, $text-gray )
+            p
+                margin: 0.5em auto
+                strong
+            h2
+                @include font-mask( normal, em( 22, 16 ), 1.5em, $lato-regular, $text-gray )
+                a
+                    color: $black-color
+                    text-decoration: none
+                    &:hover
+                        color: $text-highlighted
+                        text-decoration: underline
+            ol
+                margin: 0.5em auto
+                li
+                    @include font-mask( normal, em( 16, 16 ), 1.5em, $lato-regular, $text-gray )
+                    list-style: upper-roman inside
+                    margin: 0.5em auto

@@ -1,0 +1,101 @@
+@import "bourbon"
+@import "default-styles/_normalize"
+
+@import "default-styles/_boilerplate_styles"
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import "default-styles/_variables"
+@import "default-styles/_mixins"
+@import "default-styles/_lemonade"
+@import "default-styles/_general"
+
+@import "custom-styles/desktop/home"
+@import "custom-styles/desktop/quienes-somos"
+//@import "custom-styles/desktop/aiddem"
+//@import "custom-styles/desktop/que-hace-la-aiddem"
+@import "custom-styles/desktop/art272"
+@import "custom-styles/desktop/art81"
+@import "custom-styles/desktop/servicios"
+@import "custom-styles/desktop/beneficios"
+//@import "custom-styles/desktop/corte"
+//@import "custom-styles/desktop/respaldo"
+@import "custom-styles/desktop/solicitud"
+@import "custom-styles/desktop/aviso"
+@import "custom-styles/desktop/contrato"
+@import "custom-styles/desktop/agradecimiento"
+@import "custom-styles/desktop/error"
+@import "custom-styles/desktop/contacto"
+
+@import "default-styles/_helper_classes"
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+    @import "default-styles/_general_mobile"
+
+    @import "custom-styles/mobile/home-6-portrait"
+    @import "custom-styles/mobile/solicitud"
+
+@media only screen and (max-width: em( 736, 16 )) and (orientation:landscape)
+    @import "custom-styles/mobile/home-6-landscape"
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 ))
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+    @import "custom-styles/mobile/home-5-portrait"
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+    @import "custom-styles/mobile/home-5-landscape"
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+    @import "custom-styles/mobile/home-4-portrait"
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+    @import "custom-styles/mobile/home-4-landscape"
+
+/* ==========================================================================
+   iPad
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 ))
+
+/* ==========================================================================
+   iPad Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 )) and (orientation:portrait)
+
+/* ==========================================================================
+   iPad Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   Desktop High Resolution
+   ========================================================================== */
+@media only screen and (min-width: em( 1919, 16 ))
+
+@import "default-styles/_print_stylesheet"

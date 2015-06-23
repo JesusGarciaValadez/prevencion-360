@@ -1,0 +1,173 @@
+body,html
+    background-color: $background-gray
+    color: #00559a
+    font-family: Helvetica, Arial, sans-serif
+    font-size: 100%
+    margin: 0
+    padding: 0
+img
+    border: 0
+    height: auto
+    max-width: 100%
+    vertical-align: middle
+.wrapper
+    box-sizing: border-box
+    display: table
+    height: 100%
+    padding: 0
+    position: relative
+    width: 100%
+.central
+    background-color: $white-color
+    box-shadow: 0 0 5px 5px #D1D1D1
+    box-sizing: border-box
+    clear: both
+    float: none !important
+    display: block
+    margin: 0 auto
+    width: 960px
+.internal
+    float: none !important
+    padding: 0 30px
+p, figcaption
+    @include font-mask( normal, em( 16, 16 ), 1.5em, $lato-regular, $text-gray )
+    text-align: left
+    margin: 0.5em auto
+ul, ol
+    margin: 0.5em auto
+#begin
+    .wrapper
+        header
+            display: flex
+            position: relative
+            z-index: 10
+            h1
+                align-self: flex-start
+                color: transparent
+                max-height: 100px
+                img
+                    left: 0
+                    position: relative
+                    top: 0
+            nav
+                align-self: center
+                >ul
+                    display: flex
+                    box-sizing: border-box
+                    margin: 0 auto
+                    padding: 0
+                    > li
+                        @include font-mask( normal, 12px , 1.5em, $lato-regular, $text-gray )
+                        align-self: stretch
+                        border-right: 1px solid $text-highlighted
+                        box-sizing: border-box
+                        display: flex
+                        list-style: none outside
+                        margin: 0
+                        padding: 0
+                        position: relative
+                        text-align: center
+                        &:last-child
+                            border: 0 none transparent
+                        &:nth-child( 2 )
+                            ul
+                                bottom: -95px
+                        &:nth-child( 6 )
+                            ul
+                                bottom: -47px
+                        a
+                            align-self: center
+                            color: $text-gray
+                            display: block
+                            padding: 5px 10px
+                            text-align: center
+                            text-decoration: none
+                            width: 100%
+                            &:hover
+                                color: $text-highlighted
+                        ul
+                            background-color: #262626
+                            bottom: -100px
+                            display: none
+                            left: 0
+                            padding: 0
+                            position: absolute
+                            width: 110px
+                            li
+                                border: 0 none transparent
+                                border-bottom: 1px solid $black-color
+                                list-style: none outside
+                                padding: 10px
+                                &:last-child
+                                    border: 0 none transparent
+                                a
+                                    color: $white-color
+                                    font-size: 12px
+                                    text-align: left
+                        &:hover
+                            ul
+                                display: block
+        footer
+            background-color: $background-footer
+            box-sizing: border-box
+            display: flex
+            padding: 20px 50px
+            .contact,.privacy-policy
+                align-self: flex-start
+            .contact
+                .contact-title
+                    @include font-mask( normal, em( 14, 16 ), 1.5em, $lato-regular, $black-color )
+                    margin: 1em auto
+                p
+                    @include font-mask( normal, em( 12, 16 ), 1.5em, $lato-regular, $footer-text )
+                    margin: 0 auto
+                    a
+                        color: $footer-text
+                        text-decoration: none
+                        &:hover
+                            color: $text-highlighted
+                ul
+                    margin: 0
+                    padding: 0
+                    li
+                        @include font-mask( normal, em( 12, 16 ), 1.5em, $lato-regular, $text-highlighted )
+                        list-style: none outside
+                        margin: 0
+                        padding: 0
+                        a
+                            color: $footer-text
+                            text-decoration: none
+                        &:hover
+                            a
+                                color: $text-highlighted
+            .privacy-policy
+                p
+                    @include font-mask( normal, em( 14, 16 ), 1.5em, $lato-regular, $text-gray )
+                    float: right
+                    text-align: right
+                    a
+                        color: $black-color
+                        text-decoration: none
+        a[title="Subir"]
+            background-color: #323232
+            border-radius: 10px
+            bottom: 20px
+            color: transparent
+            display: flex
+            height: 51px
+            position: fixed
+            right: 20px
+            width: 51px
+            &:before
+                content: ""
+                border-top: 1px solid #616161
+            &:after
+                @include font-mask( bold, em( 30, 16 ), 1em, $lato-regular, $white-color )
+                align-self: center
+                content: "⌃"
+                display: block
+                height: 18px
+                margin: 0 auto
+                text-align: center
+                width: 26px
+

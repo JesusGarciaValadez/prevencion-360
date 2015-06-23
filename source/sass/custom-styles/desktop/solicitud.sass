@@ -1,0 +1,46 @@
+.solicitud
+    section
+        article
+            h1
+                @include font-mask( normal, em( 22, 16 ), 1.5em, $lato-regular, $text-gray )
+            h2
+                @include font-mask( normal, em( 20, 16 ), 1.5em, $lato-regular, $text-gray )
+            p
+                @include font-mask( normal, em( 16, 16 ), 1.5em, $lato-regular, $text-gray )
+                text-align: center
+                a
+                    color: $black-color
+                    text-decoration: none
+                    &:hover
+                        color: $text-highlighted
+                        text-decoration: underline
+            form
+                background-color: $background-footer
+                fieldset
+                    legend, p
+                        @include font-mask( bold, em( 20, 16 ), 1.5em, $lato-regular, $text-gray )
+                    .input
+                        label
+                            @include font-mask( normal, em( 16, 16 ), 1.5em, $lato-regular, $text-gray )
+                        input[type="text"], input[type="email"]
+                            @include font-mask( normal, em( 16, 16 ), 1.5em, $lato-regular, $text-gray )
+                            border: 1px solid $input-border
+                        input[type="radio"]
+                        select
+                        input[type="submit"]
+                            @include font-mask( normal, em( 16, 16 ), 1.5em, $lato-regular, $white-color )
+                            background-color: $text-highlighted
+                            border: 0 none transparent
+                            box-sizing: border-box
+                            padding: 10px 20px
+                            position: relative
+                            -webkit-appearance: button
+                            /*&:after
+                                border-color: transparent $text-highlighted transparent transparent
+                                border-style: none solid none none
+                                border-size: 0 10px 0 0
+                                content: ''
+                                height: 1px
+                                position: absolute
+                                right: -30px
+                                top: 0*/

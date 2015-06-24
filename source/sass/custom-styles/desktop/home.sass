@@ -7,7 +7,7 @@
                 margin: 0 auto
                 img
                     display: block
-                    margin: 0.5em auto
+                    margin: 0.25em auto
             .shelfs
                 ul
                     border-top: 1px dotted #D0D0D0
@@ -21,13 +21,13 @@
                         padding: 0 25px 40px
                         &:nth-child( 1 )
                             background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
-                            margin-left: 22px
+                            margin-left: 21px
                             padding-left: 50px
                         &:nth-child( 2 ), &:nth-child( 3 )
                             background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
                         &:nth-child( 4 )
                             background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
-                            margin-right: 22px
+                            margin-right: 21px
                             padding-right: 50px
                         figure
                             position: relative
@@ -39,14 +39,15 @@
                                 position: absolute
                                 width: 100%
                                 h2
-                                    @include font-mask( normal, em( 14, 16 ), 1.5em, $franklin, $white-color )
+                                    @include font-mask( normal, em( 15, 16 ), 1.2em, $franklin, $white-color )
                                     display: block
                                     margin: 0 auto
+                                    max-height: em( 56, 15 )
                                     text-overflow: ellipsis
                                     overflow: hidden
                                     width: 100%
                                     white-space: normal
                                 p
-                                    @include font-mask( normal, em( 13, 16 ), 1.5em, $franklin, $white-color )
-                                    display: block
+                                    @include font-mask( normal, em( 13, 16 ), 1.2em, $franklin, $white-color )
+                                    display: none
                                     margin: 0 auto

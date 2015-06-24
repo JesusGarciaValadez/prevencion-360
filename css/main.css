@@ -14494,7 +14494,7 @@ form#hrefFm {
     margin: 0 auto; }
     .prevencion-360 #content .central h1 img {
       display: block;
-      margin: 0.5em auto; }
+      margin: 0.25em auto; }
   .prevencion-360 #content .central .shelfs ul {
     border-top: 1px dotted #D0D0D0;
     box-sizing: border-box;
@@ -14507,13 +14507,13 @@ form#hrefFm {
       padding: 0 25px 40px; }
       .prevencion-360 #content .central .shelfs ul li:nth-child(1) {
         background: url("../images/barra_madera.png") no-repeat scroll center bottom transparent;
-        margin-left: 22px;
+        margin-left: 21px;
         padding-left: 50px; }
       .prevencion-360 #content .central .shelfs ul li:nth-child(2), .prevencion-360 #content .central .shelfs ul li:nth-child(3) {
         background: url("../images/barra_madera.png") no-repeat scroll center bottom transparent; }
       .prevencion-360 #content .central .shelfs ul li:nth-child(4) {
         background: url("../images/barra_madera.png") no-repeat scroll center bottom transparent;
-        margin-right: 22px;
+        margin-right: 21px;
         padding-right: 50px; }
       .prevencion-360 #content .central .shelfs ul li figure {
         position: relative; }
@@ -14526,11 +14526,12 @@ form#hrefFm {
           .prevencion-360 #content .central .shelfs ul li figure figcaption h2 {
             color: #FFF;
             font-family: "ITCFranklinGothicCondensedBook", Helvetica, Arial, sans-serif;
-            font-size: 0.875em;
+            font-size: 0.9375em;
             font-weight: normal;
-            line-height: 1.5em;
+            line-height: 1.2em;
             display: block;
             margin: 0 auto;
+            max-height: 3.7333333333em;
             text-overflow: ellipsis;
             overflow: hidden;
             width: 100%;
@@ -14540,8 +14541,8 @@ form#hrefFm {
             font-family: "ITCFranklinGothicCondensedBook", Helvetica, Arial, sans-serif;
             font-size: 0.8125em;
             font-weight: normal;
-            line-height: 1.5em;
-            display: block;
+            line-height: 1.2em;
+            display: none;
             margin: 0 auto; }
 
 /* Image replacement

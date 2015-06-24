@@ -6,28 +6,14 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
 @import "default-styles/_variables"
 @import "default-styles/_mixins"
 @import "default-styles/_lemonade"
 @import "default-styles/_general"
+@import "default-styles/_aui"
+@import "default-styles/_axa"
 
 @import "custom-styles/desktop/home"
-@import "custom-styles/desktop/quienes-somos"
-//@import "custom-styles/desktop/aiddem"
-//@import "custom-styles/desktop/que-hace-la-aiddem"
-@import "custom-styles/desktop/art272"
-@import "custom-styles/desktop/art81"
-@import "custom-styles/desktop/servicios"
-@import "custom-styles/desktop/beneficios"
-//@import "custom-styles/desktop/corte"
-//@import "custom-styles/desktop/respaldo"
-@import "custom-styles/desktop/solicitud"
-@import "custom-styles/desktop/aviso"
-@import "custom-styles/desktop/contrato"
-@import "custom-styles/desktop/agradecimiento"
-@import "custom-styles/desktop/error"
-@import "custom-styles/desktop/contacto"
 
 @import "default-styles/_helper_classes"
 
@@ -43,11 +29,7 @@
 @media only screen and (max-width: em( 736, 16 ))
     @import "default-styles/_general_mobile"
 
-    @import "custom-styles/mobile/home-6-portrait"
-    @import "custom-styles/mobile/solicitud"
-
 @media only screen and (max-width: em( 736, 16 )) and (orientation:landscape)
-    @import "custom-styles/mobile/home-6-landscape"
 
 /* ==========================================================================
    iPhone 6 Orientation
@@ -58,25 +40,21 @@
    iPhone 5/5S Portrait Orientation
    ========================================================================== */
 @media only screen and (max-width: em( 568, 16 ))
-    @import "custom-styles/mobile/home-5-portrait"
 
 /* ==========================================================================
    iPhone 5/5S Landscape Orientation
    ========================================================================== */
 @media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
-    @import "custom-styles/mobile/home-5-landscape"
 
 /* ==========================================================================
    iPhone 3GS/4/4S Portrait Orientation
    ========================================================================== */
 @media only screen and (max-width: em( 480 ))
-    @import "custom-styles/mobile/home-4-portrait"
 
 /* ==========================================================================
    iPhone 3GS/4/4S Portrait Orientation
    ========================================================================== */
 @media only screen and (max-width: em( 480 )) and (orientation:landscape)
-    @import "custom-styles/mobile/home-4-landscape"
 
 /* ==========================================================================
    iPad
@@ -96,6 +74,7 @@
 /* ==========================================================================
    Desktop High Resolution
    ========================================================================== */
-@media only screen and (min-width: em( 1919, 16 ))
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi)
 
-@import "default-styles/_print_stylesheet"
+@media print
+    @import "default-styles/_print_stylesheet"

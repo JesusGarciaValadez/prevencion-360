@@ -1,152 +1,52 @@
-.home
-    .wrapper
-        .internal
-            > img
-                border-bottom: 5px solid $tweet-bar
-                display: block
-                float: none
-                margin: 0 auto
-                padding: 0
+.prevencion-360
+    #content
+        .central
+            box-sizing: border-box
+            width: 960px
             h1
-                @include font-mask( normal, em( 22, 16 ), 1.5em, $lato-regular, $text-gray )
-            .sign
-                background-color: $text-highlighted
-                box-sizing: box-sizing
-                clear: both
-                display: block
-                float: none
                 margin: 0 auto
-                padding: 10px 20px
-                p
-                    @include font-mask( normal, em( 21, 16 ), 1.5em, $lato-bold, $white-color )
-                    float: none
-                    margin: 1em auto
-                    padding: 0
-                    text-align: center
-                    a
-                        color: $white-color
-                        text-decoration: none
-                        &:hover
-                            text-decoration: underline
-            .advance
-                img,p.bit-666,span.bit-666
                 img
                     display: block
-                    float: none
-                    margin: 10px auto
-                > p, span
-                    @include font-mask( normal, em( 15, 16 ), 1.5em, $lato-regular, $text-gray )
-                    a
-                        color: $black-color
-                        text-decoration: none
-                        &:hover
-                            color: $text-highlighted
-                            text-decoration: underline
-            .first
-                display: block
-                p,a
-                    display: block !important
-                img, span
-                    clear: both
-                    display: block
-                    margin: 0 auto
-                img
-                    height: auto
-            > aside
-                img
+                    margin: 0.5em auto
+            .shelfs
+                ul
+                    border-top: 1px dotted #D0D0D0
                     box-sizing: border-box
-                    display: block
-                    float: none
-                    margin: 30px auto 0
-                p
-                    @include font-mask( normal, em( 15, 16 ), 1.5em, $lato-regular, $text-gray )
-                    align-content: center
-                    margin: 1em auto
-                    text-align: center
-            > p
-                clear: both
-                display: block
-                float: none
-                margin: 1em auto 0
-            hr
-                border: 0 none transparent
-                border-bottom: 1px solid $footer-text
-                display: block
-                height: 0
-                margin: 1em auto
-            .affiliation
-                display: flex
-                aside,.commission
-                    align-self: stretch
-                aside
-                    figure
-                        figcaption
-                            p
-                                @include font-mask( normal, em( 60, 16 ), 1em, $lato-bold, #366796 )
-                                text-align: center
-                                margin: 16px auto
-                                padding: 0
-                        img
-                    p
-                        float: none
-                        margin: 1em auto
-                .commission
-                    figure
-                        a
-                            img
-                        figcaption
-    #lightbox-trigger
-        display: none
-        &:checked + .lightbox-background
-            display: none
-    .lightbox-background
-        background-color: rgba( 0, 0, 0, 0.5 )
-        display: flex
-        height: 100%
-        left: 0
-        position: fixed
-        top: 0
-        width: 100%
-        .lightbox
-            align-self: center
-            background-color: $white-color
-            border: 10px solid $text-highlighted
-            display: block
-            margin: 0 auto
-            position: relative
-            figure
-                float: left
-                img
-            h1, p
-                margin: 0 auto
-                text-align: center
-                text-transform: uppercase
-                strong
-                    font-family: $cardo-bold
-                    font-size: em( 25, 20 )
-            h1
-                @include font-mask( normal, em( 25, 16 ), 1.2em, $cardo-regular, $text-gray )
-                text-align: center
-            label
-                @include font-mask( normal, em( 25, 16 ), 1em, $lato-bold, $text-gray )
-                cursor: pointer
-                position: absolute
-                right: 15px
-                top: 15px
-            p
-                @include font-mask( normal, em( 25, 16 ), 1.2em, $cardo-regular, $text-gray )
-                text-align: center
-            .info
-                background-color: $text-highlighted
-                clear: both
-                display: block
-                width: 100%
-                p
-                    @include font-mask( normal, em( 25, 16 ), 1em, $cardo-regular, $white-color )
                     margin: 0 auto
-                    text-transform: uppercase
-                    span, a
-                        color: $white-color
-                        font-family: $lato-regular
-                        text-transform: none
-                        text-decoration: none
+                    padding: 0
+                    li
+                        box-sizing: border-box
+                        float: left
+                        margin-bottom: 10px
+                        padding: 0 25px 40px
+                        &:nth-child( 1 )
+                            background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
+                            margin-left: 22px
+                            padding-left: 50px
+                        &:nth-child( 2 ), &:nth-child( 3 )
+                            background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
+                        &:nth-child( 4 )
+                            background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
+                            margin-right: 22px
+                            padding-right: 50px
+                        figure
+                            position: relative
+                            img
+                            figcaption
+                                bottom: 0
+                                box-sizing: border-box
+                                padding: 10px
+                                position: absolute
+                                width: 100%
+                                h2
+                                    @include font-mask( normal, em( 14, 16 ), 1.5em, $franklin, $white-color )
+                                    display: block
+                                    margin: 0 auto
+                                    text-overflow: ellipsis
+                                    overflow: hidden
+                                    width: 100%
+                                    white-space: normal
+                                p
+                                    @include font-mask( normal, em( 13, 16 ), 1.5em, $franklin, $white-color )
+                                    display: block
+                                    margin: 0 auto

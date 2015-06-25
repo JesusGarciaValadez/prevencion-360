@@ -1,53 +1,82 @@
-.prevencion-360
-    #content
-        .central
+.shelfs
+    ul
+        border-top: 1px dotted #D0D0D0
+        box-sizing: border-box
+        margin: 0 auto
+        padding: 0
+        li
             box-sizing: border-box
-            width: 960px
-            h1
-                margin: 0 auto
+            float: left
+            margin-bottom: 10px
+            padding: 0 25px 40px
+            &:nth-child( 2 ), &:nth-child( 3 )
+                background: url( '../images/barra_madera_centro.png' ) no-repeat scroll center bottom transparent
+            &:first-child
+                background: url( '../images/barra_madera_izq.png' ) no-repeat scroll left bottom transparent
+                margin-left: 21px
+                padding-left: 50px
+            &:last-child
+                background: url( '../images/barra_madera_der.png' ) no-repeat scroll right bottom transparent
+                margin-right: 21px
+                padding-right: 50px
+            figure
+                position: relative
                 img
-                    display: block
-                    margin: 0.25em auto
-            .shelfs
-                ul
-                    border-top: 1px dotted #D0D0D0
+                figcaption
+                    bottom: 0
                     box-sizing: border-box
-                    margin: 0 auto
-                    padding: 0
-                    li
-                        box-sizing: border-box
-                        float: left
-                        margin-bottom: 10px
-                        padding: 0 25px 40px
-                        &:nth-child( 1 )
-                            background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
-                            margin-left: 21px
-                            padding-left: 50px
-                        &:nth-child( 2 ), &:nth-child( 3 )
-                            background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
-                        &:nth-child( 4 )
-                            background: url( '../images/barra_madera.png' ) no-repeat scroll center bottom transparent
-                            margin-right: 21px
-                            padding-right: 50px
-                        figure
-                            position: relative
-                            img
-                            figcaption
-                                bottom: 0
-                                box-sizing: border-box
-                                padding: 10px
-                                position: absolute
+                    padding: 10px
+                    position: absolute
+                    width: 100%
+                    h2
+                        margin: 0 auto
+                        padding: 0
+                        a
+                            @include font-mask( normal, em( 15, 24 ), 1.2em, $franklin, $white-color )
+                            display: block
+                            margin: 0 auto
+                            max-height: em( 56, 15 )
+                            text-decoration: none
+                            text-shadow: 0 0 2px #000
+                            text-overflow: ellipsis
+                            overflow: hidden
+                            width: 100%
+                            white-space: normal
+                    p
+                        margin: 5px auto
+                        padding: 0
+                        a
+                            @include font-mask( normal, em( 13, 16 ), 1.2em, $franklin, $white-color )
+                            display: none
+                            height: 95px
+                            margin: 0 auto
+                            overflow: hidden
+                            text-decoration: none
+                            text-overflow: ellipsis
+                            padding: 0
+                &:hover
+                    figcaption
+                        background-color: RGBA( 0, 0, 0, 0.5 )
+                        cursor: pointer
+                        height: 100%
+                        padding: 10px
+                        position: absolute
+                        top: 0
+                        width: 100%
+                        h2
+                            a
+                                @include font-mask( bold, em( 14, 24 ), 1.2em, $franklin, $white-color )
+                                border-bottom: 1px dashed $white-color
+                                display: block
+                                margin: 0 auto
+                                max-height: none
+                                padding-bottom: 5px
+                                text-shadow: unset
+                                text-overflow: none
+                                overflow: visible
                                 width: 100%
-                                h2
-                                    @include font-mask( normal, em( 15, 16 ), 1.2em, $franklin, $white-color )
-                                    display: block
-                                    margin: 0 auto
-                                    max-height: em( 56, 15 )
-                                    text-overflow: ellipsis
-                                    overflow: hidden
-                                    width: 100%
-                                    white-space: normal
-                                p
-                                    @include font-mask( normal, em( 13, 16 ), 1.2em, $franklin, $white-color )
-                                    display: none
-                                    margin: 0 auto
+                                white-space: normal
+                        p
+                            a
+                                display: block
+

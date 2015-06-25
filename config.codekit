@@ -673,15 +673,6 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
-	"\/css\/home.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/css\/home.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -810,7 +801,40 @@
 		"outputAbbreviatedPath": "\/images\/barra_madera.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/barra_madera_centro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1031,
+		"inputAbbreviatedPath": "\/images\/barra_madera_centro.png",
+		"outputAbbreviatedPath": "\/images\/barra_madera_centro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/barra_madera_der.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5297,
+		"inputAbbreviatedPath": "\/images\/barra_madera_der.png",
+		"outputAbbreviatedPath": "\/images\/barra_madera_der.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/barra_madera_izq.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2735,
+		"inputAbbreviatedPath": "\/images\/barra_madera_izq.png",
+		"outputAbbreviatedPath": "\/images\/barra_madera_izq.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/barra_madera_mobile.png": {
 		"fileType": 32768,
@@ -821,7 +845,18 @@
 		"outputAbbreviatedPath": "\/images\/barra_madera_mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/esquina_Azul.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1849,
+		"inputAbbreviatedPath": "\/images\/esquina_Azul.png",
+		"outputAbbreviatedPath": "\/images\/esquina_Azul.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/linea_gris.png": {
 		"fileType": 32768,
@@ -832,7 +867,7 @@
 		"outputAbbreviatedPath": "\/images\/linea_gris.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/mockup_360.jpg": {
 		"fileType": 16384,
@@ -843,7 +878,7 @@
 		"outputAbbreviatedPath": "\/images\/mockup_360.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/prevencion-360.png": {
 		"fileType": 32768,
@@ -854,7 +889,7 @@
 		"outputAbbreviatedPath": "\/images\/prevencion-360.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/thumbnail-medium.jpg": {
 		"fileType": 16384,
@@ -865,7 +900,7 @@
 		"outputAbbreviatedPath": "\/images\/thumbnail-medium.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/thumbnail-small.jpg": {
 		"fileType": 16384,
@@ -876,7 +911,7 @@
 		"outputAbbreviatedPath": "\/images\/thumbnail-small.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -1112,7 +1147,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 2,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/mobile\/home-4-portrait.sass",
 		"outputAbbreviatedPath": "\/css\/home-4-portrait.css",

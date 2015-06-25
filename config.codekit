@@ -11,7 +11,7 @@
 		"outputAbbreviatedPath": "\/AXA-theme\/images\/axa\/arrow_white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/AXA-theme\/images\/axa\/caret.png": {
 		"fileType": 32768,
@@ -22,7 +22,29 @@
 		"outputAbbreviatedPath": "\/AXA-theme\/images\/axa\/caret.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/AXA-theme\/images\/axa\/headerLogo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8429,
+		"inputAbbreviatedPath": "\/AXA-theme\/images\/axa\/headerLogo.png",
+		"outputAbbreviatedPath": "\/AXA-theme\/images\/axa\/headerLogo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/AXA-theme\/images\/axa\/icon_header_menu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1173,
+		"inputAbbreviatedPath": "\/AXA-theme\/images\/axa\/icon_header_menu.png",
+		"outputAbbreviatedPath": "\/AXA-theme\/images\/axa\/icon_header_menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/bower_components\/html5-boilerplate\/CHANGELOG.md": {
 		"criticStyle": 0,
@@ -691,7 +713,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/0\/axaWorld.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/10928\/0\/headerPhone.png": {
 		"fileType": 32768,
@@ -702,7 +724,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/0\/headerPhone.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/10928\/11310\/fbLogo.png": {
 		"fileType": 32768,
@@ -713,7 +735,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/11310\/fbLogo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/10928\/11310\/gplusLogo.png": {
 		"fileType": 32768,
@@ -724,7 +746,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/11310\/gplusLogo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/10928\/11310\/In-2C-28px-R.png": {
 		"fileType": 32768,
@@ -735,7 +757,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/11310\/In-2C-28px-R.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/10928\/11310\/twLogo.png": {
 		"fileType": 32768,
@@ -746,7 +768,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/11310\/twLogo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/10928\/11310\/ytLogo.png": {
 		"fileType": 32768,
@@ -757,7 +779,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/11310\/ytLogo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/10928\/11346\/icon_header_home.png": {
 		"fileType": 32768,
@@ -768,7 +790,7 @@
 		"outputAbbreviatedPath": "\/documents\/10928\/11346\/icon_header_home.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/images\/axa\/arrow_white.png": {
 		"fileType": 32768,
@@ -779,7 +801,7 @@
 		"outputAbbreviatedPath": "\/documents\/images\/axa\/arrow_white.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/documents\/images\/axa\/icon_header_menu.png": {
 		"fileType": 32768,
@@ -790,7 +812,7 @@
 		"outputAbbreviatedPath": "\/documents\/images\/axa\/icon_header_menu.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/barra_madera.png": {
 		"fileType": 32768,

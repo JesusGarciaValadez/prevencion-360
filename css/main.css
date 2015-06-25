@@ -14507,7 +14507,7 @@ form#hrefFm {
     box-sizing: border-box;
     float: left;
     margin-bottom: 10px;
-    padding: 0 25px 40px; }
+    padding: 0 24px 40px; }
     .shelfs ul li:nth-child(2), .shelfs ul li:nth-child(3) {
       background: url("../images/barra_madera_centro.png") no-repeat scroll center bottom transparent; }
     .shelfs ul li:first-child {

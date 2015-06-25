@@ -14667,28 +14667,17 @@ form#hrefFm {
  * Modify as content requires.
  * ========================================================================== */
 /* ==========================================================================
- * iPhone 6 Plus Landscape Orientation
+ * iPhone 3GS/4/4S Portrait Orientation
  * ========================================================================== */
-@media only screen and (max-width: 46em) {
-  .internal {
-    padding: 0; }
-
-  .central {
-    width: 100%; } }
 /* ==========================================================================
- * iPhone 6 Orientation
+ * iPhone 3GS/4/4S Landscape Orientation
  * ========================================================================== */
 /* ==========================================================================
  * iPhone 5/5S Portrait Orientation
  * ========================================================================== */
-/* ==========================================================================
- * iPhone 5/5S Landscape Orientation
- * ========================================================================== */
-/* ==========================================================================
- * iPhone 3GS/4/4S Portrait Orientation
- * ========================================================================== */
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 35.5em) and (orientation: portrait) {
   .shelfs ul {
+    box-sizing: unset;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -14716,8 +14705,31 @@ form#hrefFm {
             font-size: 4.0625vw;
             height: 34.375vw; } }
 /* ==========================================================================
- * iPhone 3GS/4/4S Portrait Orientation
+ * iPhone 5/5S Landscape Orientation
  * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Orientation
+ * ========================================================================== */
+@media only screen and (max-width: 41.6875em) and (orientation: portrait) {
+  .shelfs ul li {
+    margin: 0 auto 1.5625vw !important;
+    padding: 0 15.625vw 12.5vw !important;
+    width: 93.333333333vw !important; }
+    .shelfs ul li figure figcaption h2 a {
+      font-size: 4.6875vw;
+      max-height: 17.5vw; }
+    .shelfs ul li figure figcaption p a {
+      font-size: 4.0625vw;
+      height: 34.375vw; } }
+/* ==========================================================================
+ * iPhone 6 Plus Landscape Orientation
+ * ========================================================================== */
+@media only screen and (max-width: 46em) {
+  .internal {
+    padding: 0; }
+
+  .central {
+    width: 100%; } }
 /* ==========================================================================
  * iPad
  * ========================================================================== */

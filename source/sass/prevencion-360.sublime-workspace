@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"no",
+				"none"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"align-",
+				"align-self"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
 				"pilates-",
 				"pilates-text"
 			],
@@ -26,10 +42,6 @@
 			[
 				"tex",
 				"text-align"
-			],
-			[
-				"no",
-				"nowrap"
 			],
 			[
 				"padd",
@@ -78,10 +90,6 @@
 			[
 				"current",
 				"currentTarget"
-			],
-			[
-				"back",
-				"background"
 			],
 			[
 				"cur",
@@ -211,30 +219,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
-			"settings":
-			{
-				"buffer_size": 476,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "main.sass",
-			"settings":
-			{
-				"buffer_size": 3627,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "default-styles/_general.sass",
-			"settings":
-			{
-				"buffer_size": 511,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -243,10 +227,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 158.0,
-		"last_filter": "wrap",
+		"height": 124.0,
+		"last_filter": "image",
 		"selected_items":
 		[
+			[
+				"image",
+				"Emmet: Update Image Size"
+			],
 			[
 				"wrap",
 				"Word Wrap: Toggle"
@@ -266,10 +254,6 @@
 			[
 				"spaces",
 				"Indentation: Convert to Spaces"
-			],
-			[
-				"image",
-				"Emmet: Update Image Size"
 			],
 			[
 				"toggl",
@@ -392,7 +376,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 457.0
+		"width": 583.0
 	},
 	"console":
 	{
@@ -414,33 +398,44 @@
 	"expanded_folders":
 	[
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/bower_components/html5-boilerplate",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/bower_components/html5-boilerplate/dist",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/bower_components/html5-boilerplate/dist/css",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/css",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/js/vendor",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles"
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks/shelf-list.html",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks/menu-list-item.html",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop/home.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/.htaccess",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks/shelf-list-item.html",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/internal.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
+		"/Users/jgarcia/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/jgarcia/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/main.js",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/js/main.min.js",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/scripts.js",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/mobile/home-4-portrait.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/mobile/home-6-portrait.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general_mobile.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_typographys.scss",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_axa.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/css/main.css",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_aui.scss",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/footer.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop/home.sass",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/css/aui/alloy-font-awesome/font/427cca04-e0ee-4395-a5d3-b7d45feeff62.svg",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/index.html",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_colors.sass",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_typographys.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/css/aui/alloy-font-awesome/font/fontawesome-alloy.svg",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_axa.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/@font-face{.haml",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/scripts.kit",
 		"/Users/jgarcia/Library/Caches/Cleanup At Startup/Transmit/87506E7A-ABB6-4D61-B20E-E5D2FB141DEE/bite-medica-recorrido-virtual.html",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/js/vendor/modernizr-2.8.3.min.js",
@@ -458,7 +453,6 @@
 		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/pilates.sass",
 		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/investigar-por-internet.sass",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/sass/_colors.sass",
-		"/Users/jgarcia/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/custom-styles/desktop/tu-mochila.sass",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/falta-de-pago-1.html",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/cancelacion-1.html",
@@ -540,25 +534,11 @@
 		"/Applications/MAMP/htdocs/boletin_axa/email-landings/agentes-rosario-perez-ismael-pacheco.html",
 		"/Users/jgarcia/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/snippets/controller.php",
-		"/Applications/MAMP/htdocs/portfolio/source/kit/header.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/sass/custom-styles/2015/abril/auto.sass",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/javascript/main.js",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/application/models/functions_m.php",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/application/controllers/inicio.php",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/application/views/2015/abril/auto_v.php",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/application/config/routes.php",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/js/main.min.js",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/javascript/vendor/jquery.js",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/javascript/plugins.js",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/application/views/footer_v.php",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/javascript/vendor/jquery-2.1.1.min.js",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/sass/default-styles/_general.sass",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/sass/sprites/star.scss",
-		"/Applications/MAMP/htdocs/boletin-axa-cms/source/sass/abril-2015.sass"
+		"/Applications/MAMP/htdocs/portfolio/source/kit/header.kit"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -575,6 +555,19 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"                                        <h2></h2>\n                                        <p></p>",
+			"http://www.boletinaxa.mx",
+			"http://www.boletinaxa.mx/",
+			"src=\"https://axa.mx/",
+			"https://axa.mx/",
+			"src=\"/",
+			"<li>",
+			"images",
+			"background-image",
+			"'image",
+			"image",
+			"<figcaption>",
+			"<img src=\"\" alt=\"\">",
 			"href=\"/documents/",
 			"href=\"/web/",
 			"font-face",
@@ -689,20 +682,7 @@
 			"<li>",
 			"p style=\"font-family:Helvetica,Arial,",
 			"<p>",
-			" height=\"155\"",
-			"valign=\"bottom\"",
-			"<p class=\"text_gray centered\" align=\"center\" valign=\"middle\" style=\"font-size:16px; line-height:1;\"",
-			"<p class=\"text_blue centered\" align=\"center\" valign=\"middle\" style=\"font-size:50px; line-height:1;\">Asistencia médica telefónica sin costo al 01 (800) 911 9999</p>",
-			"<p class=\"text_blue left align_left\" align=\"left\" valign=\"middle\" style=\"font-size:50px; line-height:1;\"></p>",
-			"webex",
-			"WEBEX",
-			"webex",
-			"</div>",
-			"<!--site_url-->",
-			"[[++site_url]]",
-			"02-color-muscular",
-			"01-futbolista",
-			"CMATE"
+			" height=\"155\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -727,196 +707,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								323,
-								323
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.gcfix.tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "main.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3627,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								899,
-								899
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.gcfix.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "default-styles/_general.sass",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 511,
-						"regions":
-						{
-							"gutter_color_2680":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#262626.png",
-								"regions":
-								[
-									[
-										509,
-										509
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_291":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#D1D1D1.png",
-								"regions":
-								[
-									[
-										291,
-										326
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_376":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#D1D1D1.png",
-								"regions":
-								[
-									[
-										291,
-										326
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_415":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#D1D1D1.png",
-								"regions":
-								[
-									[
-										291,
-										326
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_49":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#00559a.png",
-								"regions":
-								[
-									[
-										9,
-										9
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_5350":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#323232.png",
-								"regions":
-								[
-									[
-										509,
-										509
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_5652":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#616161.png",
-								"regions":
-								[
-									[
-										509,
-										509
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								326,
-								326
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"color_scheme": "Packages/User/Color Highlighter/themes/itg.gcfix.tmTheme",
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -995,7 +787,7 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/boletin_axa/boletin-axa.sublime-project"
+				"/Applications/MAMP/htdocs/boletin-axa-cms/boletin-axa-cms.sublime-project"
 			],
 			[
 				"boletin",

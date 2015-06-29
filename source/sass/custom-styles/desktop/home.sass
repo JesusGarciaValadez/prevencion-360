@@ -4,6 +4,8 @@
         box-sizing: border-box
         margin: 0 auto
         padding: 0
+        &:empty
+            display: none !important
         li
             box-sizing: border-box
             float: left
@@ -54,10 +56,12 @@
                             text-decoration: none
                             text-overflow: ellipsis
                             padding: 0
+                    &:empty
+                        display: none !important
                 &:hover
                     figcaption
                         background-color: RGBA( 0, 0, 0, 0.5 )
-                        cursor: pointer
+                        cursor: pointers
                         height: 100%
                         padding: 10px
                         position: absolute
@@ -79,4 +83,7 @@
                         p
                             a
                                 display: block
+                        &:empty
+                            display: none !important
+
 

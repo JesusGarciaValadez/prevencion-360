@@ -14503,6 +14503,8 @@ form#hrefFm {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0; }
+  .shelfs ul:empty {
+    display: none !important; }
   .shelfs ul li {
     box-sizing: border-box;
     float: left;
@@ -14560,9 +14562,11 @@ form#hrefFm {
             text-decoration: none;
             text-overflow: ellipsis;
             padding: 0; }
+        .shelfs ul li figure figcaption:empty {
+          display: none !important; }
       .shelfs ul li figure:hover figcaption {
         background-color: RGBA(0, 0, 0, 0.5);
-        cursor: pointer;
+        cursor: pointers;
         height: 100%;
         padding: 10px;
         position: absolute;
@@ -14586,6 +14590,8 @@ form#hrefFm {
           white-space: normal; }
         .shelfs ul li figure:hover figcaption p a {
           display: block; }
+        .shelfs ul li figure:hover figcaption:empty {
+          display: none !important; }
 
 /* Image replacement
  */

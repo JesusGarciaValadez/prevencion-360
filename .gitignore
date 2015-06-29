@@ -1,2 +1,9 @@
 bower_components
 .sass-cache
+config.core.php
+index.php
+connectors
+core
+manager
+setup
+assets

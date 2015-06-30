@@ -40329,11 +40329,65 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/familias-jovenes\/corazon-roto.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/corazon-roto.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/familias-jovenes\/dolor-muscular.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/dolor-muscular.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/familias-jovenes\/durante-ejercicio.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/durante-ejercicio.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/familias-jovenes\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/familias-jovenes\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/familias-jovenes\/investigar-por-internet.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/investigar-por-internet.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/familias-jovenes\/mundo-del-deporte.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/mundo-del-deporte.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/familias-jovenes\/pilates.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/pilates.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -40994,6 +41048,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/salud-2014\/mes_10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37537,
+		"inputAbbreviatedPath": "\/images\/salud-2014\/mes_10.jpg",
+		"outputAbbreviatedPath": "\/images\/salud-2014\/mes_10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/salud-2014\/mes_7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29527,
+		"inputAbbreviatedPath": "\/images\/salud-2014\/mes_7.jpg",
+		"outputAbbreviatedPath": "\/images\/salud-2014\/mes_7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/salud-2014\/mes_8.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33753,
+		"inputAbbreviatedPath": "\/images\/salud-2014\/mes_8.jpg",
+		"outputAbbreviatedPath": "\/images\/salud-2014\/mes_8.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/salud-2014\/mes_9.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27628,
+		"inputAbbreviatedPath": "\/images\/salud-2014\/mes_9.jpg",
+		"outputAbbreviatedPath": "\/images\/salud-2014\/mes_9.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/thumbnail-medium.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -41018,7 +41116,7 @@
 		},
 	"\/index.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
@@ -48563,11 +48661,83 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/mujeres\/leche-materna.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mujeres\/leche-materna.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/mujeres\/primer-bebe.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mujeres\/primer-bebe.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/mujeres\/primeros-dientes.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mujeres\/primeros-dientes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/mujeres\/primeros-juguetes.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mujeres\/primeros-juguetes.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/ninos\/estrategia-ganadora.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ninos\/estrategia-ganadora.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/ninos\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/ninos\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/ninos\/tu-mochila.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ninos\/tu-mochila.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/salud\/andar-en-bici.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/andar-en-bici.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/salud\/buen-comer-comer-bien.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/buen-comer-comer-bien.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -48590,6 +48760,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/salud\/diversion-sobre-ruedas.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/diversion-sobre-ruedas.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/salud\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -48604,6 +48783,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/salud\/medico-24-horas.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/salud\/respiro-al-planeta.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/respiro-al-planeta.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -51347,6 +51535,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/andar-en-bici.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/andar-en-bici.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/source\/buen-comer-comer-bien.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/buen-comer-comer-bien.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/source\/chunks\/menu-list-item.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -51374,11 +51580,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/source\/index.html": {
+	"\/source\/diversion-sobre-ruedas.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/index.html",
+		"inputAbbreviatedPath": "\/source\/diversion-sobre-ruedas.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -51400,7 +51606,7 @@
 		"outputAbbreviatedPath": "\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
 	"\/source\/javascript\/plugins.js": {
@@ -51535,6 +51741,33 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/source\/kit\/andar-en-bici.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/andar-en-bici.kit",
+		"outputAbbreviatedPath": "\/salud\/andar-en-bici.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/buen-comer-comer-bien.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/buen-comer-comer-bien.kit",
+		"outputAbbreviatedPath": "\/salud\/buen-comer-comer-bien.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/corazon-roto.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/corazon-roto.kit",
+		"outputAbbreviatedPath": "\/familias-jovenes\/corazon-roto.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/source\/kit\/dentalia-costos.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -51550,6 +51783,42 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/kit\/dentalia-datos.kit",
 		"outputAbbreviatedPath": "\/salud\/dentalia-datos.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/diversion-sobre-ruedas.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/diversion-sobre-ruedas.kit",
+		"outputAbbreviatedPath": "\/salud\/diversion-sobre-ruedas.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/dolor-muscular.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/dolor-muscular.kit",
+		"outputAbbreviatedPath": "\/familias-jovenes\/dolor-muscular.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/durante-ejercicio.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/durante-ejercicio.kit",
+		"outputAbbreviatedPath": "\/familias-jovenes\/durante-ejercicio.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/estrategia-ganadora.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/estrategia-ganadora.kit",
+		"outputAbbreviatedPath": "\/ninos\/estrategia-ganadora.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -51648,9 +51917,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/kit\/index.kit",
-		"outputAbbreviatedPath": "\/source\/index.html",
+		"outputAbbreviatedPath": "\/index.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/source\/kit\/internal.kit": {
 		"fileType": 2048,
@@ -51661,12 +51930,84 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/kit\/investigar-por-internet.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/investigar-por-internet.kit",
+		"outputAbbreviatedPath": "\/familias-jovenes\/investigar-por-internet.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/leche-materna.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/leche-materna.kit",
+		"outputAbbreviatedPath": "\/mujeres\/leche-materna.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/source\/kit\/medico-24-horas.kit": {
 		"fileType": 2048,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/kit\/medico-24-horas.kit",
 		"outputAbbreviatedPath": "\/salud\/medico-24-horas.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/mundo-del-deporte.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/mundo-del-deporte.kit",
+		"outputAbbreviatedPath": "\/familias-jovenes\/mundo-del-deporte.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/pilates.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/pilates.kit",
+		"outputAbbreviatedPath": "\/familias-jovenes\/pilates.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/primer-bebe.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/primer-bebe.kit",
+		"outputAbbreviatedPath": "\/mujeres\/primer-bebe.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/primeros-dientes.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/primeros-dientes.kit",
+		"outputAbbreviatedPath": "\/mujeres\/primeros-dientes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/primeros-juguetes.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/primeros-juguetes.kit",
+		"outputAbbreviatedPath": "\/mujeres\/primeros-juguetes.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/respiro-al-planeta.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/respiro-al-planeta.kit",
+		"outputAbbreviatedPath": "\/salud\/respiro-al-planeta.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -51678,6 +52019,15 @@
 		"outputAbbreviatedPath": "\/source\/scripts.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/source\/kit\/tu-mochila.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/tu-mochila.kit",
+		"outputAbbreviatedPath": "\/ninos\/tu-mochila.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
 		},
 	"\/source\/sass\/custom-styles\/desktop\/home.sass": {
 		"createSourceMap": 1,

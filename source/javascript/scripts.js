@@ -82,14 +82,14 @@ $(document).ready(function ()
         }
     });
 
-    $('#carousel[data-mixed] ul').anoSlide({
+    /*$('#carousel[data-mixed] ul').anoSlide({
         items: 5,
         speed: 500,
         prev: 'a.prev[data-prev]',
         next: 'a.next[data-next]',
         lazy: false,
         delay: 50
-    });
+    });*/
 
     $(document).click(function(event)
         {

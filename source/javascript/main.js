@@ -31,6 +31,28 @@
 
     //  When page is finished loaded
     $( document ).ready( function () {
-
+        var _location = window.location.pathname;
+        var _search = /(mujeres|ninos|familias-jovenes|salud|auto|hogar|futuro)/i;
+        var _match = _location.match( _search );
+        var _element;
+        switch( _match[ 0 ] ) {
+            case 'mujeres' :            _element = $( '#axa_menu1' );
+                break;
+            case 'ninos' :              _element = $( '#axa_menu2' );
+                break;
+            case 'familias-jovenes' :   _element = $( '#axa_menu3' );
+                break;
+            case 'salud' :              _element = $( '#axa_menu4' );
+                break;
+            case 'auto' :               _element = $( '#axa_menu5' );
+                break;
+            case 'hogar' :              _element = $( '#axa_menu6' );
+                break;
+            case 'futuro' :             _element = $( '#axa_menu7' );
+                break;
+            default:                    _element = $( '.iconoHome' );
+                break;
+        }
+        _element.addClass( 'current' );
     } );
 } ) ( jQuery, window, document );

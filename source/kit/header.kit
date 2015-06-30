@@ -174,26 +174,32 @@
                         <div id="axa_close_mainMenu"></div>
                         <ul class="axa_mainMenu">
                             <li class="iconoHome">
-                                <a class="iconH visible_only_desktop" title="Inicio" href="/">
-                                    <img width="17" class="axa_imgHome" alt="Home" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11346/icon_header_home.png">
+                                <a href="/" title="Inicio" class="iconH visible_only_desktop">
+                                    <img width="17" src="http://www.boletinaxa.com.mx/prevencion-360/documents/10928/11346/icon_header_home.png" alt="Home" class="axa_imgHome">
                                 </a>
-                                <a class="visible_only_mobile_tablet" title="Inicio" href="#">Inicio</a>
+                                <a href="#" title="Inicio" class="visible_only_mobile_tablet">Inicio</a>
                             </li>
-                            [[!getResources?
-                                &parents=`2`
-                                &limit=`0`
-                                &depth=`1`
-                                &tplPath=`[[++assets_path]]../source/chunks/`
-                                &tpl=`@FILE menu-list-item.html`
-                                &includeTVs=`1`
-                                &processTVs=`1`
-                                &tvPrefix=``
-                                &showUnpublished=`0`
-                                &showHidden=`0`
-                                &hideContainers=`1`
-                                &includeContent=`1`
-                                &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
-                             ]]
+                            <li class="axa_dropdown" id="axa_menu1">
+                                <a href="<!-- $site_url -->mujeres">Mujeres</a><span class="caret"></span>
+                            </li>
+                            <li class="axa_dropdown" id="axa_menu2">
+                                <a href="<!-- $site_url -->ninos">Niños</a><span class="caret"></span>
+                            </li>
+                            <li class="axa_dropdown" id="axa_menu3">
+                                <a href="<!-- $site_url -->familias">Familias Jóvenes</a><span class="caret"></span>
+                            </li>
+                            <li class="axa_dropdown" id="axa_menu4">
+                                <a href="<!-- $site_url -->salud">Salud</a><span class="caret"></span>
+                            </li>
+                            <li class="axa_dropdown" id="axa_menu5">
+                                <a href="<!-- $site_url -->auto">Auto</a><span class="caret"></span>
+                            </li>
+                            <li class="axa_dropdown" id="axa_menu6">
+                                <a href="<!-- $site_url -->hogar">Hogar</a><span class="caret"></span>
+                            </li>
+                            <li class="axa_dropdown" id="axa_menu7">
+                                <a href="<!-- $site_url -->futuro">Futuro</a><span class="caret"></span>
+                            </li>
                         </ul>
                     </div>
                     <!-- Pay On Line Button -->

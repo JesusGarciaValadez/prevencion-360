@@ -227,10 +227,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 124.0,
-		"last_filter": "image",
+		"height": 186.0,
+		"last_filter": "indent",
 		"selected_items":
 		[
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"image",
 				"Emmet: Update Image Size"
@@ -246,10 +250,6 @@
 			[
 				"images",
 				"Emmet: Update Image Size"
-			],
-			[
-				"indent",
-				"Indentation: Reindent Lines"
 			],
 			[
 				"spaces",
@@ -398,24 +398,38 @@
 	"expanded_folders":
 	[
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/salud",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/vendor",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop"
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles"
 	],
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-niños.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-salud.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/dentalia-datos.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/dentalia-costos.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/medico-24-horas.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-hogar.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-familias-jovenes.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-mujeres.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-futuro.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_aui.scss",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_axa.scss",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/index.html",
+		"/Users/jgarcia/Library/Caches/Cleanup At Startup/Transmit/D44B8B09-1040-4AEE-AD94-3DB973C6C400/database.php",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks/shelf-list.html",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks/menu-list-item.html",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop/home.sass",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/.htaccess",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/chunks/shelf-list-item.html",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/internal.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
 		"/Users/jgarcia/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/jgarcia/Library/Mobile Documents/com~apple~CloudDocs/Sublime Text/Preferences.sublime-settings",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/main.js",
@@ -427,9 +441,7 @@
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general.sass",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general_mobile.sass",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_typographys.scss",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_axa.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/css/main.css",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_aui.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/footer.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/css/aui/alloy-font-awesome/font/427cca04-e0ee-4395-a5d3-b7d45feeff62.svg",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/index.html",
@@ -522,23 +534,11 @@
 		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/dolor-muscular.sass",
 		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/futbol.sass",
 		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/main.sass",
-		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/custom-styles/desktop/futbol.sass",
-		"/Applications/MAMP/htdocs/boletin_axa/Code/BD/database.sql",
-		"/Applications/MAMP/htdocs/boletin_axa/vida-tiendas/index-v1.html",
-		"/Applications/MAMP/htdocs/boletin_axa/vida-tiendas/source/sass/custom-styles/home.sass",
-		"/Applications/MAMP/htdocs/boletin_axa/Code/snippets/libs/pp.config.ini",
-		"/Applications/MAMP/htdocs/boletin_axa/vida-tiendas/source/sass/custom-styles/home-2.sass",
-		"/Applications/MAMP/htdocs/boletin_axa/vida-tiendas/index-v2.html",
-		"/Volumes/Macintosh HD/Applications/MAMP/htdocs/boletin_axa/vida-tiendas/index.php",
-		"/Applications/MAMP/htdocs/boletin_axa/vida-tiendas/index.html",
-		"/Applications/MAMP/htdocs/boletin_axa/email-landings/agentes-rosario-perez-ismael-pacheco.html",
-		"/Users/jgarcia/Library/Application Support/Sublime Text 3/Packages/Emmet/Emmet.sublime-settings",
-		"/Applications/MAMP/htdocs/boletin_axa/Code/snippets/controller.php",
-		"/Applications/MAMP/htdocs/portfolio/source/kit/header.kit"
+		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/custom-styles/desktop/futbol.sass"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -555,6 +555,22 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"axa-touch-salud/landings",
+			"axa-touch-salud/landings/",
+			"target=\"_self\"",
+			"<a href=\"\" target=\"_self\">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ipsum vitae temporibus, incidunt, eum aperiam facere nulla sapiente voluptatem itaque et reprehenderit repudiandae ullam animi adipisci officiis, quisquam expedita assumenda!</a>",
+			"src=\"<!-- $site_url -->images/\"",
+			"<!-- $site_url -->/",
+			"<!-- site_url -->",
+			"<a>",
+			"prevencion-360/AXA-theme/css/",
+			"url(\"/AXA-theme/css/axa/fonts/",
+			"url(\"/AXA-theme/",
+			"font-face",
+			"<figcaption class=\"clearfix\"></figcaption>",
+			"<img src=\"<!-- $site_url -->\"",
+			"[[++site_url]]",
+			"Pr3v3nc10n-360",
 			"                                        <h2></h2>\n                                        <p></p>",
 			"http://www.boletinaxa.mx",
 			"http://www.boletinaxa.mx/",
@@ -666,23 +682,7 @@
 			"<img src=\"http://www.boletinaxa.com.mx/Code/templates/mailing/scotia/beneficios/img/",
 			"<img src=\"imágenes/",
 			"style=\"font-size:14px; line-height:1;width:100%;margin: 0 auto;\"",
-			"</article>",
-			"</div>",
-			"<img src=\"\"",
-			"02-dolor-muscular",
-			"padding:5px 20px 5px 30px;",
-			"padding:5px 20px 5px 20px;",
-			"padding:5px 20px 5px 30px;",
-			"padding:5px 30px 5px 30px;",
-			"style=\"font-family:Helvetica,Arial,'sans-serif';line-height:1.2em;font-size:16px;",
-			"padding:5px 20px 5px 30px;",
-			"style=\"font-family:Helvetica,Arial,'sans-serif';line-height:1.2em;font-size:14px",
-			" style=\"font-family:Helvetica,Arial,'sans-serif';line-height:1.2em;font-size:13px;",
-			"style=\"font-family:Helvetica,Arial,'sans-serif';line-height:1.2em;font-size:12px;",
-			"<li>",
-			"p style=\"font-family:Helvetica,Arial,",
-			"<p>",
-			" height=\"155\""
+			"</article>"
 		],
 		"highlight": true,
 		"in_selection": false,

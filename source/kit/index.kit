@@ -1,6 +1,6 @@
 <!-- $title = AXA Prevención 360 -->
-<!-- $site_url = http://www.axa.mx/prevencion-360/ -->
-<!-- $stylesheet = [[++site_url]]css/main.css -->
+<!-- $site_url = http://www.boletinaxa.com.mx/prevencion-360/ -->
+<!-- $stylesheet = css/main.css -->
 <!-- $slug = prevencion-360 -->
 
 <!-- @include head -->
@@ -9,23 +9,62 @@
             <!-- @include header -->
             <div id="content">
                 <div class="central prevencion clearfix">
-                    <h1><img src="[[++site_url]]images/prevencion-360.png" alt="Prevención 360" width="195" height="38"></h1>
+                    <h1><img src="<!-- $site_url -->images/prevencion-360.png" alt="Prevención 360" width="195" height="38"></h1>
                     <div class="shelfs">
-                        [[!getResources?
-                            &parents=`[[*id]]`
-                            &limit=`0`
-                            &depth=`1`
-                            &tplPath=`[[++assets_path]]../source/chunks/`
-                            &tpl=`@FILE shelf-list.html`
-                            &includeTVs=`1`
-                            &processTVs=`1`
-                            &tvPrefix=``
-                            &showUnpublished=`1`
-                            &showHidden=`1`
-                            &hideContainers=`1`
-                            &includeContent=`1`
-                            &sortby=`{"menuindex":"ASC","publishedon":"ASC","createdon":"ASC"}`
-                         ]]
+                        <ul class="clearfix bit-1">
+                            <li>
+                                <figure>
+                                    <img src="<!-- $site_url -->images/" alt="" width="167" height="167">
+                                    <figcaption class="clearfix">
+                                        <h2>
+                                            <a href="" target="_self">La conservación y uso de las células madre se multiplica en México</a>
+                                        </h2>
+                                        <p>
+                                            <a href="" target="_self"></a>
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="<!-- $site_url -->images/" alt="" width="167" height="167">
+                                    <figcaption class="clearfix">
+                                        <h2>
+                                            <a href="" target="_self">¿Sabías que el seguro de Vida ProTGT cuenta con un incentivo fiscal?</a>
+                                        </h2>
+                                        <p>
+                                            <a href="" target="_self"></a>
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="<!-- $site_url -->images/" alt="" width="167" height="167">
+                                    <figcaption class="clearfix">
+                                        <h2>
+                                            <a href="" target="_self">¿Cómo recuperarte de los gastos de diciembre?</a>
+                                        </h2>
+                                        <p>
+                                            <a href="" target="_self">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ipsum vitae temporibus, incidunt, eum aperiam facere nulla sapiente voluptatem itaque et reprehenderit repudiandae ullam animi adipisci officiis, quisquam expedita assumenda!</a>
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="<!-- $site_url -->images/" alt="" width="167" height="167">
+                                    <figcaption class="clearfix">
+                                        <h2>
+                                            <a href="" target="_self">¿Cómo recuperarte de los gastos de diciembre?</a>
+                                        </h2>
+                                        <p>
+                                            <a href="" target="_self">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus ipsum vitae temporibus, incidunt, eum aperiam facere nulla sapiente voluptatem itaque et reprehenderit repudiandae ullam animi adipisci officiis, quisquam expedita assumenda!</a>
+                                        </p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

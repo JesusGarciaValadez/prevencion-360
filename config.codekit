@@ -2,6 +2,17 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19033",
 "files": {
+	"\/apple-touch-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3959,
+		"inputAbbreviatedPath": "\/apple-touch-icon.png",
+		"outputAbbreviatedPath": "\/apple-touch-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/components\/tinymce\/connector.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -7926,6 +7937,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
+		},
+	"\/auto\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/auto\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/AXA-theme\/images\/axa\/arrow_white.png": {
 		"fileType": 32768,
@@ -40309,6 +40329,33 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/familias-jovenes\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/futuro\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/futuro\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/hogar\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/hogar\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/images\/barra_madera.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -40360,6 +40407,369 @@
 		"initialSize": 3188,
 		"inputAbbreviatedPath": "\/images\/barra_madera_mobile.png",
 		"outputAbbreviatedPath": "\/images\/barra_madera_mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-10\/B10_auto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22824,
+		"inputAbbreviatedPath": "\/images\/boletin-10\/B10_auto.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-10\/B10_auto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-10\/B10_futuro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19236,
+		"inputAbbreviatedPath": "\/images\/boletin-10\/B10_futuro.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-10\/B10_futuro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-10\/B10_hogar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22830,
+		"inputAbbreviatedPath": "\/images\/boletin-10\/B10_hogar.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-10\/B10_hogar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-10\/B10_salud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29967,
+		"inputAbbreviatedPath": "\/images\/boletin-10\/B10_salud.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-10\/B10_salud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-11\/B11_auto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26083,
+		"inputAbbreviatedPath": "\/images\/boletin-11\/B11_auto.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-11\/B11_auto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-11\/B11_futuro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15094,
+		"inputAbbreviatedPath": "\/images\/boletin-11\/B11_futuro.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-11\/B11_futuro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-11\/B11_hogar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22689,
+		"inputAbbreviatedPath": "\/images\/boletin-11\/B11_hogar.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-11\/B11_hogar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-11\/B11_salud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36591,
+		"inputAbbreviatedPath": "\/images\/boletin-11\/B11_salud.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-11\/B11_salud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-12\/B12_auto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13344,
+		"inputAbbreviatedPath": "\/images\/boletin-12\/B12_auto.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-12\/B12_auto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-12\/B12_futuro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12784,
+		"inputAbbreviatedPath": "\/images\/boletin-12\/B12_futuro.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-12\/B12_futuro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-12\/B12_hogar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9038,
+		"inputAbbreviatedPath": "\/images\/boletin-12\/B12_hogar.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-12\/B12_hogar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-12\/B12_salud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19695,
+		"inputAbbreviatedPath": "\/images\/boletin-12\/B12_salud.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-12\/B12_salud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-6\/B6_anuncio_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34096,
+		"inputAbbreviatedPath": "\/images\/boletin-6\/B6_anuncio_2.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-6\/B6_anuncio_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-6\/B6_anuncio_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17513,
+		"inputAbbreviatedPath": "\/images\/boletin-6\/B6_anuncio_3.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-6\/B6_anuncio_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-6\/B6_auto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15448,
+		"inputAbbreviatedPath": "\/images\/boletin-6\/B6_auto.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-6\/B6_auto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-6\/B6_futuro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18983,
+		"inputAbbreviatedPath": "\/images\/boletin-6\/B6_futuro.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-6\/B6_futuro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-6\/B6_hogar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14537,
+		"inputAbbreviatedPath": "\/images\/boletin-6\/B6_hogar.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-6\/B6_hogar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-6\/B6_salud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21014,
+		"inputAbbreviatedPath": "\/images\/boletin-6\/B6_salud.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-6\/B6_salud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-7\/B7_anuncio_1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21174,
+		"inputAbbreviatedPath": "\/images\/boletin-7\/B7_anuncio_1.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-7\/B7_anuncio_1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-7\/B7_anuncio_2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14236,
+		"inputAbbreviatedPath": "\/images\/boletin-7\/B7_anuncio_2.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-7\/B7_anuncio_2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-7\/B7_auto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19994,
+		"inputAbbreviatedPath": "\/images\/boletin-7\/B7_auto.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-7\/B7_auto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-7\/B7_finanzas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18897,
+		"inputAbbreviatedPath": "\/images\/boletin-7\/B7_finanzas.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-7\/B7_finanzas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-7\/B7_futuro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19387,
+		"inputAbbreviatedPath": "\/images\/boletin-7\/B7_futuro.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-7\/B7_futuro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-7\/B7_Salud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14509,
+		"inputAbbreviatedPath": "\/images\/boletin-7\/B7_Salud.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-7\/B7_Salud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-8\/B8_auto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11119,
+		"inputAbbreviatedPath": "\/images\/boletin-8\/B8_auto.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-8\/B8_auto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-8\/B8_futuro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21048,
+		"inputAbbreviatedPath": "\/images\/boletin-8\/B8_futuro.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-8\/B8_futuro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-8\/B8_salud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19012,
+		"inputAbbreviatedPath": "\/images\/boletin-8\/B8_salud.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-8\/B8_salud.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-9\/B9_anuncio_22.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40269,
+		"inputAbbreviatedPath": "\/images\/boletin-9\/B9_anuncio_22.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-9\/B9_anuncio_22.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-9\/B9_anuncio_3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34939,
+		"inputAbbreviatedPath": "\/images\/boletin-9\/B9_anuncio_3.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-9\/B9_anuncio_3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-9\/B9_auto.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12490,
+		"inputAbbreviatedPath": "\/images\/boletin-9\/B9_auto.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-9\/B9_auto.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-9\/B9_futuro.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12732,
+		"inputAbbreviatedPath": "\/images\/boletin-9\/B9_futuro.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-9\/B9_futuro.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-9\/B9_hogar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14782,
+		"inputAbbreviatedPath": "\/images\/boletin-9\/B9_hogar.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-9\/B9_hogar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-9\/B9_salud.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22271,
+		"inputAbbreviatedPath": "\/images\/boletin-9\/B9_salud.jpg",
+		"outputAbbreviatedPath": "\/images\/boletin-9\/B9_salud.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -40429,6 +40839,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/index.php": {
 		"fileType": 8192,
@@ -47959,6 +48378,60 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/mujeres\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mujeres\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/ninos\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/ninos\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/salud\/dentalia-costos.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/dentalia-costos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/salud\/dentalia-datos.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/dentalia-datos.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/salud\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/salud\/medico-24-horas.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/medico-24-horas.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/setup\/assets\/css\/960.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -50751,13 +51224,13 @@
 		"outputAbbreviatedPath": "\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
 	"\/source\/javascript\/plugins.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/source\/javascript\/plugins.js",
 		"outputAbbreviatedPath": "\/js\/plugins.min.js",
 		"outputPathIsOutsideProject": 0,
@@ -50886,6 +51359,24 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
+	"\/source\/kit\/dentalia-costos.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/dentalia-costos.kit",
+		"outputAbbreviatedPath": "\/salud\/dentalia-costos.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/dentalia-datos.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/dentalia-datos.kit",
+		"outputAbbreviatedPath": "\/salud\/dentalia-datos.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/source\/kit\/footer.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -50913,6 +51404,69 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/kit\/index-auto.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/index-auto.kit",
+		"outputAbbreviatedPath": "\/auto\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/index-familias-jovenes.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/index-familias-jovenes.kit",
+		"outputAbbreviatedPath": "\/familias-jovenes\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/index-futuro.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/index-futuro.kit",
+		"outputAbbreviatedPath": "\/futuro\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/index-hogar.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/index-hogar.kit",
+		"outputAbbreviatedPath": "\/hogar\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/index-mujeres.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/index-mujeres.kit",
+		"outputAbbreviatedPath": "\/mujeres\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/index-niños.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/index-niños.kit",
+		"outputAbbreviatedPath": "\/ninos\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/index-salud.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/index-salud.kit",
+		"outputAbbreviatedPath": "\/salud\/index.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/source\/kit\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -50930,6 +51484,15 @@
 		"outputAbbreviatedPath": "\/source\/internal.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/source\/kit\/medico-24-horas.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/medico-24-horas.kit",
+		"outputAbbreviatedPath": "\/salud\/medico-24-horas.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
 		},
 	"\/source\/kit\/scripts.kit": {
 		"fileType": 2048,
@@ -52423,7 +52986,7 @@
 		"outputAbbreviatedPath": "\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
+		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": false
@@ -52443,6 +53006,28 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/tile-wide.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1854,
+		"inputAbbreviatedPath": "\/tile-wide.png",
+		"outputAbbreviatedPath": "\/tile-wide.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/tile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3482,
+		"inputAbbreviatedPath": "\/tile.png",
+		"outputAbbreviatedPath": "\/tile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		}
 	},
 "hooks": [

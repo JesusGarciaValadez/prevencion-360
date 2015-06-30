@@ -398,26 +398,22 @@
 	"expanded_folders":
 	[
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/salud",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/vendor",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles/desktop",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles"
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit"
 	],
 	"file_history":
 	[
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-niños.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-mujeres.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-familias-jovenes.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-salud.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/dentalia-datos.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/dentalia-costos.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/medico-24-horas.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-hogar.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-familias-jovenes.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-mujeres.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-futuro.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_aui.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_axa.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
@@ -555,6 +551,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"images/axa-touch-salud/",
 			"axa-touch-salud/landings",
 			"axa-touch-salud/landings/",
 			"target=\"_self\"",
@@ -681,8 +678,7 @@
 			"<img src=\"imágenes/",
 			"<img src=\"http://www.boletinaxa.com.mx/Code/templates/mailing/scotia/beneficios/img/",
 			"<img src=\"imágenes/",
-			"style=\"font-size:14px; line-height:1;width:100%;margin: 0 auto;\"",
-			"</article>"
+			"style=\"font-size:14px; line-height:1;width:100%;margin: 0 auto;\""
 		],
 		"highlight": true,
 		"in_selection": false,

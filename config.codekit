@@ -48796,6 +48796,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/salud\/visita-al-dentista.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/salud\/visita-al-dentista.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/setup\/assets\/css\/960.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -52029,6 +52038,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
+	"\/source\/kit\/visita-al-dentista.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/visita-al-dentista.kit",
+		"outputAbbreviatedPath": "\/salud\/visita-al-dentista.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1
+		},
 	"\/source\/sass\/custom-styles\/desktop\/home.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
@@ -53533,6 +53551,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/source\/visita-al-dentista.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/visita-al-dentista.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/tile-wide.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -53568,7 +53595,7 @@
 	"iconImageName": "meme-ceiling"
 	},
 "projectSettings": {
-	"alwaysUseExternalServer": 1,
+	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoApplyPSLanguageSettingsStyle": 0,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",

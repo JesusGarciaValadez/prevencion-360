@@ -403,10 +403,11 @@
 	],
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/visita-al-dentista.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-salud.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/diversion-sobre-ruedas.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general.sass",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/mundo-del-deporte.kit",
@@ -529,8 +530,7 @@
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/Beneficios/beneficios.html",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/cemex/clientes.html",
 		"/Users/jgarcia/Downloads/GM_Bienvenida_Cemex_Cash Flow_23abril2015.pdf",
-		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/primer-bebe.sass",
-		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/default-styles/_lemonade.sass"
+		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/primer-bebe.sass"
 	],
 	"find":
 	{
@@ -551,6 +551,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/axa-touch-salud/landings/",
+			"axa-touch-salud/",
 			"_blank",
 			"_self",
 			"_blank",
@@ -676,9 +678,7 @@
 			"&iexcl;",
 			"&oacute;",
 			"&iacute;",
-			"&uacute;",
-			"&eacute;",
-			"&aacute;"
+			"&uacute;"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -786,7 +786,7 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/boletin-axa-cms/boletin-axa-cms.sublime-project"
+				"/Applications/MAMP/htdocs/giovanni-bojanini-argentina/giovanni-bojanini-argentina.sublime-project"
 			],
 			[
 				"boletin",

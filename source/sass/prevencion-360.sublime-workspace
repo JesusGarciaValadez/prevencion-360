@@ -399,14 +399,20 @@
 	[
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit"
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass"
 	],
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/visita-al-dentista.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-salud.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-familias-jovenes.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-futuro.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-hogar.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-mujeres.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-salud.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-niños.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/visita-al-dentista.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/diversion-sobre-ruedas.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general.sass",
@@ -416,17 +422,12 @@
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/medico-24-horas.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_axa.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-mujeres.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-hogar.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-futuro.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/scripts.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/main.js",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/internal.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-familias-jovenes.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/scripts.js",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/primeros-juguetes.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-niños.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/corazon-roto.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_aui.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/index.html",
@@ -534,13 +535,14 @@
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"<open files>",
 			"<current file>",
 			"clientes.html",
 			""
@@ -551,6 +553,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"</ul>\n                        <ul class=\"clearfix bit-1\">",
+			"familias-jovenes",
+			"mujeres",
+			"ejercitar",
+			"iniciar",
+			"leche",
+			"tu-seguro",
+			"reacciona",
+			"tu seguro ",
+			"reacciona",
 			"/axa-touch-salud/landings/",
 			"axa-touch-salud/",
 			"_blank",
@@ -668,17 +680,7 @@
 			"width=\"560\"",
 			"width=\"600\"",
 			"width=\"580\"",
-			"boletin-axa/images/assets/2015/mayo/auto/",
-			"www.cmv.com.mx",
-			"src=\"https://www.boletinaxa.com.mx/",
-			"Margin",
-			"&aacute",
-			"src=\"images/",
-			"<img src=\"images/",
-			"&iexcl;",
-			"&oacute;",
-			"&iacute;",
-			"&uacute;"
+			"boletin-axa/images/assets/2015/mayo/auto/"
 		],
 		"highlight": true,
 		"in_selection": false,

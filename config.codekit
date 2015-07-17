@@ -8570,7 +8570,7 @@
 		"inputAbbreviatedPath": "\/bower_components\/html5-boilerplate\/src\/js\/main.js",
 		"outputAbbreviatedPath": "\/js\/main.min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
 		},
@@ -40329,15 +40329,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/familias-jovenes\/dolor-muscular.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/familias-jovenes\/dolor-muscular.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/familias-jovenes\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -40352,6 +40343,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/familias-jovenes\/leche-materna.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/familias-jovenes\/primer-bebe.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/familias-jovenes\/primer-bebe.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -40997,6 +40997,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/face.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2433,
+		"inputAbbreviatedPath": "\/images\/face.jpg",
+		"outputAbbreviatedPath": "\/images\/face.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/face.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2479,
+		"inputAbbreviatedPath": "\/images\/face.png",
+		"outputAbbreviatedPath": "\/images\/face.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/linea_gris.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -41074,6 +41096,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/Star 1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 702,
+		"inputAbbreviatedPath": "\/images\/Star 1.png",
+		"outputAbbreviatedPath": "\/images\/Star 1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/Star 2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 541,
+		"inputAbbreviatedPath": "\/images\/Star 2.png",
+		"outputAbbreviatedPath": "\/images\/Star 2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/star.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1303,
+		"inputAbbreviatedPath": "\/images\/star.png",
+		"outputAbbreviatedPath": "\/images\/star.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/thumbnail-medium.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -41092,6 +41147,28 @@
 		"initialSize": 1362,
 		"inputAbbreviatedPath": "\/images\/thumbnail-small.jpg",
 		"outputAbbreviatedPath": "\/images\/thumbnail-small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/twitter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2633,
+		"inputAbbreviatedPath": "\/images\/twitter.jpg",
+		"outputAbbreviatedPath": "\/images\/twitter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2863,
+		"inputAbbreviatedPath": "\/images\/twitter.png",
+		"outputAbbreviatedPath": "\/images\/twitter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -48643,6 +48720,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/mujeres\/dolor-muscular.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/mujeres\/dolor-muscular.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/mujeres\/durante-ejercicio.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -48666,15 +48752,6 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/mujeres\/pilates.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/mujeres\/primer-bebe.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/mujeres\/primer-bebe.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -51809,7 +51886,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/kit\/dolor-muscular.kit",
-		"outputAbbreviatedPath": "\/familias-jovenes\/dolor-muscular.html",
+		"outputAbbreviatedPath": "\/mujeres\/dolor-muscular.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -51989,7 +52066,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/kit\/primer-bebe.kit",
-		"outputAbbreviatedPath": "\/mujeres\/primer-bebe.html",
+		"outputAbbreviatedPath": "\/familias-jovenes\/primer-bebe.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
 		},
@@ -53540,7 +53617,7 @@
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/sass\/sprites\/star.scss",
 		"outputAbbreviatedPath": "\/css\/star.css",

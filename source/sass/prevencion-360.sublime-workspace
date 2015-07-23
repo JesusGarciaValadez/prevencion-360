@@ -219,6 +219,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
+			"settings":
+			{
+				"buffer_size": 9056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
+			"settings":
+			{
+				"buffer_size": 49379,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -400,32 +416,37 @@
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass"
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/custom-styles",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles"
 	],
 	"file_history":
 	[
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/visita-al-dentista.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/dentalia-costos.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/medico-24-horas.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/respiro-al-planeta.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/diversion-sobre-ruedas.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/buen-comer-comer-bien.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/andar-en-bici.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-familias-jovenes.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-mujeres.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/main.js",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/sprites/star.scss",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-futuro.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-hogar.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-mujeres.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-salud.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-niños.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/visita-al-dentista.kit",
+		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-salud.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/head.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/diversion-sobre-ruedas.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_general.sass",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/mundo-del-deporte.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/dentalia-costos.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/dentalia-datos.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/medico-24-horas.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/default-styles/_axa.scss",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/header.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/scripts.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/main.js",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/internal.kit",
-		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/javascript/scripts.js",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/primeros-juguetes.kit",
 		"/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/corazon-roto.kit",
@@ -527,15 +548,11 @@
 		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/leche-materna.sass",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/invitacion/invitacion.html",
 		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/beneficios/beneficios.html",
-		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/Invitacion/invitacion.html",
-		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/Beneficios/beneficios.html",
-		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/cemex/clientes.html",
-		"/Users/jgarcia/Downloads/GM_Bienvenida_Cemex_Cash Flow_23abril2015.pdf",
-		"/Applications/MAMP/htdocs/boletin_axa/axa-touch-salud/landings/source/sass/primer-bebe.sass"
+		"/Applications/MAMP/htdocs/boletin_axa/Code/templates/mailings/scotia/Invitacion/invitacion.html"
 	],
 	"find":
 	{
-		"height": 43.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -553,6 +570,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"http://www.boletinaxa.com.mx/anterior/tu-auto-junio-2014.html",
+			"andar-en-bici",
+			"familias-jovenes",
+			"mujeres",
+			"05 dientes",
+			"reporte-axa-junio",
+			"axa-drive",
 			"</ul>\n                        <ul class=\"clearfix bit-1\">",
 			"familias-jovenes",
 			"mujeres",
@@ -673,14 +697,7 @@
 			"super",
 			"strong",
 			"/juntos-por-una-movilidad-segura/",
-			"/juntos-por-una-movilidad/",
-			"/vida-tiendas/clientes-3/",
-			"/clientes/",
-			"<td width=\"569\" align=\"center\" valign=\"top\" border=\"0\" style=\"padding-left: 10px; padding-right: 10px;\">",
-			"width=\"560\"",
-			"width=\"600\"",
-			"width=\"580\"",
-			"boletin-axa/images/assets/2015/mayo/auto/"
+			"/juntos-por-una-movilidad/"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -688,6 +705,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Los primeros dientes del bebé",
 			"_blank",
 			"url(\"../AXA-theme/css/axa/fonts/",
 			"url(\"../AXA-theme/css/axa/fonts/mailings/dentalia/clientes-3/",
@@ -708,8 +726,73 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index-auto.kit",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9056,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5695,
+								5695
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1196.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/kit/index.kit",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9526,
+								9527
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Seti_monokai.tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2607.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -746,7 +829,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 100.0
+		"height": 25.0
 	},
 	"output.find_results":
 	{
@@ -788,7 +871,7 @@
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/giovanni-bojanini-argentina/giovanni-bojanini-argentina.sublime-project"
+				"/Applications/MAMP/htdocs/boletin_axa/boletin-axa.sublime-project"
 			],
 			[
 				"boletin",

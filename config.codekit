@@ -51973,8 +51973,8 @@
 		},
 	"\/source\/kit\/internal.kit": {
 		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/source\/kit\/internal.kit",
 		"outputAbbreviatedPath": "\/source\/internal.html",
 		"outputPathIsOutsideProject": 0,

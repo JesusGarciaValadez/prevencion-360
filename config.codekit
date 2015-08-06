@@ -51881,6 +51881,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/source\/kit\/footer_personalized.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/footer_personalized.kit",
+		"outputAbbreviatedPath": "\/source\/footer_personalized.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/source\/kit\/head.kit": {
 		"fileType": 2048,
 		"ignore": 1,
@@ -52051,6 +52060,15 @@
 		"outputAbbreviatedPath": "\/familias-jovenes\/primeros-juguetes.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1
+		},
+	"\/source\/kit\/related_article.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/kit\/related_article.kit",
+		"outputAbbreviatedPath": "\/source\/related_article.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/source\/kit\/respiro-al-planeta.kit": {
 		"fileType": 2048,

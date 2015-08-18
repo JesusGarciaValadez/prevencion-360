@@ -56,7 +56,6 @@ footer.footer
     padding: 0
     h3, p
         box-sizing: border-box
-        padding: 8
     h3
         @include font-mask( bold, em( 18, 16 ), 1.2em, $helvetica, navy )
         background: white
@@ -65,16 +64,21 @@ footer.footer
         text-transform: uppercase
     p
         color: white
-        margin: 0 auto
+        margin: 1em auto
+        padding: 0 0 0 15px
+        position: relative
         &:before
             content: "•"
+            left: 5px
+            position: absolute
+        a
+            @include font-mask( bold, em( 13, 16 ) !important, 1.2em, $helvetica, white )
+            display: block
             float: left
             padding: 0 5px 0 0
-        a
-            @include font-mask( bold, em( 16, 16 ), 1.2em, $helvetica, white )
-            float: left
             text-align: left
             text-decoration: underline
+            width: 100%
 .qualify
     display: flex
     height: 60px

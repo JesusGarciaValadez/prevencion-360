@@ -15,8 +15,6 @@
 
 @import "sprites/star"
 
-@import "custom-styles/desktop/home"
-
 @import "default-styles/_helper_classes"
 
 /* ==========================================================================
@@ -28,54 +26,44 @@
 /* ==========================================================================
    iPhone 3GS/4/4S Portrait Orientation
    ========================================================================== */
-@media only screen and (max-width: em( 480 ))
+@media only screen and (min-width: em( 480 ))
+
+@media only screen and (min-width: em( 480 )) and (orientation:landscape)
 
 /* ==========================================================================
-   iPhone 3GS/4/4S Landscape Orientation
+   iPhone 5/5S
    ========================================================================== */
-@media only screen and (max-width: em( 480 )) and (orientation:landscape)
-
-/* ==========================================================================
-   iPhone 5/5S Portrait Orientation
-   ========================================================================== */
-@media only screen and (max-width: em( 568, 16 )) and (orientation:portrait)
+@media only screen and ( min-width: em( 320, 16 ) ) and (max-width: em( 1023, 16) )
+    @import "default-styles/_general_mobile"
     @import "custom-styles/mobile/home-4-portrait"
 
-/* ==========================================================================
-   iPhone 5/5S Landscape Orientation
-   ========================================================================== */
-@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+@media only screen and (min-width: em( 568, 16 )) and (orientation:landscape)
 
 /* ==========================================================================
-   iPhone 6 Orientation
+   iPhone 6
    ========================================================================== */
-@media only screen and (max-width: em( 667, 16 )) and (orientation:portrait)
+@media only screen and (min-width: em( 667, 16 )) and (max-width: em( 1023, 16) )
     @import "custom-styles/mobile/home-6-portrait"
 
-@media only screen and (max-width: em( 667, 16 )) and (orientation:landscape)
+@media only screen and (min-width: em( 667, 16 )) and (orientation:landscape)
 
 /* ==========================================================================
-   iPhone 6 Plus Landscape Orientation
+   iPhone 6 Plus
    ========================================================================== */
-@media only screen and (max-width: em( 736, 16 ))
-    @import "default-styles/_general_mobile"
+@media only screen and (min-width: em( 736, 16 )) and (max-width: em( 1023, 16) )
 
-@media only screen and (max-width: em( 736, 16 )) and (orientation:landscape)
+@media only screen and (min-width: em( 736, 16 )) and (orientation:landscape)
 
 /* ==========================================================================
    iPad
    ========================================================================== */
-@media only screen and (max-width: em( 1024, 16 ))
+@media only screen and (min-width: em( 1024, 16 ))
+    @import "default-styles/_general"
+    @import "custom-styles/desktop/home"
 
-/* ==========================================================================
-   iPad Portrait Orientation
-   ========================================================================== */
-@media only screen and (max-width: em( 1024, 16 )) and (orientation:portrait)
+@media only screen and (min-width: em( 1024, 16 )) and (orientation:portrait)
 
-/* ==========================================================================
-   iPad Landscape Orientation
-   ========================================================================== */
-@media only screen and (max-width: em( 1024, 16 )) and (orientation:landscape)
+@media only screen and (min-width: em( 1024, 16 )) and (orientation:landscape)
 
 /* ==========================================================================
    Desktop High Resolution

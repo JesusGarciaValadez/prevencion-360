@@ -11,17 +11,69 @@
             padding: 0 15.625vw 12.5vw !important
             width: 52.1875vw !important
             figure
+                position: relative
                 width: 100%
                 img
                     width: 100%
                 figcaption
+                    bottom: 0
+                    box-sizing: border-box
+                    padding: 10px
+                    position: absolute
                     width: 100%
                     h2
+                        margin: 0 auto
+                        padding: 0
                         a
-                            font-size: 4.6875vw
+                            @include font-mask( normal, 4.6875vw, 1.2em, $franklin, $white-color )
+                            display: block
+                            margin: 0 auto
                             max-height: 17.5vw
+                            text-decoration: none
+                            text-shadow: 0 0 2px #000
+                            text-overflow: ellipsis
+                            overflow: hidden
+                            width: 100%
+                            white-space: normal
                     p
+                        margin: 5px auto
+                        padding: 0
                         a
-                            font-size: 4.0625vw
+                            @include font-mask( normal, 4.0625vw, 1.2em, $franklin, $white-color )
+                            display: none
                             height: 34.375vw
+                            margin: 0 auto
+                            overflow: hidden
+                            text-decoration: none
+                            text-overflow: ellipsis
+                            padding: 0
+                    &:empty
+                        display: none !important
+                &:hover
+                    figcaption
+                        background-color: RGBA( 0, 0, 0, 0.5 )
+                        cursor: pointers
+                        height: 100%
+                        padding: 10px
+                        position: absolute
+                        top: 0
+                        width: 100%
+                        h2
+                            a
+                                @include font-mask( bold, em( 14, 24 ), 1.2em, $franklin, $white-color )
+                                border-bottom: 1px dashed $white-color
+                                display: block
+                                margin: 0 auto
+                                max-height: none
+                                padding-bottom: 5px
+                                text-shadow: unset
+                                text-overflow: none
+                                overflow: visible
+                                width: 100%
+                                white-space: normal
+                        p
+                            a
+                                display: block
+                        &:empty
+                            display: none !important
 

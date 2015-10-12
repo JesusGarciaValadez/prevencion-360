@@ -40755,6 +40755,50 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/images\/boletin-13\/como-conducir-ante-climas-adversos.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12212,
+		"inputAbbreviatedPath": "\/images\/boletin-13\/como-conducir-ante-climas-adversos.png",
+		"outputAbbreviatedPath": "\/images\/boletin-13\/como-conducir-ante-climas-adversos.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-13\/el-que-ahorra-mas-vive-mejor.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8927,
+		"inputAbbreviatedPath": "\/images\/boletin-13\/el-que-ahorra-mas-vive-mejor.png",
+		"outputAbbreviatedPath": "\/images\/boletin-13\/el-que-ahorra-mas-vive-mejor.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-13\/elabora-tu-plan-familiar.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7797,
+		"inputAbbreviatedPath": "\/images\/boletin-13\/elabora-tu-plan-familiar.png",
+		"outputAbbreviatedPath": "\/images\/boletin-13\/elabora-tu-plan-familiar.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/boletin-13\/se-una-mujer-a-la-vanguardia-de-tu-salud.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13209,
+		"inputAbbreviatedPath": "\/images\/boletin-13\/se-una-mujer-a-la-vanguardia-de-tu-salud.png",
+		"outputAbbreviatedPath": "\/images\/boletin-13\/se-una-mujer-a-la-vanguardia-de-tu-salud.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
 	"\/images\/boletin-6\/B6_anuncio_2.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

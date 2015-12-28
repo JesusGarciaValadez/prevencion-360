@@ -1,0 +1,109 @@
+.mundo-deporte
+  p, h1, h2, h3, h4, h5, h6, ul, ol, li, span
+    font-family: Arial, Helvetica, 'sans-serif'
+  #encabezadoGeneral, #pieGeneral
+    display: flex
+    justify-content: flex-end
+    padding: 1.64rem 3.83% 2.78rem
+    width: 100%
+  .articulo--footer
+    padding-left: 3.83%
+    padding-right: 3.83%
+    a, p
+      color: #103184
+    a
+      font-size: 13px
+    p
+      &:first-child
+        font-size: 18px
+        margin: 0.5rem 0 1rem
+      &:nth-child(2)
+        font-size: 13px
+  .content__dos
+    padding: 10px 2.5%
+  .content__uno
+    background: #103184
+    color: #fff
+    padding: 26px 4.37% 27px
+    figcaption, div.figcaption, .imagen
+      width: 50%
+    h1
+      text-align: left
+    figure, div.figure
+      display: flex
+      padding-left: 4.79%
+      padding-right: 4.79%
+    p
+      font-size: 16px
+      margin-top: 1rem
+    .imagen
+      text-align: right
+  .content__numero
+    width: 80px
+  .content__contenido
+    width: calc(100% - 80px)
+  .content__iconos
+    margin-top: 1rem
+    text-align: center
+  .numero__cinco, .numero__cuatro, .numero__dos,
+  .numero__seis, .numero__siete, .numero__tres,
+  .numero__uno
+    display: flex
+    margin-bottom: 4px
+    padding: 20px 2%
+  .numero__uno, .numero__dos, .numero__cuatro,
+  .numero__cinco, .numero__siete
+    color: #FFF
+  .numero__cinco, .numero__cuatro, .numero__dos,
+  .numero__seis, .numero__siete, .numero__tres,
+  .numero__uno
+    p
+      font-size: 13px
+  .numero__cinco, .numero__cuatro, .numero__dos,
+  .numero__seis, .numero__siete, .numero__tres
+    strong
+      font-size: 17px
+  .numero__uno
+    background: #f00
+    strong
+      font-size: 17px
+  .numero__cuatro, .numero__siete
+    background: #f00
+  .numero__dos, .numero__cinco
+    background: #00f
+  .numero__tres, .numero__seis
+    background: #ff0
+    color: #5faadc
+  .numero__tres, .numero__seis
+    strong
+      color: #103184
+
+/* ==========================================================================
+   iPhone 6 Plus
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+  .mundo-deporte
+    .content__uno
+      .figure, .figcaption
+        display: block !important
+        clear: both !important
+        width: 100% !important
+      .imagen
+        clear: both !important
+        display: block !important
+        margin: 0 auto !important
+      h1
+        display: block
+        clear: both
+        font-size: em( 27, 16.4 ) !important
+        width: 100% !important
+        word-break: normal
+    .content__numero
+      margin: 0 auto 1rem
+      text-align: center
+    .content__contenido
+      width: 100%
+    .numero__cinco, .numero__cuatro, .numero__dos,
+    .numero__seis, .numero__siete, .numero__tres,
+    .numero__uno
+      flex-direction: column

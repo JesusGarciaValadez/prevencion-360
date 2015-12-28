@@ -1,0 +1,86 @@
+@import "bourbon/_bourbon"
+@import "prevencion-360/default-styles/_normalize"
+@import "prevencion-360/default-styles/_boilerplate_styles"
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+@import "prevencion-360/default-styles/_lemonade"
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@import "prevencion-360/default-styles/_variables"
+@import "prevencion-360/default-styles/_mixins"
+@import "prevencion-360/default-styles/_colors"
+@import "prevencion-360/default-styles/_general"
+
+@import "prevencion-360/ninos/desktop/estrategia-ganadora"
+@import "prevencion-360/ninos/desktop/mundo-del-deporte"
+@import "prevencion-360/ninos/desktop/tu-mochila"
+@import "prevencion-360/ninos/desktop/investigar-por-internet"
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+@import "prevencion-360/default-styles/_helper_classes"
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+/* ==========================================================================
+   Desktop High Resolution
+   ========================================================================== */
+@media print, ( -webkit-min-device-pixel-ratio: 1.25 ), ( min-resolution: 1.25dppx ), ( min-resolution: 120dpi )
+
+/* ==========================================================================
+   iPad
+   ========================================================================== */
+@media only screen and ( max-width: em( 1024, 16 ) )
+
+@media only screen and ( max-width: em( 1024, 16 ) ) and ( orientation: portrait )
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and ( max-width: em( 736, 16 ) )
+
+@media only screen and ( max-width: em( 736, 16 ) ) and ( orientation: landscape )
+
+/* ==========================================================================
+   iPhone 6
+   ========================================================================== */
+@media only screen and ( max-width: em( 667, 16 ) ) and ( orientation: landscape )
+
+@media only screen and ( max-width: em( 667, 16 ) )
+
+/* ==========================================================================
+   iPhone 5/5S
+   ========================================================================== */
+@media only screen and ( max-width: em( 568, 16 ) ) and ( orientation: landscape )
+
+@media only screen and ( max-width: em( 568, 16 ) )
+   @import "prevencion-360/default-styles/_general_mobile"
+
+/* ==========================================================================
+   iPhone 3GS/4/4S
+   ========================================================================== */
+@media only screen and ( max-width: em( 480, 16 ) )
+
+@media only screen and ( max-width: em( 480, 16 ) ) and ( orientation: landscape )
+
+@media print
+   @import "prevencion-360/default-styles/_print_stylesheet"

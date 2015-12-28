@@ -1,0 +1,113 @@
+.eleven-reasons-to-quit
+  .title
+    background-color: $dark-grey
+    .bit-1
+      h1
+        color: $white-color
+        display: block
+        float: none
+        font-size: em( 40, 16 ) // base 48px
+        margin: 0 auto
+        strong
+          span
+            float: left
+            font-size: em( 155, 48 ) // base 155px
+            line-height: 1em
+    .bit-60
+      p
+        color: $white-color
+        font-size: em( 22, 16 )
+        line-height: 1.5em
+    .bit-40
+      img
+        align-self: center
+        display: block
+        margin: 0 auto
+  .section-1
+    .bit-1
+      h2
+        color: $dark-grey
+        float: none
+        font-size: em( 45, 16 )
+        line-height: 1em
+      p
+        color: $dark-grey
+        float: none
+        font-size: em( 18, 16 )
+      &:last-child
+        ul
+          border-bottom: 0 none transparent
+      ul
+        @media only screen and (max-width: em( 568, 16 ))
+          border-bottom: 1px solid $dark-grey
+        li
+          display: flex
+          list-style: none outside
+          &:nth-child( 2n ), &:nth-child( 3n )
+            height: 148px
+          @media only screen and (max-width: em( 568, 16 ))
+            &:nth-child( 2n ), &:nth-child( 3n )
+              height: 100%
+          img
+            display: block
+            margin: 0 auto
+          p
+            align-self: center
+            color: $purple
+            strong
+  .section-2
+    background-color: $axa-blue-color
+    box-sizing: border-box
+    padding: 10px 20px
+    h3
+      color: $white-color
+      float: none
+      font-size: em( 30, 16 )
+      font-weight: normal
+      strong
+  .section-3
+    box-sizing: border-box
+    padding: 1em 0
+    h4
+      color: $axa-blue-color
+      float: none
+      font-size: em( 28, 16 )
+      text-align: center
+      strong
+  .section-4
+    p
+      color: $dark-grey
+      float: left
+      font-size: em( 12, 16 )
+      sup
+      a
+        color: $dark-grey
+        text-decoration: none
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+  .eleven-reasons-to-quit
+    .title
+      h1
+        font-size: em( 24, 16 ) !important // base 24px
+        text-align: center
+        span
+          font-size: em( 75, 24 ) // base 75px
+      .bit-60
+        p
+          font-size: em( 16, 16 ) !important
+    .section-1
+      h2
+        font-size: em( 25, 16.4 ) !important
+        line-height: 1.2em !important
+      p
+        font-size: em( 17, 16.4 ) !important
+    .section-2
+      h3
+        font-size: em( 16, 16.4 ) !important
+        line-height: 1.2em !important
+    .section-3
+      h4
+        line-height: 1.2em !important

@@ -1,0 +1,111 @@
+.dolor-muscular
+    .title
+        .central, .central-prevencion
+            display: flex
+            h1, img
+                align-self: center
+            h1
+                @include font-mask( bold, em( 48, 16 ), 1.5em, $helvetica, $blue-light )
+                margin: 0
+                float: left
+                text-align: left
+            img
+                right: right
+    .description
+        background-color: $sand
+        .central, .central-prevencion
+            h2
+                @include font-mask( normal, em( 30, 16 ), 1.5em, $helvetica, $axa-blue-color )
+                margin: 0
+            img
+    .separator
+    .myths
+        background-color: $blue-sky
+        .central, .central-prevencion
+            h3
+                @include font-mask( normal, em( 30, 16 ), 1.5em, $helvetica, $axa-blue-color )
+                margin: 1em auto 0
+        .myth-1, .myth-2, .myth-3, .myth-4
+            border-bottom: 3px dashed $axa-blue-color
+            .bit-60
+                h4
+                    @include font-mask( bold, em( 23, 16 ), 1.5em, $helvetica, $dark-grey )
+                    margin: 1.33em auto 0
+                p
+                    @include font-mask( normal, em( 18, 16 ), 1.5em, $helvetica, $dark-grey )
+                    text-align: justify
+            .bit-40
+                display: flex
+                flex-flow: row nowrap
+                img
+                    align-self: center
+        .myth-1
+            .bit-40
+                height: 519px
+        .myth-2, .myth-3
+            .bit-40
+                height: 411px
+        .myth-4
+            .bit-40
+                height: 539px
+        .footnotes
+            p
+                @include font-mask( normal, em( 18, 16 ), 1.5em, $helvetica, $dark-grey )
+                sup
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+    .dolor-muscular
+        p
+            font-size: em( 14, 16.4 ) !important
+            text-align: left !important
+        .title
+            .central, .central-prevencion
+                h1
+                    font-size: em( 19, 16.4 )
+        .description
+            .central, .central-prevencion
+                h2
+                    font-size: em( 15, 16.4 ) !important
+        .myths
+            .central, .central-prevencion
+                h3
+                    font-size: em( 15, 16.4 )
+            .myth-1, .myth-2, .myth-3, .myth-4
+                h4
+                    font-size: em( 14, 16.4 ) !important
+                    text-align: left !important
+                p
+                    font-size: em( 13, 14 ) !important
+                .bit-40
+                    height: auto
+            .footnotes
+                p
+                    font-size: em( 11, 14 )
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))

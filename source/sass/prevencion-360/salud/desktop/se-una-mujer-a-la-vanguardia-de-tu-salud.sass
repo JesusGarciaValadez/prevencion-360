@@ -1,0 +1,98 @@
+.woman-at-the-forefront
+    p, h1, h2, h3, h4, h5, h6, ul li
+        color: $text-gray
+    ul
+        li
+            display: list-item
+            list-style: none inside
+    h1, h2, h3
+        font-size: em( 18, 16 )
+    .separation
+        border: 0 none transparent
+        height: 6px
+        margin: 0 auto
+        padding: 0
+    .pink-bg
+        background-color: #FBECF2
+    .text-pink
+        color: #D62C79
+    .text-pink-light
+        color: #E674A4
+    .text-wine
+        color: #A22459
+    .title // Cómo conducir ante climas adversos
+        img
+    .section-1 // Octubre, mundialmente, es el mes de la lucha contra el cáncer de mama, y tiene
+        p
+    .section-2 // El cáncer de mamá es el más común entre todas las mujeres del mundo.
+        h1
+            float: none
+            text-align: center
+    .section-3 // Datos del cáncer
+        ul
+            li
+                float: left !important
+                img
+                    float: none
+                p
+                    color: #E674A4
+                    float: none
+                    text-align: center
+    .section-4 // Causas del cáucer
+        p
+            float: none
+            text-align: center
+    .section-5 // Datos de causas del cáncer
+        img
+            float: none
+    .section-6 // Cuídate y autoexplorate
+        h2
+            font-size: em( 20, 16 )
+            text-align: center
+    .section-7 // Recomendaciones contra el cáncer
+        ul
+            li
+                display: flex
+                flex-flow: row nowrap
+                float: left !important
+                img
+                    height: 72px
+                    max-width: none
+                    width: 72px
+                p
+                    align-self: center
+                    float: left
+                    text-align: left
+        /* ==========================================================================
+           iPhone 6 Orientation
+           ========================================================================== */
+        @media only screen and (max-width: em( 736, 16 ))
+            ul
+                li
+                    display: block
+                    float: none !important
+                    img
+                        float: none !important
+                        margin: 0 auto
+    .section-8 // Hábitos contra el cáncer
+        ul
+            li
+                img
+                    float: none
+                p
+                    float: none
+    .section-9 // La manera correcta de realizar una autoexploración, es
+    .section-10 // Manera 1
+        @media only screen and ( max-width: em( 568, 16 ) )
+            p
+                float: none
+    .section-11 // Explórate
+        @media only screen and ( max-width: em( 568, 16 ) )
+            p
+                float: none
+    .section-12 // Instrucciones para realizar auto exploraciones
+    .section-13 // Conoce +Care. Es un programa integral multidisciplinario, diseñado para
+    .foot-notes // Fuente de información: Instituto de Salud del Estado de México, IMSS, boletín de la…
+        p
+            @include font-mask( normal, em( 11, 16 ), 1em, $helvetica, #B3A9A7 )
+            float: none

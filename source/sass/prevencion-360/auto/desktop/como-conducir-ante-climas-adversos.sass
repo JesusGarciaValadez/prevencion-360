@@ -1,0 +1,76 @@
+.how-lead-to-adverse-weather
+  p, h1, h2, h3, h4, h5, h6, ul li
+    color: $text-gray
+    font-size: $helvetica
+  ul
+    li
+      display: list-item
+      float: left !important
+  .title
+    img
+  .section-1
+    p
+  .section-2 // LLuvia
+    p
+      float: none
+  .section-3 // Recomendaciones con lluvia
+    img
+      float: none
+    ul
+      li
+        p
+          display: list-item
+          list-style: url( 'https://axa.mx/documents/2491895/2660881/lluvia-icono.png' ) inside disc
+      &:first-child
+        li
+          height: 170px
+      &:last-child
+        float: none
+  .section-4 // Viento
+    img
+      float: none
+    p
+  .section-5 // Recomendaciones con viento
+    img
+      float: none
+    ul
+      li
+        p
+          display: list-item
+          list-style: url( 'https://axa.mx/documents/2491895/2660881/viento-icono.png' ) inside disc
+      &:first-child
+        li
+      &:last-child
+        float: none
+  .section-6 // Niebla
+  .section-7 // Recomendaciones con niebla
+    img
+      float: none
+    ul
+      li
+        p
+          display: list-item
+          list-style: url( 'https://axa.mx/documents/2491895/2660881/niebla-icono.png' ) inside disc
+  .section-8 // Recuerda que un camino seguro
+    img
+      float: none
+    ul
+      li
+        list-style: url( 'https://axa.mx/documents/2491895/2660881/cono-de-seguridad.png' ) inside disc
+  .section-9 // Recomendaciones para un camino seguro
+    .light
+      img
+        float: none
+      ul
+        li
+          list-style: url( 'https://axa.mx/documents/2491895/2660881/foco.png' ) inside disc
+    .water
+      img
+        float: none
+      ul
+        li
+          list-style: url( 'https://axa.mx/documents/2491895/2660881/llave-de-agua.png' ) inside disc
+  .foot-notes
+    p
+      @include font-mask( normal, em( 16, 16 ), 1em, $helvetica, $text-gray )
+      float: none

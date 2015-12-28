@@ -1,0 +1,105 @@
+body,html
+    margin: 0
+    padding: 0
+img
+    border: 0
+    height: auto
+    max-width: 100%
+    vertical-align: middle
+// .wrapper, .wrapper-prevencion
+//     box-sizing: border-box
+//     display: table
+//     height: 100%
+//     padding: 0
+//     position: relative
+//     width: 100%
+// .central-prevencion
+//     box-sizing: border-box
+//     clear: both
+//     float: none !important
+//     display: block
+//     margin: 0 auto
+//     width: 960px
+p, h1, h2,
+h3, h4, h5,
+h6, ul li,
+ol li, span, article,
+section, main, figure,
+figcaption, tr, td, div
+    font-family: $helvetica
+    word-break: normal
+#content
+    background: url( 'https://axa.mx/documents/2491895/2492608/esquina_Azul.png' ) no-repeat scroll right top #F2F2F2
+    .prevencion
+        h1
+            // clear: both
+            // display: block
+            // width: 100%
+            // margin: 0.25em auto
+            img
+                display: block
+                margin: 0 auto
+.frame
+    display: block
+    float: none !important
+    margin: 0 auto
+    max-width: 960px !important
+hr.rule-information
+    background-color: transparent
+    border: 0 none transparent
+    border-top: 3px dotted $horizontal-rule-more--information
+    box-sizing: border-box
+    margin: 1em auto
+    padding: 0
+.lefted
+    float: left !important
+.righted
+    float: right !important
+.blue-bg
+    background-color: $axa-blue-color
+    p,h1,h2,h3,h4,h5,h6
+        color: $white-color !important
+
+.wrapper, .wrapper-prevencion
+    box-sizing: border-box
+    clear: both
+    display: block
+    padding: 0.5em 0 !important
+    width: 100%
+.central, .central-prevencion
+    display: block
+    float: none !important
+    margin: 0 auto
+    max-width: 960px !important
+    padding: 0 0.5em
+    width: 93.75%
+.header
+    .central, .central-prevencion
+        p.bit-40
+            a
+                img
+footer
+    .central, .central-prevencion
+        p
+            img
+.white
+    background-color: $white-color
+.centered
+    display: block
+    float: none !important
+    margin-left: auto !important
+    margin-right: auto !important
+    text-align: center
+.desktop
+    display: block
+.mobile
+    display: none
+
+@media (min-width: 20em) and (max-width: 50em)
+    .central, .central-prevencion
+        display: block !important
+    .desktop
+        display: none
+    .mobile
+        display: block
+

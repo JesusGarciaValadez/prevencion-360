@@ -1,0 +1,124 @@
+.home
+  p, h1, h2, h3, h4, h5, h6
+    color: #595959
+    font-family: $helvetica
+  ul li
+    color: #595959
+    display: list-item
+  .section-2 p
+    float: none
+    font-size: 1.25em
+    margin: 1em 0px
+  .section-3 img
+    float: none
+  .section-4
+    img
+      float: none
+    ul li h3
+      background: no-repeat scroll 0 0 transparent
+      display: block
+      margin: 0 auto
+      &.food
+        background-image: url("https://axa.mx/documents/2491895/2669529/botella.png")
+        height: 38px
+        font-size: em( 18.7167, 18.7167 )
+        line-height: em( 44.55, 18.7167 )
+        width: 230px
+      &.basics
+        background-image: url("https://axa.mx/documents/2491895/2669529/llave.png")
+        height: 28px
+        font-size: em( 18.7167, 18.7167 )
+        line-height: em( 32.75, 18.7167 )
+        width: 130px
+      &.support
+        background-image: url("https://axa.mx/documents/2491895/2669529/nota.png")
+        height: 29px
+        font-size: em( 18.7167, 18.7167 )
+        line-height: em( 33.8833, 18.7167 )
+        width: 140px
+  .section-5 img
+    float: none
+  .section-6 p
+    background: no-repeat scroll 0 0 transparent
+    display: block
+    margin: 0 auto
+    &.botiquin
+      background-image: url("https://axa.mx/documents/2491895/2669529/pastillas.png")
+      height: 28px
+      line-height: 1.75em
+      width: 130px
+  .section-7 img
+    float: none
+  .section-8
+    img
+      float: none
+    ul li
+      float: left !important
+      list-style: url("https://axa.mx/documents/2491895/2669529/cono-de-seguridad.png") inside disc
+  .section-9
+    .light, .water
+      img
+        float: none
+      ul li
+        float: left !important
+    .light
+      ul li
+        list-style: url("https://axa.mx/documents/2491895/2669529/foco.png") inside disc
+    .water
+      img
+        float: none
+      ul li
+        list-style: url("https://axa.mx/documents/2491895/2669529/llave-de-agua.png") inside disc
+  .section-10
+    img
+      float: none
+    ul li
+      float: left !important
+      list-style: url("https://axa.mx/documents/2491895/2669529/tanque.png") inside disc
+  .section-11
+    img.centered
+      float: none
+    .bit-2 ul li
+      float: none !important
+      text-align: center
+      strong
+        color: #104AA6
+  .section-12 p
+    float: none
+    font-size: 1.31em
+    margin: 1em 0px
+  .section-13 .bit-2 p
+    color: #104AA6
+    margin: 1em 0px
+    &.lefted
+      font-size: 1.31em
+      text-align: right
+  .section-14 h1
+    float: none
+  .foot-notes p
+    color: #595959
+    font-family: Helvetica, Arial, "sans-serif"
+    font-size: 1em
+    font-weight: normal
+    line-height: 1em
+    margin: 1em 0px
+    float: none
+
+@media only screen and (max-width: 35.5em)
+  .home
+    .section-6
+      p.bit-1
+        font-size: em( 14, 16 )
+    ul li
+      font-size: 14px !important
+    .section-13
+      .lefted, .righted
+        display: block
+        float: none
+        margin: 0 auto
+      p
+        text-align: center !important
+    .section-14
+      h1
+        font-size: 33px
+        word-break: normal

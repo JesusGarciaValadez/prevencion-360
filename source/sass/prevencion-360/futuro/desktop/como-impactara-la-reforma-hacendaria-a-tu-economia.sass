@@ -1,0 +1,435 @@
+#finances_december_2013
+    background-color: #fff
+    >.section
+        box-sizing: border-box
+        padding: 10px
+    p, span, td, div, h1, h2, h3, h4, h5, h6, ul li, ol li
+        font-family: $helvetica
+        line-height: 1.2em
+    p, span, h1, h2, h3, h4, h5, h6
+        margin: 1em auto
+    .title_cutted
+        color: #FFF
+        font-size: em( 20, 16 )
+        line-height: em( 33, 20 )
+        margin: 30px 0 20px
+        padding: 0 0 0 15px
+        img
+            background: #FFF
+            float: right
+    .section
+        .article
+            position: relative
+        #as_financial_reform_will_impact_your_finances
+            .center_content
+                border-bottom: 2px dashed $green_jelly_december_2013
+                h1
+                    color: #00549B
+                    font-family: $helvetica
+                    font-size: em( 28, 16 )
+                    font-weight: bold
+                    line-height: em( 33.6, 28 )
+                    margin: 0
+                    padding: em( 22, 28 ) 0 0
+                    text-align: center
+                p
+                    @extend .body_text
+                    line-height: em( 19, 17 )
+                    margin: em( 17, 17 ) auto
+                    width: em( 846, 17 )
+                h2
+                    @extend .title_cutted
+                    background: #00549B
+                    font-weight: normal
+                .target_indicator
+                    color: $green_jelly_december_2013
+                    font-family: $helvetica
+                    font-size: em( 26, 16 )
+                    font-weight: bold
+                    line-height: em( 31.2, 26 )
+                    margin: 0
+                    padding: em( 12, 26 ) 0 0
+                .target_description
+                    @extend .body_text
+                    font-size: em( 20.75, 16 )
+                    line-height: em( 23.2, 20.75 )
+                    margin: 0
+                    padding: 0 0 em( 212, 20.75 )
+                #graphics
+                    @extend .clearfix
+                    bottom: em( 76, 16 )
+                    height: em( 260, 16 )
+                    margin: 0
+                    padding: 0
+                    position: absolute
+                    right: em( 106, 16 )
+                    width: em( 520, 16 )
+                    li
+                        float: left
+                        height: 100%
+                        list-style: none inside
+                        margin: 0
+                        .rate_indicator
+                            @include font-mask( normal, em( 17, 16 ), em( 19, 14 ), $helvetica, $green_jelly_december_2013 )
+                            margin: 0
+                            padding: 0
+                            width: 100%
+                        p
+                            @include font-mask( bold, em( 14, 16 ), em( 19, 14 ), $helvetica, #00549B )
+                            left: em( -3, 14 )
+                            margin: 0
+                            padding: 0
+                            position: relative
+                            text-align: center
+                            width: em( 175, 14 )
+                            strong
+                                font-size: em( 21, 14 )
+                        .graphic
+                            bottom: 0
+                            position: absolute
+                            width: em( 163, 16 )
+                            p
+                                @include font-mask( bold, em( 17, 16 ), em( 19, 17 ), $helvetica, #FFF )
+                                display: block
+                                margin: 0
+                                padding: 0
+                                text-align: center
+                                width: 100%
+                            .percentage
+                                padding: em( 12, 17 ) 0 0 !important
+                                strong
+                                    font-size: em( 33, 16 )
+                                    line-height: em( 19, 33 )
+                        #thirty_two
+                            background: #00C6A0
+                            height: em( 99, 16 )
+                            p
+                                padding-top: em( 22, 17 )
+                            .percentage
+                                strong
+                        #thirty_four
+                            background: #00AF8D
+                            height: em( 150, 16 )
+                            p
+                                padding-top: em( 45, 17 )
+                            .percentage
+                                strong
+                        #thirty_five
+                            background: #00896F
+                            height: em( 205, 16 )
+                            p
+                                padding-top: em( 75, 17 )
+                            .percentage
+                                strong
+                    #first
+                        padding: 0 em( 10, 16 ) 0 0
+                        width: em( 163, 16 )
+                        .rate_indicator
+                            padding: em( 105, 17 ) 0 em( 5, 17 )
+                    #second
+                        width: em( 163, 16 )
+                        .rate_indicator
+                            padding: em( 55, 17 ) 0 em( 5, 17 )
+                    #third
+                        padding: 0 0 0 em( 10, 16 )
+                        width: em( 163, 16 )
+                        .rate_indicator
+                            line-height: em( 13, 17 )
+                            padding: 0 0 em( 10, 17 )
+        #what_can_make_your_annual_tax_deductible
+            .center_content
+                padding: em( 12, 16 ) 0 0
+                position: relative
+                h2
+                    @include font-mask( bold, em( 24.42, 16 ), em( 29.3, 16 ), $helvetica, $green_jelly_december_2013 )
+                    display: inline-block
+                    float: left
+                    margin: 0
+                    padding: 0 0 em( 9, 24.42 )
+                    width: 100%
+                p
+                    @include font-mask( normal, em( 17, 16 ), em( 19, 17 ), $helvetica, $grey_text )
+                    float: left
+                    margin: 0
+                    strong
+                #deductions
+                    padding: 0 0 em( 29, 17 )
+                #medical_fees
+                    float: left
+                    padding: em( 24, 17 ) 0 0 em( 230, 17 )
+                #limits_the_deduction_of_actual_interest
+                    float: left
+                    padding: em( 46, 17 ) 0 em( 40, 17 )
+                img
+                    display:inline-block
+                    margin: 0
+                    padding: 0
+                    position: absolute
+                    vertical-align: middle
+                #money
+                    right: 100px
+                    top: 50px
+                #ambulance
+                    top: 160px
+                    left: 40px
+                #house
+                    right: 100px
+                    top: 260px
+        #other_changes_to_the_individual
+            background: #EFEFEF
+            .center_content
+                box-sizing: border-box
+                padding: 10px
+                h3
+                    @include font-mask( bold, em( 24.42, 16 ), em( 29.3, 24.42 ), $helvetica, #00549B )
+                    margin: 0
+                    padding: em( 18, 24.42 ) 0 0
+                p
+                    @extend .body_text
+                    line-height: em( 19, 17 )
+                    margin: 0
+                    padding: 0
+                    strong
+                        font-weight: bold
+                #join_regime
+                    padding: em( 7, 17 ) 0 0
+                #join_regime_description
+                    padding: em( 30, 17 ) 0 0
+                ul
+                    @extend .clearfix
+                    display: block
+                    margin: 0
+                    padding: em( 10, 16 ) 0 0 em( 114, 16 )
+                    li
+                        background: url("https://axa.mx/documents/2491895/2669517/arrow_bullet.png") no-repeat scroll 0 em( 3, 16 ) transparent
+                        list-style: none inside
+                        margin: 0
+                        padding: 0
+                        p
+                            @extend .body_text
+                            line-height: em( 19, 17 )
+                            color: #0F5EA1
+                            padding: 0 0 0 em( 35, 17 )
+                    #first_row
+                        height: em( 17, 16 )
+                        padding: 0 0 em( 9, 16 )
+                    #second_row
+                        height: em( 35, 16 )
+                        padding: 0 0 em( 14, 16 )
+                    #third_row
+                        height: em( 38, 16 )
+                        padding: 0 0 em( 26, 16 )
+        #circles_of_benefits
+            background: transparent
+            .center_content
+                @extend .clearfix
+                height: 510px
+                .circle
+                    display: inline-block
+                    position: absolute
+                    h4
+                        @include font-mask( bold, em( 24.42, 16 ), em( 27, 24.42 ), $helvetica, $green_jelly_december_2013 )
+                        margin: 0
+                        padding: 0
+                    p
+                        @extend .body_text
+                        line-height: em( 19, 17 )
+                        margin: 0
+                        padding: 0
+                        strong
+                            font-weight: bold
+                #buying_a_home_room
+                    background: url("https://axa.mx/documents/2491895/2669517/globo01_finanzas.png") no-repeat scroll em( 203, 16 ) 0 transparent
+                    height: em( 167, 16 )
+                    left: em( 95, 16 )
+                    top: em( 30, 16 )
+                    width: em( 422, 16 )
+                    h4
+                        padding: em( 31, 24.42 ) 0 0
+                    p
+                        padding: em( 3, 19 ) 0 0
+                        strong
+                #gain_of_sale_of_shares_through_the_stock_exchange
+                    background: url("https://axa.mx/documents/2491895/2669517/globo03_finanzas.png") no-repeat scroll right top transparent
+                    height: em( 247, 16 )
+                    right: em( 50, 16 )
+                    top: em( 150, 16 )
+                    width: em( 347, 16 )
+                    h4
+                        padding: em( 18, 24.42 ) 0 0
+                    p
+                        height: em( 154.10, 17 )
+                        padding: em( 3, 17 ) 0 0
+                        position: absolute
+                        right: 0
+                        top: em( 74, 17 )
+                        width: em( 210.35, 17 )
+                        strong
+                #for_legal_entities
+                    background: url("https://axa.mx/documents/2491895/2669517/globo03_finanzas.png") no-repeat scroll em( 60, 16 ) 0 transparent
+                    height: em( 248, 16 )
+                    left: em( 103, 16 )
+                    top: em( 262, 16 )
+                    width: em( 362, 16 )
+                    h4
+                        padding: em( 47, 24.42 ) 0 0
+                    p
+                        padding: em( 3, 17 ) 0 em( 10, 17 )
+                        strong
+        #what_are_the_changes_regarding_deductions_corporations
+            .center_content
+                height: 800px
+                padding: em( 57, 16 ) 0 em( 23, 16 )
+                h4
+                    @include font-mask( bold, em( 24.42, 16 ), em( 27, 22 ), $helvetica, $green_jelly_december_2013 )
+                    margin: 0
+                    padding: 0 0 em( 7, 24.42 )
+                .aclaration
+                    @include font-mask( bold, em( 22, 16 ), em( 26.4, 22 ), $helvetica, #00549B )
+                    margin: 0
+                    padding: 0 0 em( 28, 22 )
+                    span
+                        font-size: em( 50.37, 22 )
+                        line-height: em( 37, 50.37 )
+                div
+                    @extend .clearfix
+                    > div
+                        position: absolute
+                    .left
+                        float: left
+                    .right
+                        float: right
+                #first_level_of_explications
+                    height: em( 180, 16 )
+                    position: relative
+                    .left
+                        background: url("https://axa.mx/documents/2491895/2669517/cambios01_finanzas.png") no-repeat scroll right bottom transparent
+                        height: em( 180, 16 )
+                        left: em( 80, 16 )
+                        position: absolute
+                        width: em( 377, 16 )
+                        p
+                            @include font-mask( normal, em( 17, 16 ), em( 19, 17 ), $helvetica, $grey_text )
+                            margin: 0
+                            padding: 0
+                            width: em( 355, 17 )
+                    .right
+                        background: url("https://axa.mx/documents/2491895/2669517/cambios02_finanzas.png") no-repeat scroll em( 130, 16 ) em( 52, 16 ) transparent
+                        height: em( 159, 16 )
+                        position: absolute
+                        right: em( 63, 16 )
+                        top: em( 6, 16 )
+                        width: em( 321, 16 )
+                        p
+                            @include font-mask( normal, em( 21.59, 16 ), em( 24.13, 21.59 ), $helvetica, $grey_text )
+                            margin: 0
+                            padding: 0
+                            width: em( 319.63, 17 )
+                #second_level_of_explications
+                    height: em( 125, 16 )
+                    padding: em( 35, 16 ) 0 0
+                    position: relative
+                    .left
+                        background: url("https://axa.mx/documents/2491895/2669517/cambios03_finanzas.png") no-repeat scroll right 0 transparent
+                        height: em( 115, 16 )
+                        left: em( 60, 16 )
+                        width: em( 534, 16 )
+                        p
+                            @include font-mask( normal, em( 17, 16 ), em( 19, 17 ), $helvetica, $grey_text )
+                            margin: 0
+                            padding: em( 18, 76 ) 0 0
+                    .right
+                        background: url("https://axa.mx/documents/2491895/2669517/cambios04_finanzas.png") no-repeat scroll em( 75, 16 ) bottom transparent
+                        height: em( 116, 16 )
+                        right: em( -15, 16 )
+                        top: em( 45, 16 )
+                        width: em( 308, 16 )
+                        p
+                            @include font-mask( normal, em( 17, 16 ), em( 19, 17 ), $helvetica, $grey_text )
+                            margin: 0
+                            padding: em( 27, 17 ) 0 0
+                #third_level_of_explications
+                    height: em( 202, 16 )
+                    padding: em( 35, 16 ) 0 0
+                    position: relative
+                    .left
+                        background: url("https://axa.mx/documents/2491895/2669517/cambios05_finanzas.png") no-repeat scroll 0 em( 5, 16 ) transparent
+                        height: em( 95, 16 )
+                        left: em( 60, 16 )
+                        position: absolute
+                        top: em( 43, 16 )
+                        width: em( 567, 16 )
+                        p
+                            @include font-mask( normal, em( 17, 16 ), em( 21, 17 ), $helvetica, $grey_text )
+                            margin: 0
+                            padding: em( 3, 17 ) 0 0 em( 150, 17 )
+                            width: em( 410.24, 17 )
+                    .right
+                        height: em( 190, 16 )
+                        position: absolute
+                        right: em( 5, 16 )
+                        top: em( 48, 16 )
+                        width: em( 341, 16 )
+                        img
+                            display: block
+                            margin: 0 auto
+                            padding: 0 0 em( 9, 16 )
+                            vertical-align: middle
+                        p
+                            @include font-mask( normal, em( 17, 16 ), em( 19, 17 ), $helvetica, $grey_text )
+                            margin: 0
+        #vat
+            .center_content
+                padding: 0 0 em( 59, 16 )
+                h5
+                    @extend .title_cutted
+                    background: #00549B
+                    margin: 0
+                    padding: 0 0 0 em( 10, 20 )
+
+                p
+                    @extend .body_text
+                    box-sizing: border-box
+                    line-height: em( 19, 17 )
+                    margin: 0
+                    padding: 10px
+                    &.exceptions
+                        @include font-mask( bold, em( 20, 16 ), em( 24, 20 ), $helvetica, #803F97 )
+        #frbt_e_ide
+            background: #EDEDEF
+            .center_content
+                box-sizing: border-box
+                padding: 10px
+                padding: em( 17, 16 ) 0 em( 16, 16 )
+                h5
+                    @include font-mask( bold, em( 25, 16 ), em( 19, 25 ), $helvetica, #00549B )
+                    margin: 0
+                    padding: 0 0 em( 5, 25 )
+                p
+                    @extend .body_text
+                    line-height: em( 19, 17 )
+                    margin: 0
+                    padding: 0
+                    strong
+                        display:block
+                        font-weight: bold
+                        padding: em( 18, 17 ) 0 em( 8, 17 )
+                img
+                    float: left
+                    padding: em( 15, 16 ) 0 0
+                    vertical-align: middle
+                ul
+                    @extend .clearfix
+                    float: left
+                    margin: 0
+                    padding: 0 0 0 em( 90, 16 )
+                    li
+                        background: url("https://axa.mx/documents/2491895/2669517/mini_arrow_bullet.png") no-repeat scroll 0 em( 4, 16 ) transparent
+                        list-style: none inside
+                        margin: 0
+                        padding: 0 0 em( 10, 16 )
+                        p
+                            @include font-mask( normal, em( 17, 16 ), em( 19, 17 ), $helvetica, #00549B )
+                            margin: 0
+                            padding: 0 0 0 em( 20, 17 )
+

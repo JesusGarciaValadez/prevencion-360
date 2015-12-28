@@ -1,0 +1,111 @@
+.the-saving-more-live-better
+    .container
+        position: relative
+        display: block
+        margin: 0px auto
+        max-width: 960px
+        padding: 1em 0.5em
+        width: 100%
+    .frame
+        display: block
+        float: none !important
+        margin: 0px auto
+        max-width: 960px !important
+    p, h1, h2, h3, h4, h5, h6, ul li
+        color: $text-gray
+        font-family: $helvetica
+        margin: 1em auto
+    ul
+        li
+            display: list-item
+            float: left !important
+    .section-1, .section-3, .section-6
+        p
+            color: $bright-blue
+    //El que ahorra más, vive mejor
+    .title
+        padding: 0
+        img
+            margin: 0
+            padding: 0
+    .section-1 // Octubre, mundialmente, es el mes de la lucha contra el cáncer de mama, y tiene
+        ul
+            li
+                display: flex
+                img
+                    align-self: center
+                    height: auto
+                    max-width: none
+                    vertical-align: initial
+                &.coin
+                    display: list-item
+                    img
+                        clear: both
+                        display: block
+                        height: 51px
+        @media only screen and ( max-width: em( 568, 16 ) )
+            ul
+                li
+                    img
+                        float: none
+    .section-2 // Resultado que deja un cero porciento para el ahorro.
+    .section-3 // El hábito de ahorrar beneficia en varios aspectos, como:
+    .section-4 // Beneficios del hábito de ahorrar.
+        img
+            float: none
+    .section-5 // Recomendaciones con viento
+        img
+            float: none
+        ul
+            li
+                p
+                    float: none
+                    margin: 0 auto
+            &:first-child
+                li
+            &:last-child
+                float: none
+    .section-6 // Sin embargo, no siempre es fácil saber cuál es la cantidad ideal para ahorrar…
+        p
+            float: none !important
+    .section-7 // Recomendaciones para distintas etápas de vida
+        img
+            float: none
+        ul
+            li
+                display: flex
+                flex-flow: row nowrap
+                float: left
+                height: 103px
+                &:nth-child( 4 ), &:nth-child( 5 )
+                    img
+                        margin: 0 0 0 35px
+                img, p
+                    align-self: center
+                    float: left
+                p
+                    text-align: left
+        @media only screen and ( max-width: em( 568, 16 ) )
+            ul
+                li
+                    img
+                        margin: 0 !important
+    .section-8 // También puedes
+        img
+            float: none
+    .section-9 // Continuación de recomendaciones para distintas etápas de vida
+        img
+            float: none
+        ul
+            li
+                p
+                    float: none
+                    margin: 0 auto
+            &:first-child
+                li
+            &:last-child
+                float: none
+    .foot-notes
+        p
+            @include font-mask( normal, em( 13, 16 ), 1em, $helvetica, $text-gray )
+            float: none

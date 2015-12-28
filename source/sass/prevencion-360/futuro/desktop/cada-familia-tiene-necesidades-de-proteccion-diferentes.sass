@@ -1,0 +1,409 @@
+#future_december_2013
+    p, span, td, div, h1, h2, h3, h4, h5, h6, ul li, ol li
+        font-family: $helvetica
+        line-height: 1.2em
+    p, span, h1, h2, h3, h4, h5, h6
+        margin: 1em auto
+    .body_title
+        color: #FFF
+        font-family: $helvetica
+        font-size: em( 24, 16 )
+        font-weight: bold
+        height: em( 33.03, 24 )
+        line-height: em( 33, 24 )
+        margin: em( 16, 24 ) 0 em( 19, 24 ) em( 30, 24 )
+        padding: 0 0 0 em( 10, 24 )
+        width: em( 870, 24 )
+    .body_text
+        color: #575758
+        font-family: $helvetica
+        font-size: em( 17, 16 )
+        font-weight: normal
+        line-height: em( 17, 17 )
+    .rounded-squares
+        background: #004263 !important
+        border-radius: 10px
+        height: auto !important
+        width: auto !important
+    .section
+        #each_family_has_different_needs_of_protection
+            .center_content
+                padding: 0 0 em( 25, 16 )
+                h1
+                    @extend .body_title
+                    background: $light_blue_december_2013
+                    margin-bottom: em( 27, 24 )
+                    img
+                        background: #FFF
+                        float: right
+                .map_with_data
+                    position: relative
+                    p
+                        @include font-mask( normal, em( 23, 16 ), 1.2em, $helvetica, $grey_text )
+                        margin: 0
+                        padding: 0
+                        position: absolute
+                        span
+                            color: $light_blue_december_2013
+                            font-weight: bold
+                    #raw_data
+                        @include font-mask( normal, em( 23, 16 ), 1.2em, $helvetica, $grey_text )
+                        left: em( 30, 23 )
+                        line-height: em( 27, 23 )
+                        top: em( 188, 23 )
+                        .medium
+                            font-size: em( 25, 23 )
+                        .big
+                            font-size: em( 30.8, 23 )
+                        .small
+                            font-size: em( 23, 23 )
+                    img
+                        display: block
+                        margin: 0 auto
+                        position: relative
+                    #inegi_data
+                        @extend .body_text
+                        line-height: em( 23.5, 17 )
+                        right: em( -20, 17 )
+                        top: em( 48, 17 )
+                        .big
+                            font-size: em( 33, 17 )
+                        .medium
+                            font-size: em( 28, 17 )
+        #traditional_family_situation_in_mexico
+            background: #EDEDEF
+            .center_content
+                @extend .clearfix
+                padding: 0 0 em( 41, 16 )
+                position: relative
+                h2
+                    @extend .body_title
+                    color: $light_blue_december_2013
+                    display: block
+                    font-size: em( 38, 16 )
+                    height: 34px
+                    line-height: em( 38, 38 )
+                    margin: 0
+                    padding: em( 44, 38 ) 0 em( 47, 38 )
+                    text-align: center
+                    width: 100%
+                p
+                    color: $grey_text
+                    font-size: em( 23, 16 )
+                    margin: 0
+                    padding: 0
+                    position: absolute
+                    span
+                        color: #034163
+                        font-weight: bold
+                #home_size
+                    left: em( -10, 23 )
+                    line-height: em( 26, 23 )
+                    top: em( 194, 23 )
+                    span
+                        font-size: em( 28, 23 )
+                img
+                    display: block
+                    margin: 0 auto
+                    position: relative
+                    top: 0
+                #percentaje_of_men
+                    line-height: em( 23, 23 )
+                    right: em( -10, 23 )
+                    top: em( 170, 23 )
+                    span
+                        font-size: em( 52, 23 )
+                .men_average_age
+                    display:block
+                    clear: both
+                    line-height: em( 32, 23 )
+                    margin: 0 auto
+                    padding: 0 0 em( 30, 23 )
+                    position: relative
+                    text-align: center
+                    span
+                        font-size: em( 30, 23 )
+        #poll_data
+            .center_content
+                @extend .clearfix
+                padding: em( 35, 16 ) 0 em( 35, 16 )
+                p
+                    color: #034163
+                    float: left
+                    font-family: $helvetica
+                    font-size: em( 25, 16 )
+                    font-weight: bold
+                    line-height: em( 27, 25 )
+                    span
+                        color: $light_blue_december_2013
+                        font-size: em( 33, 25 )
+                ul
+                    float: right
+                    margin: 0
+                    padding: em( 5, 16 ) em( 72, 16 ) 0 0
+                    width: em( 438, 16 )
+                    li
+                        background: url("https://axa.mx/documents/2491895/2669513/flecha_futuro.png") no-repeat scroll left center transparent
+                        clear: both
+                        display: inline-block
+                        height: 33%
+                        list-style: none outside
+                        margin: 0
+                        padding: 0 0 0 em( 25, 16 )
+                        position: relative
+                        top: 0
+                        width: 100%
+                        p
+                            color: $light_blue_december_2013
+                            display: block
+                            font-size: em( 41.61, 16 )
+                            font-weight: bold
+                            line-height: em( 30, 41.61 )
+                            margin: 0
+                            padding: 0
+                        img
+                            float: right
+                            margin: 0
+                            padding: 0 0 0 em( 10, 41 )
+                        span
+                            color: $light_blue_december_2013
+                            clear: both
+                            display: inline-block
+                            font-size: em( 24, 16 )
+                    #health
+                        p
+                            line-height: em( 30, 41.61 )
+                            margin: 0
+                            padding: 0
+                        img
+                            padding: 0 em( 70, 16 ) 0 0
+                    #job
+                        display: flex
+                        flex-flow: row nowrap
+                        top: em( -5, 16 )
+                        p
+                            line-height: em( 64, 41.61 )
+                            margin: 0
+                            padding: 0
+                        img
+                            height: 62px
+                            width: 64px
+                    #save
+                        background-position: 0 em( 8, 16 )
+                        display: flex
+                        flex-flow: column nowrap
+                        top: em( -2, 16 )
+                        p
+                            line-height: em( 30, 41.61 )
+                            margin: 0
+                            padding: 0
+                            width: 240px
+                        img
+                            align-self: center
+                            height: 42px
+                            padding: 0px
+                            width: 53px
+        #without_prevention_and_insurance
+            background: #FFD008
+            height: em( 115, 16 )
+            .center_content
+                height: em( 100, 16 )
+                margin: 0 auto
+                padding: em( 15, 16 ) 0 0 em( 41, 16 )
+                width: em( 919, 16 )
+                p
+                    @extend .body_title
+                    height: auto
+                    margin: 0 auto
+                    line-height: em( 28, 24 )
+                    padding: 0
+                    span
+                        color: #034163
+                        font-family: em( 25, 24 )
+        #affectations_by_death
+            .center_content
+                padding: em( 45, 16 ) 0 em( 12, 16 )
+                img
+                    float: left
+                    margin: 0
+                    padding: 0 em( 22, 16 ) 0 0
+                p
+                    @extend .body_text
+                    display: inline-block
+                    float: left
+                    font-size: em( 16, 16 )
+                    line-height: em( 18, 16 )
+                    margin: 0
+                    padding: 0 0 em( 14, 16 )
+                    width: em( 530, 16 )
+                .factors
+                    color: #034163
+                    font-size: em( 25, 16 )
+                    font-weight: bold
+                    line-height: em( 30, 25 )
+                    padding: 0
+                    width: em( 530, 25 )
+                .explication
+                    color: $light_blue_december_2013
+                    font-size: em( 18, 16 )
+                    line-height: em( 22, 18 )
+                    padding: 0 0 em( 19, 18 )
+                    width: em( 530, 18 )
+        #ear_about_a_life_protection_plan
+            .center_content
+                background: url("https://axa.mx/documents/2491895/2669513/globo_futuro.png") no-repeat scroll center center transparent
+                h3
+                    color: $light_blue_december_2013
+                    display: block
+                    font-size: em( 35.44, 16 )
+                    line-height: em( 39, 35.44 )
+                    margin: 0 auto
+                    padding: em( 75, 35.44 ) 0 em( 92, 35.44 )
+                    text-align: center
+                    span
+                        color: #034163
+                        font-size: em( 59, 35.44 )
+        #economic_support
+            background: #EDEDEF
+            .center_content
+                background: none
+                padding: 0 0 em( 40, 16 )
+                position: relative
+                width: em( 1008, 16 )
+                h4
+                    color: #034163
+                    display: block
+                    font-family: $helvetica
+                    font-size: em( 31, 16 )
+                    font-weight: bold
+                    line-height: em( 34, 31 )
+                    margin: 0
+                    padding: em( 15, 31 ) 0 em( 20, 31 )
+                    text-align: center
+                ul
+                    @extend .clearfix
+                    display: flex
+                    flex-flow: row nowrap
+                    margin: 0
+                    padding: 0
+                    width: em( 1008, 16 )
+                    li
+                        background: url("https://axa.mx/documents/2491895/2669513/cuadro_futuro.png") no-repeat scroll 0 0 transparent
+                        float: left
+                        list-style: none inside
+                        height: em( 180, 16 )
+                        margin: 0 em( 8, 16 )
+                        padding: em( 10, 16 )
+                        width: em( 300, 16 )
+                        p
+                            @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, #FFF)
+                            margin: 0
+                            padding: 0
+                            width: em( 300, 22 )
+                            span
+                                color: #FFD008
+                                font-weight: bold
+                        .high
+                            color: #FFD008
+                            font-size: em( 29.71, 16 )
+                            font-weight: bold
+                            line-height: em( 30, 29.71 )
+                            margin: em( 25, 29.71 ) 0 0
+                            text-align: center
+                            width: em( 300, 29.71 )
+        #axa_protection_plan_description
+            .center_content
+                padding: em( 36, 16 ) 0 0
+                p
+                    @extend .body_text
+                    color: $grey_text
+                    font-size: em( 18, 16 )
+                    line-height: em( 22, 18 )
+                    margin: 0
+                    padding: 0 0 em( 25, 18 )
+                    text-align: center
+                .choose_in_base_off_your_needs
+                    clear: both
+                    color: #034163
+                    display: block
+                    font-family: $helvetica
+                    font-size: em( 34, 16 )
+                    font-weight: bold
+                    line-height: em( 34, 34 )
+                    margin: 0
+                    padding: em( 5, 34 ) 0 0
+                div
+                    @extend .clearfix
+                    background: url("https://axa.mx/documents/2491895/2669513/tumanera_futuro.png") no-repeat scroll center center transparent
+                    margin: em( 13, 16 ) 0 em( 45, 16 )
+                    padding: 0
+                    position: relative
+                    h4
+                        @extend .body_title
+                        color: #FFF
+                        display: inline-block
+                        float: left
+                        font-family: $helvetica
+                        font-size: em( 46, 16 )
+                        font-weight: bold
+                        left: em( 405, 46 )
+                        line-height: em( 39, 46 )
+                        margin: 0
+                        padding: 0
+                        position: absolute
+                        text-align: center
+                        top: em( 140, 46 )
+                        width: auto
+                        z-index: 5
+                    p
+                        color: $light_blue_december_2013
+                        font-family: $helvetica
+                        font-size: em( 19, 16 )
+                        font-weight: normal
+                        line-height: em( 18, 19 )
+                        margin: 0
+                        padding: 0
+                        position: relative
+                    #twelve, #six
+                        display: block
+                        clear: both
+                        margin: 0 auto
+                        padding: 0
+                        position: relative
+                        text-align: center
+                    #two, #ten,
+                    #four, #eight
+                        display: inline-block
+                        width: 50%
+                    #eight, #ten
+                        float: left
+                        text-align: left
+                    #two, #four
+                        float: left
+                        text-align: right
+                    #twelve
+                        padding: 0 0 em( 52, 19 )
+                    #eight
+                        padding: em( 3, 19 ) 0 0 em( 73, 19 )
+                        width: em( 407, 19 )
+                    #two
+                        padding: 0 em( 123, 19 ) em( 60, 19 ) 0
+                        width: em( 357, 19 )
+                    #ten
+                        padding: em( 10, 19 ) 0 0 em( 85, 19 )
+                        width: em( 395, 19 )
+                    #four
+                        padding: 0 em( 113, 19 ) em( 60, 19 ) 0
+                        width: em( 367, 19 )
+                    #six
+                .foot_note
+                    color: $grey_text
+                    font-family: $helvetica
+                    font-size: em( 11, 16 )
+                    line-height: em( 11, 11 )
+                    margin: 0
+                    padding: 0
+                    text-align: right
+                    sup
+    footer
+        margin: em( 20, 16 ) auto em( 20, 16 )

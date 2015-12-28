@@ -1,0 +1,136 @@
+.corazon-roto
+    p, span, h1, h2, h3, h4, h5, h6,
+        word-break: normal
+    .title, .description
+        background-color: $green-bright
+    .title
+        .central, .central-prevencion
+            padding-top: 1em 11em
+            h1
+                @include font-mask( bold, em( 48, 16 ), 1.2em, $helvetica, $navy-blue )
+                display: inline-block
+                float: left
+                margin: 1em auto 0
+                width: auto
+            img
+                float: right
+                margin: 1em auto 0
+    .description
+        .central, .central-prevencion
+            h2
+                @include font-mask( normal, em( 26, 16 ), 1.2em, $helvetica, $navy-blue )
+    .causes
+        .central, .central-prevencion
+            ul.bit-1
+                li
+                    float: left
+                    list-style: none inside
+                    img
+                    p.bit-1
+                        @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, $heart-red )
+                        text-align: center
+    .explanation
+        .central, .central-prevencion
+            p
+                @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, $dark-grey )
+                margin: 0.5em auto 0
+    .illnes
+        .central, .central-prevencion
+            p
+                @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, $navy-blue )
+                float: left
+                margin: 0.5em auto 0
+            img
+                float: right
+    .recommendations
+        background-color: $papyrus-2
+        .clearfix
+            p
+                @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, $navy-blue )
+                margin: 0.5em auto
+            ul.bit-1
+                margin: 0.5em auto
+                li
+                    list-style: none inside
+                    img
+                    p
+                        @include font-mask( normal, em( 16, 16 ), 1.2em, $helvetica, $dark-grey )
+                        text-align: center
+    .your-life-depends
+        p
+            @include font-mask( bold, em( 30, 16 ), 1.2em, $helvetica, $axa-blue-color )
+            margin: 0.5em auto
+    .footnotes
+        p
+            @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, $axa-blue-color )
+            margin: 0.5em auto
+            sup
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 ))
+
+/* ==========================================================================
+   iPhone 6 Plus Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+    .corazon-roto
+        p
+            font-size: em( 13, 16.4 ) !important
+            text-align: left !important
+        .title
+            .central, .central-prevencion
+                h1
+                    font-size: em( 30, 16.4 ) !important
+                    text-align: left !important
+        .description
+            h2
+                font-size: em( 14, 16.4 ) !important
+                text-align: left !important
+        .explanation
+            .central, .central-prevencion
+                p
+        .causes
+            .central, .central-prevencion
+                ul
+                    margin: 0 auto
+                p
+                    text-align: center !important
+        .illnes
+            .central, .central-prevencion
+                p
+                img
+                    float: none
+        .recommendations
+            .clearfix
+                p
+                ul.bit-1
+                    li
+                        p
+                            float: none
+        .your-life-depends
+            p
+        .footnotes
+            p
+                sup

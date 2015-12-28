@@ -1,0 +1,1814 @@
+/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
+/* ==========================================================================
+ * HTML5 display definitions
+ * ========================================================================== */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * Correct `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 7/8/9, Firefox 3, and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+ * Base
+ * ========================================================================== */
+/**
+ * 1. Correct text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Address `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/**
+ * Address margins handled incorrectly in IE 6/7.
+ */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+ * Links
+ * ========================================================================== */
+/**
+ * Address `outline` inconsistency between Chrome and other browsers.
+ */
+a:focus {
+  outline: thin dotted; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+ * Typography
+ * ========================================================================== */
+/**
+ * Address font sizes and margins set differently in IE 6/7.
+ * Address font sizes within `section` and `article` in Firefox 4+, Safari 5,
+ * and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.83em 0; }
+
+h3 {
+  font-size: 1.17em;
+  margin: 1em 0; }
+
+h4 {
+  font-size: 1em;
+  margin: 1.33em 0; }
+
+h5 {
+  font-size: 0.83em;
+  margin: 1.67em 0; }
+
+h6 {
+  font-size: 0.67em;
+  margin: 2.33em 0; }
+
+/**
+ * Address styling not present in IE 7/8/9, Safari 5, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+blockquote {
+  margin: 1em 40px; }
+
+/**
+ * Address styling not present in Safari 5 and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ * Known issue: no IE 6/7 normalization.
+ */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Address styling not present in IE 6/7/8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address margins set differently in IE 6/7.
+ */
+p,
+pre {
+  margin: 1em 0; }
+
+/**
+ * Correct font family set oddly in IE 6, Safari 4/5, and Chrome.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  _font-family: "courier new", monospace;
+  font-size: 1em; }
+
+/**
+ * Improve readability of pre-formatted text in all browsers.
+ */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/**
+ * Address CSS quotes not supported in IE 6/7.
+ */
+q {
+  quotes: none; }
+
+/**
+ * Address `quotes` property not supported in Safari 4.
+ */
+q:before,
+q:after {
+  content: "";
+  content: none; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+ * Lists
+ * ========================================================================== */
+/**
+ * Address margins set differently in IE 6/7.
+ */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0; }
+
+dd {
+  margin: 0 0 0 40px; }
+
+/**
+ * Address paddings set differently in IE 6/7.
+ */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px; }
+
+/**
+ * Correct list images handled incorrectly in IE 7.
+ */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none; }
+
+/* ==========================================================================
+ * Embedded content
+ * ========================================================================== */
+/**
+ * 1. Remove border when inside `a` element in IE 6/7/8/9 and Firefox 3.
+ * 2. Improve image quality when scaled in IE 7.
+ */
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic; }
+
+/**
+ * Correct overflow displayed oddly in IE 9.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+ * Figures
+ * ========================================================================== */
+/**
+ * Address margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+ * Forms
+ * ========================================================================== */
+/**
+ * Correct margin displayed oddly in IE 6/7.
+ */
+form {
+  margin: 0; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct color not being inherited in IE 6/7/8/9.
+ * 2. Correct text not wrapping in Firefox 3.
+ * 3. Correct alignment displayed oddly in IE 6/7.
+ */
+legend {
+  border: 0;
+  padding: 0;
+  white-space: normal;
+  *margin-left: -7px; }
+
+/**
+ * 1. Correct font size not being inherited in all browsers.
+ * 2. Address margins set differently in IE 6/7, Firefox 3+, Safari 5,
+ *    and Chrome.
+ * 3. Improve appearance and consistency in all browsers.
+ */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle; }
+
+/**
+ * Address Firefox 3+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+button,
+input {
+  line-height: normal; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Chrome, Safari 5+, and IE 6+.
+ * Correct `select` style inheritance in Firefox 4+ and Opera.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ * 4. Remove inner spacing in IE 7 without affecting normal text inputs.
+ *    Known issue: inner spacing remains in IE 6.
+ */
+/*button, html input[type="button"], /* 1 */ input[type="reset"], input[type="submit"]
+ * -webkit-appearance: button /* 2 */
+ * cursor: pointer /* 3 */
+ *overflow: visible  /* 4 */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  *overflow: visible; }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * 1. Address box sizing set to content-box in IE 8/9.
+ * 2. Remove excess padding in IE 8/9.
+ * 3. Remove excess padding in IE 7.
+ *    Known issue: excess padding remains in IE 6.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+  *height: 13px;
+  *width: 13px; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Remove inner padding and border in Firefox 3+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * 1. Remove default vertical scrollbar in IE 6/7/8/9.
+ * 2. Improve readability and alignment in all browsers.
+ */
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+/* ==========================================================================
+ * Tables
+ * ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html,
+button,
+input,
+select,
+textarea {
+  color: #222; }
+
+html {
+  font-size: 1em;
+  line-height: 1.4; }
+
+/* Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/* A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/* Remove the gap between images, videos, audio and canvas and the bottom of
+ * their containers: h5bp.com/i/440
+ */
+audio,
+canvas,
+img,
+video {
+  vertical-align: middle; }
+
+/* Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/* Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+ * Browse Happy prompt
+ * ========================================================================== */
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+/* What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+ *   Base styles: opinionated defaults
+ *   ========================================================================== */
+/* Lemonade v1.1
+ * Copyright 2013, Joe Richardson
+ * lemonade.im
+ * Free to use under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ */
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* Set the width of the grid */
+.frame {
+  margin: 0 auto; }
+
+/* Clearfix */
+.frame:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* Attribute selector */
+[class*='bit-'] {
+  float: left;
+  padding: 0.5em; }
+
+/* Floats last ".bit-" to the right */
+[class*='bit-']:last-of-type {
+  float: right; }
+
+/* Main Widths */
+.bit-1 {
+  width: 100%; }
+
+.bit-2 {
+  width: 50%; }
+
+.bit-3 {
+  width: 33.33%; }
+
+.bit-4 {
+  width: 25%; }
+
+.bit-5 {
+  width: 20%; }
+
+.bit-6 {
+  width: 16.6666666667%; }
+
+.bit-666 {
+  width: 66.66%; }
+
+.bit-7 {
+  width: 14.2857142857%; }
+
+.bit-8 {
+  width: 12.5%; }
+
+.bit-9 {
+  width: 11.1111111111%; }
+
+.bit-10 {
+  width: 10%; }
+
+.bit-11 {
+  width: 9.0909090909%; }
+
+.bit-12 {
+  width: 8.33%; }
+
+.bit-90 {
+  width: 90%; }
+
+.bit-80 {
+  width: 80%; }
+
+.bit-70 {
+  width: 70%; }
+
+.bit-60 {
+  width: 60%; }
+
+.bit-40 {
+  width: 40%; }
+
+.bit-30 {
+  width: 30%; }
+
+.bit-20 {
+  width: 20%; }
+
+.bit-10-1 {
+  width: 10%; }
+
+/* Landscape mobile & down */
+@media (max-width: 30em) {
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-4,
+  .bit-5,
+  .bit-6,
+  .bit-666,
+  .bit-7,
+  .bit-8,
+  .bit-9,
+  .bit-10,
+  .bit-11,
+  .bit-12,
+  .bit-20,
+  .bit-30,
+  .bit-40,
+  .bit-60,
+  .bit-70,
+  .bit-80 {
+    width: 100%; }
+
+  .bit-90 {
+    width: 80%; }
+
+  .bit-10-1 {
+    width: 20%; } }
+/* Portrait tablet to landscape */
+@media (min-width: 30em) and (max-width: 50em) {
+  .bit-4,
+  .bit-6,
+  .bit-666,
+  .bit-8,
+  .bit-10,
+  .bit-12,
+  .bit-60,
+  .bit-40 {
+    width: 50%; }
+
+  .bit-1,
+  .bit-2,
+  .bit-3,
+  .bit-5,
+  .bit-7,
+  .bit-9,
+  .bit-11 {
+    width: 100%; }
+
+  .bit-70 {
+    width: 70%; }
+
+  .bit-30 {
+    width: 30%; }
+
+  .bit-80 {
+    width: 80%; }
+
+  .bit-20 {
+    width: 20%; }
+
+  .bit-90 {
+    width: 80%; }
+
+  .bit-10-1 {
+    width: 20%; } }
+/* Landscape to small desktop */
+@media (min-width: 50em) and (max-width: 68.75em) {
+  .bit-2,
+  .bit-7 {
+    width: 100%; }
+
+  .bit-4,
+  .bit-8,
+  .bit-10,
+  .bit-12,
+  .bit-60,
+  .bit-40 {
+    width: 50%; }
+
+  .bit-80 {
+    width: 70%; }
+
+  .bit-20 {
+    width: 30%; }
+
+  .bit-90 {
+    width: 80%; }
+
+  .bit-10-1 {
+    width: 20%; } }
+/* ==========================================================================
+ *   Author's custom styles
+ *   ========================================================================== */
+@font-face {
+  font-family: 'asap-regular';
+  src: url("fonts/asap-regular-webfont.eot");
+  src: url("fonts/asap-regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/asap-regular-webfont.woff") format("woff"), url("fonts/asap-regular-webfont.ttf") format("truetype"), url("fonts/asap-regular-webfont.svg#asap-regular-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'asap-bold';
+  src: url("fonts/asap-bold-webfont.eot");
+  src: url("fonts/asap-bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/asap-bold-webfont.woff") format("woff"), url("fonts/asap-bold-webfont.ttf") format("truetype"), url("fonts/asap-bold-webfont.svg#asap-bold-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'asap-italic';
+  src: url("fonts/asap-italic-webfont.eot");
+  src: url("fonts/asap-italic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/asap-italic-webfont.woff") format("woff"), url("fonts/asap-italic-webfont.ttf") format("truetype"), url("fonts/asap-italic-webfont.svg#asap-italic-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'asap-bolditalic';
+  src: url("fonts/asap-bolditalic-webfont.eot");
+  src: url("fonts/asap-bolditalic-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/asap-bolditalic-webfont.woff") format("woff"), url("fonts/asap-bolditalic-webfont.ttf") format("truetype"), url("fonts/asap-bolditalic-webfont.svg#asap-bolditalic-webfont") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+body, html {
+  margin: 0;
+  padding: 0; }
+
+img {
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle; }
+
+p, h1, h2,
+h3, h4, h5,
+h6, ul li,
+ol li, span, article,
+section, main, figure,
+figcaption, tr, td, div {
+  font-family: Helvetica, Arial, "sans-serif";
+  word-break: normal; }
+
+#content {
+  background: url("https://axa.mx/documents/2491895/2492608/esquina_Azul.png") no-repeat scroll right top #F2F2F2; }
+  #content .prevencion h1 img {
+    display: block;
+    margin: 0 auto; }
+
+.frame {
+  display: block;
+  float: none !important;
+  margin: 0 auto;
+  max-width: 960px !important; }
+
+hr.rule-information {
+  background-color: transparent;
+  border: 0 none transparent;
+  border-top: 3px dotted #1385C7;
+  box-sizing: border-box;
+  margin: 1em auto;
+  padding: 0; }
+
+.lefted {
+  float: left !important; }
+
+.righted {
+  float: right !important; }
+
+.blue-bg {
+  background-color: #103084; }
+  .blue-bg p, .blue-bg h1, .blue-bg h2, .blue-bg h3, .blue-bg h4, .blue-bg h5, .blue-bg h6 {
+    color: #FFF !important; }
+
+.wrapper, .wrapper-prevencion {
+  box-sizing: border-box;
+  clear: both;
+  display: block;
+  padding: 0.5em 0 !important;
+  width: 100%; }
+
+.central, .central-prevencion {
+  display: block;
+  float: none !important;
+  margin: 0 auto;
+  max-width: 960px !important;
+  padding: 0 0.5em;
+  width: 93.75%; }
+
+.white {
+  background-color: #FFF; }
+
+.centered {
+  display: block;
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center; }
+
+.desktop {
+  display: block; }
+
+.mobile {
+  display: none; }
+
+@media (min-width: 20em) and (max-width: 50em) {
+  .central, .central-prevencion {
+    display: block !important; }
+
+  .desktop {
+    display: none; }
+
+  .mobile {
+    display: block; } }
+#home_march_2014 section {
+  height: 33.0625em; }
+  #home_march_2014 section #principal_content .center_content {
+    margin: 0 auto;
+    position: relative; }
+    #home_march_2014 section #principal_content .center_content .principal_article {
+      float: left;
+      height: 225px;
+      margin: 0;
+      padding: 0.625em 0 0;
+      width: 43.75em; }
+      #home_march_2014 section #principal_content .center_content .principal_article h1 {
+        background: #32B2CB; }
+      #home_march_2014 section #principal_content .center_content .principal_article img {
+        float: right;
+        margin: 0;
+        padding: 0 3.125em 0 0; }
+      #home_march_2014 section #principal_content .center_content .principal_article p {
+        color: #6F7070;
+        font-size: 0.8125em;
+        margin: 0;
+        padding: 0 0 0 1.5384615385em;
+        width: 25em; }
+      #home_march_2014 section #principal_content .center_content .principal_article a {
+        color: #27367E;
+        float: right;
+        font-size: 0.75em;
+        margin: 0;
+        padding: 1.4285714286em 4.5714285714em 0 0; }
+      #home_march_2014 section #principal_content .center_content .principal_article #aumento > p {
+        color: #129ac8;
+        background-color: #fff;
+        font-size: 26px;
+        background: transparent; }
+      #home_march_2014 section #principal_content .center_content .principal_article #aumento #pesos {
+        color: #0d395b;
+        height: 100px;
+        background-color: #fff;
+        font-size: 44px;
+        font-weight: bold;
+        margin: -30px 100px 0 0;
+        padding-bottom: 0px;
+        background: transparent;
+        position: absolute;
+        bottom: -2px;
+        width: 375px;
+        line-height: 1.05em; }
+      #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer {
+        display: inline-block;
+        margin-top: -40;
+        margin-left: 575px; }
+        #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer a {
+          font-size: 12px;
+          color: #00519a; }
+    #home_march_2014 section #principal_content .center_content .form fieldset p {
+      text-align: center;
+      width: 230px; }
+    #home_march_2014 section #principal_content .center_content .form fieldset #first_question > div {
+      margin: 3px auto;
+      padding: 0;
+      width: 220px; }
+      #home_march_2014 section #principal_content .center_content .form fieldset #first_question > div input[type="text"] {
+        float: right;
+        font-size: 12px;
+        height: 10px;
+        width: 10px; }
+      #home_march_2014 section #principal_content .center_content .form fieldset #first_question > div input[type="button"] {
+        float: none; }
+  #home_march_2014 section #secondary_articles .secondary_article h2 {
+    font-size: 0.875em;
+    padding: 0.3571428571em; }
+  #home_march_2014 section #secondary_articles .secondary_article p {
+    color: #17385A;
+    font-size: 19px; }
+  #home_march_2014 section #secondary_articles .secondary_article img {
+    float: right; }
+  #home_march_2014 section #secondary_articles .woman h2 {
+    background-color: #17385A;
+    font-size: 1em; }
+  #home_march_2014 section #secondary_articles .woman > div {
+    padding-top: 1em;
+    padding-left: 1em; }
+    #home_march_2014 section #secondary_articles .woman > div p span {
+      color: #FAD222;
+      font-weight: bold; }
+    #home_march_2014 section #secondary_articles .woman > div img {
+      position: relative;
+      top: -1em; }
+  #home_march_2014 section #secondary_articles .health_2014 h2 {
+    background-color: #4CB0C7;
+    font-size: 0.9375em; }
+  #home_march_2014 section #secondary_articles .health_2014 p {
+    clear: both; }
+    #home_march_2014 section #secondary_articles .health_2014 p span {
+      color: #C7065E;
+      font-weight: bold; }
+  #home_march_2014 section #secondary_articles .health_2014 img {
+    position: absolute;
+    top: 100px;
+    right: 0; }
+  #home_march_2014 section #secondary_articles .robbery {
+    padding-right: 1.875em;
+    position: relative; }
+    #home_march_2014 section #secondary_articles .robbery h2 {
+      background-color: #1F4E99;
+      text-align: center; }
+    #home_march_2014 section #secondary_articles .robbery p span {
+      color: #5199C7;
+      font-weight: bold; }
+    #home_march_2014 section #secondary_articles .robbery img {
+      position: absolute;
+      top: 7.8125em;
+      right: 0.625em; }
+    #home_march_2014 section #secondary_articles .robbery a {
+      right: 1.875em; }
+#home_march_2014 .little_preview {
+  height: auto; }
+  #home_march_2014 .little_preview article {
+    position: relative; }
+    #home_march_2014 .little_preview article > a {
+      color: #FFF;
+      font-size: 10px;
+      text-align: center;
+      position: absolute; }
+  #home_march_2014 .little_preview .first_article {
+    background: url("../../../Code/Marzo/img/Landing/banner01_landing.jpg") no-repeat scroll center center transparent; }
+    #home_march_2014 .little_preview .first_article a {
+      bottom: 20px; }
+  #home_march_2014 .little_preview .second_article {
+    background: url("../../../Code/Marzo/img/Landing/banner02_landing.jpg") no-repeat scroll center center transparent; }
+    #home_march_2014 .little_preview .second_article a {
+      bottom: 33px;
+      right: 60px; }
+  #home_march_2014 .little_preview .third_article {
+    background: url("../../../Code/Marzo/img/Landing/banner03_landing.jpg") no-repeat scroll center center transparent; }
+    #home_march_2014 .little_preview .third_article a {
+      bottom: 33px;
+      right: 38px;
+      width: 78px; }
+
+#auto_march_2014 section article {
+  margin: 0 auto;
+  padding: 0 0 3.125em;
+  width: 1023px; }
+  #auto_march_2014 section article #bloque1 #derecha {
+    padding: 100px 0 0 30px; }
+  #auto_march_2014 section article table tbody tr td .balanza li {
+    text-align: left; }
+
+#health_march_2014 #protectorMarzo #pagar {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 1024px; }
+
+#report_march_2014 footer {
+  margin: 40px auto 0; }
+
+#anniversary_march_2014 em {
+  color: red;
+  font-style: normal; }
+
+.prevencion h1 {
+  font-size: 50px;
+  color: #0D395B;
+  text-align: center;
+  font-weight: bold; }
+
+#future_march_2014 {
+  background-color: #fff; }
+  #future_march_2014 p {
+    font: 16px/1.2em normal Arial, Helvetica, sans-serif; }
+  #future_march_2014 #h2 {
+    font-size: 24px;
+    color: #7DAED3;
+    text-align: left; }
+  #future_march_2014 .independent-women {
+    height: auto; }
+    #future_march_2014 .independent-women p {
+      color: #54534A;
+      font-size: 1.0625em;
+      text-align: left; }
+  #future_march_2014 .woman-figure {
+    float: left;
+    margin: 0 0 0 30px; }
+  #future_march_2014 .population-active {
+    float: left; }
+  #future_march_2014 .hr-separator {
+    border-top: 1px dashed #00659b;
+    height: 8px;
+    margin: 0 0 5px;
+    width: 543px; }
+  #future_march_2014 .working-women {
+    background: #EDEDEF;
+    height: 188px;
+    margin: auto;
+    text-align: center;
+    width: 100%; }
+  #future_march_2014 .reduce-distances {
+    box-sizing: border-box;
+    margin: 120px auto 0;
+    padding: 40px 0 0;
+    width: 900px; }
+    #future_march_2014 .reduce-distances p {
+      color: #0d395b;
+      font-weight: bold;
+      text-align: center; }
+  #future_march_2014 .wage-gap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    #future_march_2014 .wage-gap img {
+      float: left;
+      margin: 0 10px !important;
+      max-width: none; }
+      #future_march_2014 .wage-gap img:first-child {
+        margin-left: 0; }
+      #future_march_2014 .wage-gap img:last-child {
+        margin-right: 0; }
+  #future_march_2014 .landscape-of-oportunities {
+    background: #EDEDEF;
+    height: 470px;
+    margin: auto; }
+    #future_march_2014 .landscape-of-oportunities img {
+      display: block;
+      margin: 0.5em auto; }
+    #future_march_2014 .landscape-of-oportunities p {
+      box-sizing: border-box;
+      color: #0d395b;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 0 10px;
+      text-align: center; }
+  #future_march_2014 .academic-formation {
+    background: #0D395B;
+    border-radius: 15px;
+    height: 363px;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    width: 900px; }
+    #future_march_2014 .academic-formation p {
+      color: #fff;
+      display: block;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.7073170732em;
+      line-height: 1.2em;
+      margin: 0.5em auto;
+      text-align: center; }
+    #future_march_2014 .academic-formation .academic-formation-percentage {
+      display: block;
+      margin: 0.5em auto; }
+    #future_march_2014 .academic-formation .down-arrow {
+      bottom: -163px;
+      left: 401.5px;
+      position: absolute; }
+  #future_march_2014 #p2 {
+    box-sizing: border-box;
+    color: #0D395B;
+    font-size: 2.125em;
+    line-height: 1.4em;
+    margin: 34px 0;
+    padding: 0; }
+  #future_march_2014 #p4, #future_march_2014 #p5, #future_march_2014 #p6, #future_march_2014 #p7, #future_march_2014 #p8, #future_march_2014 #p9, #future_march_2014 #p12, #future_march_2014 #p13 {
+    text-align: left; }
+  #future_march_2014 #p10 {
+    color: #6A6F75;
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    text-align: center; }
+  #future_march_2014 #p12 a {
+    font-weight: bold; }
+  #future_march_2014 #p15 {
+    color: #7daed3; }
+  #future_march_2014 #p16 {
+    color: #EC1D48; }
+  #future_march_2014 #articulos {
+    background: url("https://www.boletinaxa.com.mx/Code/Marzo/img/Auto Robo/bloc_articulos.png") no-repeat scroll center top transparent;
+    height: 113px;
+    margin: 10px auto 20px;
+    padding: 0;
+    width: 365px; }
+    #future_march_2014 #articulos #rela {
+      color: #fff;
+      font-size: 28px;
+      font-weight: bold;
+      line-height: 44px;
+      margin: 0px;
+      text-align: center; }
+    #future_march_2014 #articulos ul {
+      font-size: 14px;
+      line-height: 1.5em;
+      margin: 0;
+      padding: 10px 0 0 44px;
+      text-align: left;
+      width: 320px; }
+      #future_march_2014 #articulos ul li {
+        margin-right: 18px;
+        color: red; }
+        #future_march_2014 #articulos ul li a {
+          color: #00549b; }
+  #future_march_2014 #seguridad #informacion {
+    width: 100%;
+    height: 100px;
+    background-color: #ededef;
+    padding-top: 1px; }
+    #future_march_2014 #seguridad #informacion #mayor {
+      color: #00549b;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 0px; }
+    #future_march_2014 #seguridad #informacion #llama {
+      color: #cc1d5d;
+      font-size: 30px;
+      font-weight: bold;
+      margin-top: 0px;
+      margin-bottom: 0px; }
+
+.dolor-muscular .title .central, .dolor-muscular .title .central-prevencion {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+  .dolor-muscular .title .central h1, .dolor-muscular .title .central img, .dolor-muscular .title .central-prevencion h1, .dolor-muscular .title .central-prevencion img {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center; }
+  .dolor-muscular .title .central h1, .dolor-muscular .title .central-prevencion h1 {
+    color: #5FAADC;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0;
+    float: left;
+    text-align: left; }
+  .dolor-muscular .title .central img, .dolor-muscular .title .central-prevencion img {
+    right: right; }
+.dolor-muscular .description {
+  background-color: #ECE4C0; }
+  .dolor-muscular .description .central h2, .dolor-muscular .description .central-prevencion h2 {
+    color: #103084;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.875em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 0; }
+.dolor-muscular .myths {
+  background-color: #D7EAF7; }
+  .dolor-muscular .myths .central h3, .dolor-muscular .myths .central-prevencion h3 {
+    color: #103084;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.875em;
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 1em auto 0; }
+  .dolor-muscular .myths .myth-1, .dolor-muscular .myths .myth-2, .dolor-muscular .myths .myth-3, .dolor-muscular .myths .myth-4 {
+    border-bottom: 3px dashed #103084; }
+    .dolor-muscular .myths .myth-1 .bit-60 h4, .dolor-muscular .myths .myth-2 .bit-60 h4, .dolor-muscular .myths .myth-3 .bit-60 h4, .dolor-muscular .myths .myth-4 .bit-60 h4 {
+      color: #565656;
+      font-family: Helvetica, Arial, "sans-serif";
+      font-size: 1.4375em;
+      font-weight: bold;
+      line-height: 1.5em;
+      margin: 1.33em auto 0; }
+    .dolor-muscular .myths .myth-1 .bit-60 p, .dolor-muscular .myths .myth-2 .bit-60 p, .dolor-muscular .myths .myth-3 .bit-60 p, .dolor-muscular .myths .myth-4 .bit-60 p {
+      color: #565656;
+      font-family: Helvetica, Arial, "sans-serif";
+      font-size: 1.125em;
+      font-weight: normal;
+      line-height: 1.5em;
+      text-align: justify; }
+    .dolor-muscular .myths .myth-1 .bit-40, .dolor-muscular .myths .myth-2 .bit-40, .dolor-muscular .myths .myth-3 .bit-40, .dolor-muscular .myths .myth-4 .bit-40 {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: row nowrap;
+          -ms-flex-flow: row nowrap;
+              flex-flow: row nowrap; }
+      .dolor-muscular .myths .myth-1 .bit-40 img, .dolor-muscular .myths .myth-2 .bit-40 img, .dolor-muscular .myths .myth-3 .bit-40 img, .dolor-muscular .myths .myth-4 .bit-40 img {
+        -webkit-align-self: center;
+            -ms-flex-item-align: center;
+                align-self: center; }
+  .dolor-muscular .myths .myth-1 .bit-40 {
+    height: 519px; }
+  .dolor-muscular .myths .myth-2 .bit-40, .dolor-muscular .myths .myth-3 .bit-40 {
+    height: 411px; }
+  .dolor-muscular .myths .myth-4 .bit-40 {
+    height: 539px; }
+  .dolor-muscular .myths .footnotes p {
+    color: #565656;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.125em;
+    font-weight: normal;
+    line-height: 1.5em; }
+
+/* ==========================================================================
+ * iPhone 6 Orientation
+ * ========================================================================== */
+@media only screen and (max-width: 46em) {
+  .dolor-muscular p {
+    font-size: 0.8536585366em !important;
+    text-align: left !important; }
+  .dolor-muscular .title .central h1, .dolor-muscular .title .central-prevencion h1 {
+    font-size: 1.1585365854em; }
+  .dolor-muscular .description .central h2, .dolor-muscular .description .central-prevencion h2 {
+    font-size: 0.9146341463em !important; }
+  .dolor-muscular .myths .central h3, .dolor-muscular .myths .central-prevencion h3 {
+    font-size: 0.9146341463em; }
+  .dolor-muscular .myths .myth-1 h4, .dolor-muscular .myths .myth-2 h4, .dolor-muscular .myths .myth-3 h4, .dolor-muscular .myths .myth-4 h4 {
+    font-size: 0.8536585366em !important;
+    text-align: left !important; }
+  .dolor-muscular .myths .myth-1 p, .dolor-muscular .myths .myth-2 p, .dolor-muscular .myths .myth-3 p, .dolor-muscular .myths .myth-4 p {
+    font-size: 0.9285714286em !important; }
+  .dolor-muscular .myths .myth-1 .bit-40, .dolor-muscular .myths .myth-2 .bit-40, .dolor-muscular .myths .myth-3 .bit-40, .dolor-muscular .myths .myth-4 .bit-40 {
+    height: auto; }
+  .dolor-muscular .myths .footnotes p {
+    font-size: 0.7857142857em; } }
+/* ==========================================================================
+ * iPhone 6 Plus Landscape Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 5/5S Landscape Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 5/5S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 3GS/4/4S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 3GS/4/4S Portrait Orientation
+ * ========================================================================== */
+.corazon-roto p, .corazon-roto span, .corazon-roto h1, .corazon-roto h2, .corazon-roto h3, .corazon-roto h4, .corazon-roto h5, .corazon-roto h6 {
+  word-break: normal; }
+.corazon-roto .title, .corazon-roto .description {
+  background-color: #13F65C; }
+.corazon-roto .title .central, .corazon-roto .title .central-prevencion {
+  padding-top: 1em 11em; }
+  .corazon-roto .title .central h1, .corazon-roto .title .central-prevencion h1 {
+    color: #4626C7;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 1.2em;
+    display: inline-block;
+    float: left;
+    margin: 1em auto 0;
+    width: auto; }
+  .corazon-roto .title .central img, .corazon-roto .title .central-prevencion img {
+    float: right;
+    margin: 1em auto 0; }
+.corazon-roto .description .central h2, .corazon-roto .description .central-prevencion h2 {
+  color: #4626C7;
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 1.625em;
+  font-weight: normal;
+  line-height: 1.2em; }
+.corazon-roto .causes .central ul.bit-1 li, .corazon-roto .causes .central-prevencion ul.bit-1 li {
+  float: left;
+  list-style: none inside; }
+  .corazon-roto .causes .central ul.bit-1 li p.bit-1, .corazon-roto .causes .central-prevencion ul.bit-1 li p.bit-1 {
+    color: #E9223C;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.375em;
+    font-weight: normal;
+    line-height: 1.2em;
+    text-align: center; }
+.corazon-roto .explanation .central p, .corazon-roto .explanation .central-prevencion p {
+  color: #565656;
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 1.375em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0.5em auto 0; }
+.corazon-roto .illnes .central p, .corazon-roto .illnes .central-prevencion p {
+  color: #4626C7;
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 1.375em;
+  font-weight: normal;
+  line-height: 1.2em;
+  float: left;
+  margin: 0.5em auto 0; }
+.corazon-roto .illnes .central img, .corazon-roto .illnes .central-prevencion img {
+  float: right; }
+.corazon-roto .recommendations {
+  background-color: #FAE6BE; }
+  .corazon-roto .recommendations .clearfix p, .corazon-roto .recommendations #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer p, #home_march_2014 section #principal_content .center_content .principal_article #aumento .corazon-roto .recommendations #leer p {
+    color: #4626C7;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.375em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0.5em auto; }
+  .corazon-roto .recommendations .clearfix ul.bit-1, .corazon-roto .recommendations #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer ul.bit-1, #home_march_2014 section #principal_content .center_content .principal_article #aumento .corazon-roto .recommendations #leer ul.bit-1 {
+    margin: 0.5em auto; }
+    .corazon-roto .recommendations .clearfix ul.bit-1 li, .corazon-roto .recommendations #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer ul.bit-1 li, #home_march_2014 section #principal_content .center_content .principal_article #aumento .corazon-roto .recommendations #leer ul.bit-1 li {
+      list-style: none inside; }
+      .corazon-roto .recommendations .clearfix ul.bit-1 li p, .corazon-roto .recommendations #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer ul.bit-1 li p, #home_march_2014 section #principal_content .center_content .principal_article #aumento .corazon-roto .recommendations #leer ul.bit-1 li p {
+        color: #565656;
+        font-family: Helvetica, Arial, "sans-serif";
+        font-size: 1em;
+        font-weight: normal;
+        line-height: 1.2em;
+        text-align: center; }
+.corazon-roto .your-life-depends p {
+  color: #103084;
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 1.875em;
+  font-weight: bold;
+  line-height: 1.2em;
+  margin: 0.5em auto; }
+.corazon-roto .footnotes p {
+  color: #103084;
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 1.375em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0.5em auto; }
+
+/* ==========================================================================
+ * iPhone 3GS/4/4S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 3GS/4/4S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 5/5S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 5/5S Landscape Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Plus Orientation
+ * ========================================================================== */
+@media only screen and (max-width: 46em) {
+  .corazon-roto p {
+    font-size: 0.7926829268em !important;
+    text-align: left !important; }
+  .corazon-roto .title .central h1, .corazon-roto .title .central-prevencion h1 {
+    font-size: 1.8292682927em !important;
+    text-align: left !important; }
+  .corazon-roto .description h2 {
+    font-size: 0.8536585366em !important;
+    text-align: left !important; }
+  .corazon-roto .causes .central ul, .corazon-roto .causes .central-prevencion ul {
+    margin: 0 auto; }
+  .corazon-roto .causes .central p, .corazon-roto .causes .central-prevencion p {
+    text-align: center !important; }
+  .corazon-roto .illnes .central img, .corazon-roto .illnes .central-prevencion img {
+    float: none; }
+  .corazon-roto .recommendations .clearfix ul.bit-1 li p, .corazon-roto .recommendations #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer ul.bit-1 li p, #home_march_2014 section #principal_content .center_content .principal_article #aumento .corazon-roto .recommendations #leer ul.bit-1 li p {
+    float: none; } }
+.durante-ejercicio p, .durante-ejercicio span, .durante-ejercicio h1, .durante-ejercicio h2, .durante-ejercicio h3, .durante-ejercicio h4, .durante-ejercicio h5, .durante-ejercicio h6, .durante-ejercicio li, .durante-ejercicio div {
+  word-break: normal; }
+.durante-ejercicio .title {
+  background-color: #E27121; }
+  .durante-ejercicio .title .central h1, .durante-ejercicio .title .central-prevencion h1 {
+    color: #103084;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 3.5em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0.5em auto 0; }
+  .durante-ejercicio .title .central img, .durante-ejercicio .title .central-prevencion img {
+    margin: 1em auto; }
+.durante-ejercicio .description {
+  background-color: #F8DCC8;
+  margin-bottom: 1em; }
+  .durante-ejercicio .description .central h2, .durante-ejercicio .description .central-prevencion h2 {
+    color: #103084;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 1.2em; }
+.durante-ejercicio .tip {
+  padding: 1em !important; }
+  .durante-ejercicio .tip:nth-child(1n + 2) {
+    background-color: #E3FCE2; }
+  .durante-ejercicio .tip:nth-child(2n + 2) {
+    background-color: #DEDBF4; }
+  .durante-ejercicio .tip .central, .durante-ejercicio .tip .central-prevencion {
+    vertical-align: middle; }
+  .durante-ejercicio .tip img {
+    -webkit-align-self: middle;
+        -ms-flex-item-align: middle;
+            align-self: middle;
+    float: left;
+    vertical-align: middle; }
+  .durante-ejercicio .tip h2 {
+    color: #E27121;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.75em;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin: 0 auto; }
+  .durante-ejercicio .tip p {
+    color: #103084;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.5625em;
+    font-weight: normal;
+    line-height: 1.2em;
+    margin: 0 auto; }
+.durante-ejercicio .footnotes p {
+  color: #E87215;
+  font-family: Helvetica, Arial, "sans-serif";
+  font-size: 1.375em;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0.5em auto; }
+
+/* ==========================================================================
+ * iPhone 3GS/4/4S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 5/5S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Plus
+ * ========================================================================== */
+@media only screen and (max-width: 46em) {
+  .durante-ejercicio p {
+    font-size: 0.8536585366em !important;
+    text-align: left !important; }
+  .durante-ejercicio .title .central h1, .durante-ejercicio .title .central-prevencion h1 {
+    font-size: 1.7073170732em !important; }
+  .durante-ejercicio > .description .central h2, .durante-ejercicio > .description .central-prevencion h2 {
+    font-size: 0.9146341463em !important; }
+  .durante-ejercicio .tip .central h2, .durante-ejercicio .tip .central-prevencion h2 {
+    font-size: 0.9756097561em !important;
+    text-align: center;
+    word-break: normal; }
+  .durante-ejercicio .tip .central p, .durante-ejercicio .tip .central-prevencion p {
+    font-size: 0.9285714286em !important; }
+  .durante-ejercicio .footnotes p {
+    font-size: 4.0625vw; } }
+.pilates p, .pilates span, .pilates h1, .pilates h2, .pilates h3, .pilates h4, .pilates h5, .pilates h6, .pilates li, .pilates div {
+  word-break: normal; }
+.pilates .header .central p.bit-3, .pilates .header .central-prevencion p.bit-3 {
+  float: right; }
+.pilates .title {
+  margin-bottom: 0 !important;
+  padding: 0 !important; }
+  .pilates .title .central, .pilates .title .central-prevencion {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    width: auto; }
+    .pilates .title .central img, .pilates .title .central-prevencion img {
+      float: none;
+      margin: 1rem 0 0;
+      padding: 0; }
+.pilates .sub-title {
+  background-color: #F1BC71;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important; }
+  .pilates .sub-title .central, .pilates .sub-title .central-prevencion {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important; }
+    .pilates .sub-title .central h1, .pilates .sub-title .central p, .pilates .sub-title .central-prevencion h1, .pilates .sub-title .central-prevencion p {
+      float: left; }
+    .pilates .sub-title .central h1, .pilates .sub-title .central-prevencion h1 {
+      color: #5F4E47;
+      font-family: Helvetica, Arial, "sans-serif";
+      font-size: 1.5625em;
+      font-weight: bold;
+      line-height: 1.2em;
+      margin: 1em 0 0; }
+    .pilates .sub-title .central img, .pilates .sub-title .central-prevencion img {
+      float: right;
+      margin: 0; }
+    .pilates .sub-title .central p, .pilates .sub-title .central-prevencion p {
+      color: #5F4E47;
+      font-family: Helvetica, Arial, "sans-serif";
+      font-size: 1.125em;
+      font-weight: normal;
+      line-height: 1.2em;
+      float: left; }
+.pilates .postures {
+  background-color: #E8E5E4; }
+  .pilates .postures .central .posture, .pilates .postures .central-prevencion .posture {
+    border-bottom: #F1BC71 2px solid;
+    display: block;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 48%; }
+    .pilates .postures .central .posture p, .pilates .postures .central-prevencion .posture p {
+      color: #5F4E47;
+      font-family: Helvetica, Arial, "sans-serif";
+      font-size: 1em;
+      font-weight: normal;
+      line-height: 1.2em;
+      float: none;
+      margin: 0.5em auto;
+      text-align: justified; }
+    .pilates .postures .central .posture img, .pilates .postures .central-prevencion .posture img {
+      display: block;
+      float: none;
+      margin: 1rem auto; }
+    .pilates .postures .central .posture.posture-1 p:nth-child(2), .pilates .postures .central-prevencion .posture.posture-1 p:nth-child(2) {
+      margin-bottom: 49px; }
+    .pilates .postures .central .posture:nth-child(2).posture-2 p:nth-child(2), .pilates .postures .central-prevencion .posture:nth-child(2).posture-2 p:nth-child(2) {
+      margin-bottom: 49px; }
+.pilates .balance {
+  background-color: #E8E5E4; }
+  .pilates .balance .central h5, .pilates .balance .central p, .pilates .balance .central-prevencion h5, .pilates .balance .central-prevencion p {
+    text-align: center; }
+  .pilates .balance .central h5, .pilates .balance .central-prevencion h5 {
+    color: #103084;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.5625em;
+    font-weight: bold;
+    line-height: 1.2em; }
+  .pilates .balance .central p, .pilates .balance .central-prevencion p {
+    color: #103084;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1.3125em;
+    font-weight: normal;
+    line-height: 1.2em; }
+.pilates .curiously-data {
+  background-color: #E8E5E4; }
+  .pilates .curiously-data .central p, .pilates .curiously-data .central-prevencion p {
+    color: #5F4E47;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em;
+    float: left; }
+
+/* ==========================================================================
+ * iPhone 3GS/4/4S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 3GS/4/4S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 5/5S Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 5/5S Landscape Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Landscape Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPhone 6 Plus
+ * ========================================================================== */
+@media only screen and (max-width: 46em) {
+  .pilates p {
+    font-size: 0.8536585366em !important;
+    text-align: left !important; }
+  .pilates .header .central p.bit-3, .pilates .header .central-prevencion p.bit-3 {
+    float: none; }
+  .pilates .title {
+    margin: 0 !important;
+    padding: 0 !important; }
+    .pilates .title .central, .pilates .title .central-prevencion {
+      margin: 0 !important;
+      padding: 0 !important;
+      width: 100%; }
+      .pilates .title .central img, .pilates .title .central-prevencion img {
+        float: none;
+        margin: 0 auto;
+        padding: 0; }
+  .pilates .sub-title .central h1, .pilates .sub-title .central-prevencion h1 {
+    font-size: 8.125vw;
+    margin: 1em 0 0; }
+  .pilates .sub-title .central p, .pilates .sub-title .central-prevencion p {
+    float: none;
+    text-align: left;
+    font-size: 5.3125 0.2; }
+  .pilates .postures .central, .pilates .postures .central-prevencion {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap; }
+    .pilates .postures .central .posture, .pilates .postures .central-prevencion .posture {
+      display: block;
+      float: none;
+      width: 100%; }
+      .pilates .postures .central .posture p, .pilates .postures .central-prevencion .posture p {
+        font-size: 5vw;
+        margin: 1rem auto;
+        width: 100%; }
+  .pilates .balance .central h5, .pilates .balance .central p, .pilates .balance .central-prevencion h5, .pilates .balance .central-prevencion p {
+    text-align: center;
+    width: 100%; }
+  .pilates .balance .central h5, .pilates .balance .central-prevencion h5 {
+    font-size: 5vw; }
+  .pilates .balance .central p, .pilates .balance .central-prevencion p {
+    font-size: 4.0625vw; }
+  .pilates .curiously-data .central p, .pilates .curiously-data .central-prevencion p {
+    float: none; } }
+/* ==========================================================================
+ * iPhone 6 Plus Landscape Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPadx
+ * ========================================================================== */
+/* ==========================================================================
+ * iPad Portrait Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * iPad Landscape Orientation
+ * ========================================================================== */
+/* ==========================================================================
+ * Desktop High Resolution
+ * ========================================================================== */
+/* ==========================================================================
+ *   Helper classes
+ *   ========================================================================== */
+/* Image replacement
+ */
+.ir {
+  background-color: transparent;
+  border: 0;
+  overflow: hidden;
+  /* IE 6/7 fallback */
+  *text-indent: -9999px; }
+
+.ir:before {
+  content: "";
+  display: block;
+  width: 0;
+  height: 150%; }
+
+/* Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/* Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/* Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/* Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/* Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before, #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer:before,
+.clearfix:after,
+#home_march_2014 section #principal_content .center_content .principal_article #aumento #leer:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after, #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer:after {
+  clear: both; }
+
+/* For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix, #home_march_2014 section #principal_content .center_content .principal_article #aumento #leer {
+  *zoom: 1; }
+
+/* ==========================================================================
+ *   EXAMPLE Media Queries for Responsive Design.
+ *   These examples override the primary ('mobile first') styles.
+ *   Modify as content requires.
+ *   ========================================================================== */
+/* ==========================================================================
+ *   Desktop High Resolution
+ *   ========================================================================== */
+/* ==========================================================================
+ *   iPad
+ *   ========================================================================== */
+/* ==========================================================================
+ *   iPhone 6 Plus Landscape Orientation
+ *   ========================================================================== */
+/* ==========================================================================
+ *   iPhone 6
+ *   ========================================================================== */
+/* ==========================================================================
+ *   iPhone 5/5S
+ *   ========================================================================== */
+@media only screen and (max-width: 35.5em) {
+  .internal {
+    padding: 0; }
+
+  .central, .central-prevencion {
+    width: 100%; }
+
+  footer.footer {
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap; }
+
+  .desktop {
+    display: none; }
+
+  .mobile {
+    display: block; }
+
+  .qualify p {
+    float: left !important; }
+  .qualify ul {
+    margin: 0 auto; }
+
+  .share h4, .share p {
+    box-sizing: border-box;
+    margin: 0 auto; }
+  .share h4 {
+    width: 46%; }
+  .share p {
+    width: 27%; }
+    .share p.share-icon {
+      padding: 0; }
+    .share p a {
+      display: block;
+      margin: 0 auto; }
+      .share p a img {
+        display: block;
+        margin: 0 auto; } }
+/* ==========================================================================
+ * iPhone 3GS/4/4S
+ * ========================================================================== */
+@media print {
+  * {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /* Don't show links for images, or javascript/internal links
+   */
+  .ir a:after,
+  a[href^="javascript:"]:after,
+  a[href^="#"]:after {
+    content: ""; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  thead {
+    display: table-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  img {
+    max-width: 100% !important; }
+
+  @page {
+    margin: 0.5cm; }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
+
+/*# sourceMappingURL=mujer.css.map */

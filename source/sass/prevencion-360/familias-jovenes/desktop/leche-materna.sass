@@ -1,0 +1,158 @@
+.leche-materna
+    .title
+        background-color: #5FAADC
+        .central, .central-prevencion
+            h1, h2
+                @include font-mask( normal, em( 50, 16 ), 1.2em, $helvetica, $white-color )
+                float: left
+                margin: 0 auto
+                strong
+            h1
+                float: left
+            img
+                float: right
+            h2
+                font-size: em( 25, 16 )
+                font-weight: normal
+    .nutrients
+    .description
+        h3, p
+            @include font-mask( normal, em( 24, 16 ), 1.5em )
+            float: left
+            strong
+                font-size: em( 30, 24 )
+        img
+            float: right
+            margin: 40px auto 0
+        hr
+            border: 0 none transparent
+            border-top: 3px dashed transparent
+            height: 0
+            margin: 0
+    .water
+        p
+            color: $axa-blue-color
+        hr
+            border-color: $more--information-firts-title transparent transparent
+    .proteins
+        p
+            color: $dark-green
+        hr
+            border-color: $dark-green transparent transparent
+    .grease
+        p
+            color: $orange
+        hr
+            border-color: $orange transparent transparent
+    .carbs
+        p
+            color: $grape
+        hr
+            border-color: $grape transparent transparent
+    .minerals
+        p
+            color: $horizontal-rule-more--information
+        hr
+            border-color: $horizontal-rule-more--information transparent transparent
+    .vitamins
+        p
+            color: $red
+        hr
+            border-color: $red transparent transparent
+        article, div.article
+            float: left
+            height: 290px
+            &:last-child
+                float: none
+                width: 100%
+            img
+                clear: both
+            p
+                display: block
+                font-size: em( 20, 16 )
+                text-align: center
+    .more-benefits
+        h3
+            color: $axa-blue-color
+        hr
+            border-color: $more--information-firts-title transparent transparent
+        article, div.article
+            display: table-cell
+            vertical-align: bottom
+            height: 317px
+            &:last-child
+                img
+                    position: relative
+                    top: 12%
+            img
+            p
+                color: $axa-blue-color
+                text-align: center
+    .consult
+        p
+            @include font-mask( normal, em( 24, 16 ), 1.5em, $helvetica, $axa-blue-color )
+            &.alternative
+            &.footnote
+                font-size: em( 16, 16 )
+            sup
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+    .leche-materna
+        .title
+            h1
+                font-size: em( 27, 16.4 ) !important
+            h2
+                font-size: em( 15, 16.4 ) !important
+            img
+                max-width: none !important
+                width: 30% !important
+        .description
+            p
+                font-size: em( 13, 16.4 ) !important
+            img
+                margin-bottom: 40px
+        .vitamins
+            article, div.article
+                height: auto
+                img
+                    margin: 0 auto
+                p
+                    font-size: em( 13, 16.4 ) !important
+        .more-benefits
+            article, div.article
+                height: auto
+        .consult
+            p
+                &.alternative, &.footnote
+                    font-size: em( 13, 16.4 ) !important
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+
+
+

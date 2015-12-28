@@ -1,0 +1,83 @@
+.durante-ejercicio
+    p, span, h1, h2, h3, h4, h5, h6, li, div
+        word-break: normal
+    .title
+        background-color: #E27121
+        .central, .central-prevencion
+            h1
+                @include font-mask( bold, em( 56, 16 ), 1.2em, $helvetica, $axa-blue-color )
+                margin: 0.5em auto 0
+            img
+                margin: 1em auto
+    .description
+        background-color: #F8DCC8
+        margin-bottom: 1em
+        .central, .central-prevencion
+            h2
+                @include font-mask( bold, em( 28, 16 ), 1.2em, $helvetica, $axa-blue-color )
+    .tip
+        padding: 1em !important
+        &:nth-child( 1n + 2 )
+            background-color: #E3FCE2
+        &:nth-child( 2n + 2 )
+            background-color: #DEDBF4
+        .central, .central-prevencion
+            vertical-align: middle
+        img
+            align-self: middle
+            float: left
+            vertical-align: middle
+        h2
+            @include font-mask( bold, em( 28, 16 ), 1.2em, $helvetica, $exercise-subtitle )
+            margin: 0 auto
+        p
+            @include font-mask( normal, em( 25, 16 ), 1.2em, $helvetica, $axa-blue-color )
+            margin: 0 auto
+    .footnotes
+        p
+            @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, $orange-toys-text )
+            margin: 0.5em auto
+            sup
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 ))
+
+/* ==========================================================================
+   iPhone 6 Plus
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+    .durante-ejercicio
+        p
+            font-size: em( 14, 16.4 ) !important
+            text-align: left !important
+        .title
+            .central, .central-prevencion
+                h1
+                    font-size: em( 28, 16.4 ) !important
+        >.description
+            .central, .central-prevencion
+                h2
+                    font-size: em( 15, 16.4 ) !important
+        .tip
+            .central, .central-prevencion
+                h2
+                    font-size: em( 16, 16.4 ) !important
+                    text-align: center
+                    word-break: normal
+                p
+                    font-size: em( 13, 14 ) !important
+        .footnotes
+            p
+                font-size: 4.0625vw

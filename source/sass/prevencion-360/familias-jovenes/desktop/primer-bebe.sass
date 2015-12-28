@@ -1,0 +1,102 @@
+.primer-bebe
+    .title
+        background-color: #5FAADC
+        padding-top: 0 !important
+        .central, .central-prevencion
+            h1, h2
+                @include font-mask( bold, em( 50, 16 ), 1.2em, $helvetica, $white-color )
+                margin: 0 auto
+            h1
+                float: left
+            img
+                float: right
+            h2
+                font-size: em( 20, 16 )
+                font-weight: normal
+    .advices
+        .central, .central-prevencion
+            article, div.article
+                position: relative
+                &:nth-child( 1 ), &:nth-child( 2 )
+                    min-height: 190px
+                &:nth-child( 3 ), &:nth-child( 4 )
+                    min-height: 275px
+                &:nth-child( 5 ), &:nth-child( 6 )
+                    min-height: 223px
+                &:nth-child( 7 ), &:nth-child( 8 )
+                    min-height: 240px
+                p
+                    @include font-mask( normal, em( 14, 16 ) !important, 1.2em, $helvetica, $axa-blue-color )
+                    display: block
+                    float: none
+                    margin: 0 auto
+                    text-align: center
+                    width: 80%
+                img
+                    bottom: 0
+                    display: block
+                    left: 50%
+                    margin: 0 0 0 ( -109px / 2 )
+                    position: absolute
+            p
+                @include font-mask( normal, em( 25, 16 ), 1.2em, $helvetica, $axa-blue-color )
+                margin: 0 auto
+                strong
+                &.bit-1
+                    font-size: em( 18, 16 )
+                sup
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 ))
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+    .primer-bebe
+        .title
+            background-color: #5FAADC
+            padding-top: 0 !important
+            .central, .central-prevencion
+                h1, h2
+                    @include font-mask( bold, em( 25, 16 ), 1.2em, $helvetica, $white-color )
+                    margin: 0 auto
+                h1
+                    float: left
+                img
+                    float: none
+                    margin: 0 auto
+                h2
+                    font-size: em( 16, 16 )
+                    font-weight: normal
+        .advices
+            .central, .central-prevencion
+                article, div.article
+                    position: relative
+                    min-height: auto
+                    img
+                        margin: 0 auto
+                        position: static

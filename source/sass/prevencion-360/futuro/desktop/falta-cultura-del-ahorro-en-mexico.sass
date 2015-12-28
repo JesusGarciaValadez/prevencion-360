@@ -1,0 +1,97 @@
+.lack-of-savings-culture-in-mexico
+    .title
+        background-color: #5FAADC
+        .bit-60
+            &:nth-child( 2 )
+                display: flex
+            h1, h2
+                @include font-mask( bold, em( 50, 16 ), 1.2em, $asap-regular, $white-color )
+                display: block
+                margin: 0 auto
+                padding: 25px 0 0 25px
+                text-align: left
+            h1
+            h2
+                font-size: em( 25, 16 )
+            img
+                align-self: middle
+                display: block
+                margin: 0 auto
+        .bit-40
+            display: flex
+            img
+                align-self: middle
+                display: block
+                margin: 0 auto
+    .section-1
+        p
+            @include font-mask( normal, em( 16, 16 ), 1.5em, $asap-regular, $dark-grey )
+            margin: 1em auto 0
+            strong
+    .section-2
+        div[class*="sub-section"]
+            .bit-2
+                img
+                    display: block
+                h3, p, ul li
+                    @include font-mask( normal, em( 16, 16 ), 1.5em, $asap-regular, $dark-grey )
+                    padding: 0 0.5em
+                h3
+                    font-size: em( 20, 16 )
+                    font-weight: bold
+                p
+                ul
+                    box-sizing: border-box
+                    padding: 0 0 0 20px
+                    position: relative
+                    li
+                        list-style: outside none
+                        strong
+                            font-weight: bold
+                        &:before
+                            content: "- "
+                            left: 10px
+                            position: absolute
+            &:nth-child( 2 )
+                .bit-2
+                    &:first-child
+                        h3
+                            margin-top: 15px
+                        img
+                            margin: 14px 0 0
+            &:nth-child( 3 )
+                .bit-2
+                    &:first-child
+                        h3
+                            margin-top: 30px
+                        img
+                            margin: 5px 0 0
+    .section-3
+        background-color: #1385C7
+        border-radius: 10px
+        box-sizing: border-box
+        padding: 10px 15px
+        p
+            @include font-mask ( normal, em( 18, 16 ), 1.5em, $asap-regular, $white-color )
+            sup
+    .section-4
+        .bit-3
+            display: flex
+            img
+                align-self: middle
+                display: block
+                margin: 0 auto
+        .bit-666
+            p, h4
+                @include font-mask ( bold, em( 16, 16 ), 1.5em, $asap-regular, $dark-grey )
+                display: block
+                margin: 0.5em auto
+                padding: 0
+            p
+                strong
+            h4
+                font-size: em( 24, 16 )
+        p
+            @include font-mask ( normal, em( 12, 16 ), 1.5em, $asap-regular, $dark-grey )
+            sup
+@media only screen and (max-width: em( 568, 16 ))

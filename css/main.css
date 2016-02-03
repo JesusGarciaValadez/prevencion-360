@@ -1,11 +1,12 @@
 /*
-Error: File to import not found or unreadable: custom-styles/mobile/home-4-portrait.
+Error: File to import not found or unreadable: default-styles/_general_mobile.
        Load paths:
          /Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass
-         /Applications/CodeKit.app/Contents/Resources/engines/bourbon
+         /Applications/CodeKit 2.app/Contents/Resources/engines/bourbon
          Sass::Globbing::Importer
-        on line 38 of /Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass
+        on line 37 of /Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass
 
+32: 
 33: /* ==========================================================================
 34:    iPhone 5/5S
 35:    ========================================================================== *\/
@@ -16,43 +17,42 @@ Error: File to import not found or unreadable: custom-styles/mobile/home-4-portr
 40: @media only screen and (min-width: em( 568, 16 )) and (orientation:landscape)
 41: 
 42: /* ==========================================================================
-43:    iPhone 6
 
 Backtrace:
-/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass:38
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:107:in `rescue in invalid_import_parent?'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:101:in `invalid_import_parent?'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:175:in `try_send'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:12:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:38:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:57:in `visit_root'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:24:in `visit'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:35:in `css_tree'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:412:in `run'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
-/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
+/Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass:37
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:45:in `import'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/import_node.rb:28:in `imported_file'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:107:in `rescue in invalid_import_parent?'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:101:in `invalid_import_parent?'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:175:in `try_send'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:12:in `visit'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:38:in `visit'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:49:in `visit_children'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:57:in `visit_root'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/check_nesting.rb:15:in `visit'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:24:in `visit'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:35:in `css_tree'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:412:in `run'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit 2.app/Contents/Resources/engines/scss/bin/sass:13:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: custom-styles/mobile/home-4-portrait.\A        Load paths:\A          /Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass\A          /Applications/CodeKit.app/Contents/Resources/engines/bourbon\A          Sass::Globbing::Importer\A         on line 38 of /Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass\A \A 33: /* ==========================================================================\A 34:    iPhone 5/5S\A 35:    ========================================================================== */\A 36: @media only screen and ( min-width: em( 320, 16 ) ) and (max-width: em( 1023, 16) )\A 37:     @import \"default-styles/_general_mobile\"\A 38:     @import \"custom-styles/mobile/home-4-portrait\"\A 39: \A 40: @media only screen and (min-width: em( 568, 16 )) and (orientation:landscape)\A 41: \A 42: /* ==========================================================================\A 43:    iPhone 6"; }
+  content: "Error: File to import not found or unreadable: default-styles/_general_mobile.\A        Load paths:\A          /Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass\A          /Applications/CodeKit 2.app/Contents/Resources/engines/bourbon\A          Sass::Globbing::Importer\A         on line 37 of /Applications/MAMP/htdocs/boletin-axa-prevencion-360/source/sass/main.sass\A \A 32: \A 33: /* ==========================================================================\A 34:    iPhone 5/5S\A 35:    ========================================================================== */\A 36: @media only screen and ( min-width: em( 320, 16 ) ) and (max-width: em( 1023, 16) )\A 37:     @import \"default-styles/_general_mobile\"\A 38:     @import \"custom-styles/mobile/home-4-portrait\"\A 39: \A 40: @media only screen and (min-width: em( 568, 16 )) and (orientation:landscape)\A 41: \A 42: /* =========================================================================="; }

@@ -2,27 +2,42 @@
     padding: 0
 .central
     width: 100%
-footer.footer
-    flex-flow: column nowrap
-.article-related
-.qualify
-    p
-        float: left !important
-    ul
-        margin: 0 auto
-.share
-    h4, p
-        box-sizing: border-box
-        margin: 0 auto
-    h4
-        width: 46%
-    p
-        width: 27%
-        &.share-icon
-            padding: 0
-        a
-            display: block
-            margin: 0 auto
+#begin
+    .wrapper
+    header
+        display: block !important
+        h1
             img
-                display: block
-                margin: 0 auto
+        nav
+            >ul
+                display: block !important
+                > li
+                    border: none !important
+                    display: block !important
+                    a
+                    ul
+                        border: 0 none transparent
+                        display: block !important
+                        position: static !important
+                        width: 100% !important
+                        li
+                            a
+                                color: $white-color
+                                text-align: center !important
+    footer
+        display: block !important
+        padding: 20px !important
+        .contact,.privacy-policy
+            clear: both
+        .contact
+            .contact-title
+            p
+                a
+            ul
+                li
+                    a
+        .privacy-policy
+            p
+                a
+    a[title="Subir"]
+        display: none !important

@@ -147,7 +147,10 @@ El que ahorra más, vive mejor
   https://axa.mx/documents/2491895/2669525/moneda-cuatro-porciento.png
   https://axa.mx/documents/2491895/2669525/monedas-icono.png
   https://axa.mx/documents/2491895/2669525/muela-nueve-porciento.png
+<<<<<<< HEAD
   https://axa.mx/documents/2491895/2669525/porcentajes-de-gasto-promedio.png
+=======
+>>>>>>> 21ca88b52ecd5d5d9c7ebc962e6501a05cca19a4
   https://axa.mx/documents/2491895/2669525/resultado-que-deja-un-cero-porciento-para-el-ahorro.png
   https://axa.mx/documents/2491895/2669525/tambien-puedes.png
 

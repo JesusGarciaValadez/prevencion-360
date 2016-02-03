@@ -24,17 +24,10 @@
             color: $bright-blue
     //El que ahorra más, vive mejor
     .title
-        display: flex
-        flex-flow: row nowrap
         padding: 0
         img
-            align-self: center
             margin: 0
             padding: 0
-            &:nth-child( 1 )
-                width: 59.66655%
-            &:nth-child( 2 )
-                width: 40.33345%
     .section-1 // Octubre, mundialmente, es el mes de la lucha contra el cáncer de mama, y tiene
         ul
             li
@@ -116,13 +109,3 @@
         p
             @include font-mask( normal, em( 13, 16 ), 1em, $helvetica, $text-gray )
             float: none
-
-@media only screen and (max-width: em( 568, 16 ))
-    .the-saving-more-live-better
-        .title
-            flex-flow: column nowrap
-            img
-                &:nth-child( 1 )
-                    width: 100%
-                &:nth-child( 2 )
-                    width: 100%

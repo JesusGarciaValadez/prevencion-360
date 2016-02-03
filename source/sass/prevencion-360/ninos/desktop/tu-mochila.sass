@@ -1,0 +1,167 @@
+.tu-mochila
+  .header
+    .central, .central-prevencion
+      p.bit-3
+        a
+          img
+  .title
+    .central, .central-prevencion
+      h1, h2
+        float: left
+      h1
+        @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $dark-grey )
+        margin: 1em 0 0
+      h2
+        @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $blue-light )
+      img
+        float: right
+    .head
+      img
+  .sub-title
+    .central, .central-prevencion
+      img
+  .use-of-bag
+    .central, .central-prevencion
+      display: flex
+      flex-flow: row nowrap
+      article, div
+        align-self: stretch
+        box-sizing: border-box
+        display: flex
+        flex-flow: column nowrap
+        width: 50%
+        p
+          @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $dark-grey )
+          align-self: flex-start
+          margin: 0 auto
+          text-align: center
+        img
+          align-self: flex-end
+          display: block
+          margin: 0 auto
+      .use-1
+        p
+          margin-bottom: 25px
+      .use-1, .use-2, .use-3,
+      .use-4, .use-5, .use-6
+      .use-7
+        display: block
+        margin: 0 auto 1em
+  .alert, .curiously
+    background-color: $blue-light
+    img
+  .alert-data
+    .central, .central-prevencion
+      p
+        @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $blue-light )
+        float: left
+        margin: 1em 0 0
+        strong
+          &.red
+            color: $red
+      img
+        float: right
+  .curiously-data
+    .central, .central-prevencion
+      ul
+        float: left
+        li
+          @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $blue-light )
+          list-style: none outside
+          span
+            color: $red
+      img
+        float: right
+      p
+        @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $blue-light )
+        float: left
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+  .tu-mochila
+    .use-of-bag
+      .central, .central-prevencion
+        article, div
+          flex-flow: column nowrap !important
+          p
+            width: 100% !important
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 ))
+
+/* ==========================================================================
+   iPhone 6 Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Plus
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+  .tu-mochila
+    .title
+      .central, .central-prevencion
+        h1
+    .use-of-bag
+      .central, .central-prevencion
+        display: flex
+        flex-flow: row nowrap
+        article, div
+          align-self: stretch
+          box-sizing: border-box
+          display: flex !important
+          flex-flow: row nowrap
+          margin: 1em 0
+          width: 100%
+          p
+            @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $dark-grey )
+            align-self: center
+            width: 60%
+            img
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPad
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 ))
+
+/* ==========================================================================
+   iPad Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 )) and (orientation:portrait)
+
+/* ==========================================================================
+   iPad Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   Desktop High Resolution
+   ========================================================================== */
+@media only screen and (min-width: em( 1919, 16 ))
+
+
+

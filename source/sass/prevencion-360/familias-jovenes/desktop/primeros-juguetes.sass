@@ -1,0 +1,203 @@
+.primeros-juguetes
+  .header
+    background-color: $toys-orange-background
+    .section
+      p
+        img
+          float: right
+  .title
+    background-color: $toys-orange-background
+    .section
+      h1
+        @include font-mask( bold, em( 50, 16 ), 1.2em, $helvetica, $white-color )
+        float: left
+      img
+        float: right
+  >.description
+    background-color: $toys-orange-background
+    .section
+      h2
+        @include font-mask( normal, em( 30, 16 ), 1.2em, $helvetica, $toys-purple-text-color )
+        display: block
+  .view-of-baby
+    .section
+      p
+        @include font-mask( normal, em( 22, 16 ), 1.2em, $helvetica, $toys-purple-text-color )
+        float: left
+      img
+        float: right
+  .ideal-toy
+    background-color: $toys-green-background
+    .section
+      display: flex
+      flex-flow: row nowrap
+      h2
+        @include font-mask( bold, em( 40, 16 ), 1em, $helvetica, $toys-purple-text-color )
+        float: left
+        margin: 0 auto
+        padding: 0
+        text-align: right
+        span
+          font-size: em( 18, 40 )
+      img
+        align-self: center
+        float: right
+        height: 41px
+        max-height: none
+        max-width: none
+        width: 268px !important
+  .recommendations
+    .section
+      ul
+        display: flex
+        flex-flow: row nowrap
+        li
+          width: 50%
+          p
+            @include font-mask( normal, em( 18, 16 ), 1.2em, $helvetica, $toys-purple-text-color )
+            float: none
+            margin: 0 auto
+        li.icon
+          display: flex
+          flex-flow: row nowrap
+          img
+            align-self: middle
+            display: block
+            margin: 0 auto
+          p
+        .icon-1, .icon-2
+        .icon-3, .icon-4
+        .icon-5, .icon-6
+          p
+        li.description
+          p
+            strong
+        .description-1, .description-2
+        .description-3, .description-4
+        .description-5, .description-6
+          p
+            strong
+  .final-phrase
+    .section
+    .review-the-toys
+      p
+        @include font-mask( normal, em( 27, 16 ), 1.2em, $helvetica, $toys-purple-text-color )
+    .footnotes
+      p
+        @include font-mask( normal, em( 18, 16 ), 1.2em, $helvetica, $toys-purple-text-color )
+        margin: 0.5em auto
+        sup
+  .footer
+    .section
+      p
+        img
+          float: right
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 ))
+
+/* ==========================================================================
+   iPhone 6 Plus Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+  .primeros-juguetes
+    .title
+      .section
+        h1
+          font-size: em( 40, 16 )
+          float: none
+        img
+          float: none
+    >.description
+      .section
+        h2
+          font-size: em( 18, 16 )
+    .view-of-baby
+      .section
+        p
+          font-size: em( 13, 16 )
+          float: none
+        img
+          float: none
+    .ideal-toy
+      .section
+        display: flex
+        flex-flow: row nowrap
+        h2
+          font-size: em( 28, 16 )
+          float: none
+          text-align: center
+          span
+            font-size: em( 18, 40 )
+        img
+          align-self: center
+          float: none
+          height: 41px
+          width: 268px !important
+    .recommendations
+      .section
+        ul
+          display: flex
+          flex-flow: column nowrap
+          &.desktop
+            display: none
+          li
+            width: 100%
+            p
+              font-size: em( 13, 16 )
+              float: none
+          li.icon
+            display: flex
+            flex-flow: column nowrap
+            img
+              align-self: middle
+              display: block
+              margin: 0 auto
+            p
+          .icon-1, .icon-2
+          .icon-3, .icon-4
+          .icon-5, .icon-6
+            p
+          li.description
+            p
+              strong
+          .description-1, .description-2
+          .description-3, .description-4
+          .description-5, .description-6
+            p
+              strong
+    .final-phrase
+      .section
+      .review-the-toys
+        p
+          font-size: em( 15, 16 )
+      .footnotes
+        p
+          font-size: em( 13, 16 )
+          sup
+    .footer
+      .section
+        p
+          img

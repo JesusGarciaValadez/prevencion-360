@@ -1,0 +1,253 @@
+.investigar-por-internet
+  .header
+    .central, .central-prevencion
+      p.bit-3
+        float: right
+        a
+          img
+      p.bit-1
+        @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $axa-blue-color )
+        text-align: right
+  .title
+    background-color: $internet-background
+    .central, .central-prevencion
+      h1, h2
+        float: left
+      h1
+        @include font-mask( bold, em( 55, 16 ), 1.5em, $helvetica, $internet-title )
+        clear: none
+        display: inline-block
+        margin: 0 !important
+        width: 65% !important
+        img
+          float: right
+          margin: 1rem 0 0
+  .sub-title
+    background-color: $internet-background
+    .central, .central-prevencion
+      h2
+        @include font-mask( normal, em( 25, 16 ), 1.5em, $helvetica, $internet-title )
+        float: left
+      img
+        float: right
+        margin: 1rem 0
+  .tip
+    padding: 0 !important
+    vertical-align: bottom
+    .central, .central-prevencion
+      h3, p
+        float: left
+        margin: 0 auto
+      h3.bit-60
+        @include font-mask( bold, em( 23, 16 ), 1.5em, $helvetica, $internet-title )
+      p.bit-60
+        @include font-mask( normal, em( 20, 16 ), 1.5em, $helvetica, $white-color )
+      img
+        float: right
+        vertical-align: bottom
+  .tip-1
+    background-color: $internet-title
+    h3
+      color: $axa-blue-color !important
+    p.bit-60
+      color: $dark_grey !important
+    img
+  .tip-2
+    background-color: $internet-tip-2
+  .tip-3
+    background-color: $internet-tip-3
+  .tip-4
+    background-color: $internet-tip-4
+  .tip-5
+    background-color: $internet-tip-5
+  .tip-6
+    background-color: $internet-tip-6
+  .tip-2, .tip-3, .tip-5
+    img
+      margin: 0 auto
+  .curiously
+    .central, .central-prevencion
+      img
+        float: left
+      >div
+        float: right
+        background: #103184 none repeat scroll 0 0
+        border-radius: 15px
+        box-sizing: border-box
+        padding: 10px 20px
+        position: relative
+        &:before
+          border-style: solid
+          border-color: transparent $axa-blue-color transparent transparent
+          border-width: 1.953125vw
+          content: ""
+          height: 1px
+          left: -3.90625vw
+          position: absolute
+          top: 3.90625vw
+          width: 1px
+        h4
+          @include font-mask( bold, em( 23, 16 ), 1.5em, $helvetica, $internet-title )
+          margin: 0 auto
+          text-align: center
+        p
+          @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $internet-title )
+          margin: 0 auto
+  .ipad
+    .central, .central-prevencion
+      .ipad-viewport
+        background: url("https://axa.mx/documents/2491895/2645843/ipad.png") no-repeat scroll center transparent
+        box-sizing: border-box
+        height: 428px
+        padding: 45px 52px 55px 62px
+        width: 541px
+        h5
+          @include font-mask( bold, em( 18, 16 ), 1.5em, "Verdana", $dark-grey )
+          margin-bottom: 0
+        p
+          @include font-mask( normal, em( 13, 16 ) !important, 1.5em, $helvetica, $dark-grey )
+  .curiously-data
+    .central, .central-prevencion
+      p
+        @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $axa-blue-color )
+        float: left
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 ))
+
+/* ==========================================================================
+   iPhone 3GS/4/4S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 480 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 5/5S Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 ))
+
+/* ==========================================================================
+   iPhone 5/5S Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 568, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 ))
+
+/* ==========================================================================
+   iPhone 6 Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 667, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPhone 6 Plus
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+  .investigar-por-internet
+    .header
+      .central, .central-prevencion
+        p.bit-3
+          float: none
+        p.bit-1
+          font-size: 4.0625vw !important
+          text-align: left
+    .title
+      .central, .central-prevencion
+        h1, h2
+          float: none
+        h1
+          font-size: 12.5vw
+          margin: 0
+          width: 100% !important
+        img
+          float: none
+          margin: 1rem auto
+    .sub-title
+      background-color: $internet-background
+      .central, .central-prevencion
+        h2
+          font-size: 5.3125vw
+          float: none
+        img
+          margin: 1rem auto
+    .tip
+      .central, .central-prevencion
+        h3
+          font-size: 5vw !important
+        p
+          font-size: 4.375vw !important
+        img
+          float: none
+          margin: 1rem auto 0
+          vertical-align: middle
+    .curiously
+      .central, .central-prevencion
+        img
+          float: none
+        >div
+          background-color: $axa-blue-color
+          border-radius: 3.125vw
+          float: none
+          margin: 9.375vw auto 0
+          position: relative
+          &:before
+            border-style: solid
+            border-color: transparent transparent $axa-blue-color
+            border-width: 4.6875vw
+            content: ""
+            height: 1px
+            left: ( ( 88.75vw / 2 ) - ( 4.6875vw / 2 ) )
+            position: absolute
+            top: -9.0625vw
+            width: 1px
+          h4
+            font-size: 5vw
+          p
+            font-size: 4.0625vw
+    .ipad
+      .central, .central-prevencion
+        .ipad-viewport
+          background-position: center top
+          background-size: 87.5vw
+          height: auto
+          padding: 76.5625vw 0 0
+          width: 88.4375vw
+          h5
+            @include font-mask( bold, em( 15, 16 ), 1.2em, "Timew New Roman", $dark-grey )
+          p
+            @include font-mask( normal, em( 13, 16 ), 1.2em, "Timew New Roman", $dark-grey )
+    .curiously-data
+      .central, .central-prevencion
+        p
+          float: none
+
+/* ==========================================================================
+   iPhone 6 Plus Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   iPad
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 ))
+
+/* ==========================================================================
+   iPad Portrait Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 )) and (orientation:portrait)
+
+/* ==========================================================================
+   iPad Landscape Orientation
+   ========================================================================== */
+@media only screen and (max-width: em( 1024, 16 )) and (orientation:landscape)
+
+/* ==========================================================================
+   Desktop High Resolution
+   ========================================================================== */
+@media only screen and (min-width: em( 1919, 16 ))
+
+
+

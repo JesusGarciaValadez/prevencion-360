@@ -1,0 +1,114 @@
+.hogar
+    .pink
+        background-color: $pink
+    .title
+        background-color: $green
+        h1
+            @include font-mask( bold, em( 50, 16 ), 1em, $helvetica )
+            margin: 15px auto 0
+            padding: 0
+            text-align: center
+        p
+            @include font-mask( normal, em( 26, 16 ), 1.2em, $helvetica )
+            margin: 5px auto 14px
+        h1,p
+            color: $dark-grey
+            float: none
+        ul
+            margin: 0 auto
+            li
+                list-style: none outside
+                img
+                    display: block
+                    float: none
+                    margin: 0 auto
+    .section-1
+        hr
+            border-top: 1px solid #000
+            clear: both
+            display: block
+            float: none
+            margin: 10px auto
+            padding: 0
+        h2, p
+            display: block
+            float: none
+            margin: 0 auto
+        h2
+            @include font-mask( bold, em( 29, 16 ), 1.2em, $helvetica, $dark_grey )
+        p
+            @include font-mask( normal, em( 16, 16 ), 1.2em, $helvetica, $dark_grey )
+            &:nth-child( 5 )
+                @include font-mask( normal, em( 29, 16 ), 1.2em, $helvetica, $dark_grey )
+        > div
+            &:first-child
+                background-color: red
+            img
+                margin: 1em auto
+            img
+                clear: both
+                display: block
+                float: none
+                margin: 0 auto
+            p
+                @include font-mask( bold, em( 18, 16 ), 1.2em, $helvetica, $pink )
+                text-align: center
+                strong
+            ul
+                margin: 1em auto
+                padding: 0
+                li
+                    @include font-mask( normal, em( 16, 16 ), 1.2em, $helvetica, $pink )
+                    list-style: disc outside
+                    text-align: left
+    .section-2
+        p
+            @include font-mask( normal, em( 18, 16 ), 1.2em, $helvetica, $white-color )
+    .section-3
+        p
+            @include font-mask( normal, em( 16, 16 ), 1.2em, $helvetica, $pink )
+        >div
+            img
+                clear: both
+                display: block
+                float: none
+                margin: 0 auto
+            p
+                @include font-mask( normal, em( 16, 16 ), 1.2em, $helvetica, $pink )
+                clear: both
+                display: block
+                float: none
+                margin: 1em auto
+                text-align: center
+            &.pink
+                border-radius: 5px
+                box-sizing: border-box
+                p
+                    @include font-mask( normal, em( 19, 16 ), 1.5em, $helvetica, $white-color )
+                    margin: 0 auto
+                    padding: 0
+                    text-align: left
+    .section-4
+        p
+            @include font-mask( normal, em( 18, 16 ), 1.5em, $helvetica, $white-color )
+            text-align: center
+        ul
+            display: block
+            margin: 0
+            padding: 0
+            li
+                list-style: none outside
+                img
+                    clear: both
+                    display: block
+                    float: none
+                    margin: 0 auto
+                p
+                    @include font-mask( normal, em( 16, 16 ), 1.5em, $helvetica, $white-color )
+                    display: block
+                    float: none
+                    margin: 0 auto
+                &:nth-child( 2 )
+                    img
+                        margin: 10px auto
+

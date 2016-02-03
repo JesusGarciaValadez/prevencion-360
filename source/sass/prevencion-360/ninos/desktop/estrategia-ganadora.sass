@@ -1,0 +1,199 @@
+.estrategia-ganadora
+  #encabezadoGeneral, #pieGeneral
+    display: flex
+    justify-content: flex-end
+    padding: 1.64rem 3.83% 2.78rem
+    width: 100%
+  .articulo--header
+    h1
+      color: #127300
+      font-weight: bold
+      font-size: em( 51, 16)
+      line-height: 1.2em
+      margin-bottom: 12px
+      text-align: center
+  .alimentos--texto
+    background: #fff
+    border: 1px solid #127300
+    color: #127300
+    margin: 0 3.83% 40px
+    position: relative
+    border-radius: 15px
+    padding: 5px
+    box-shadow: rgba(0, 0, 0, 0.5) 0 0 7px
+    &:after
+      position: absolute
+      height: 38px
+      width: 22px
+      display: block
+      bottom: -38px
+    h3
+      font-size: 1.43rem
+      font-weight: bold
+    p
+      font-size: 1.07rem
+  .alimentos--imagenes
+    display: flex
+    justify-content: space-between
+    padding-bottom: 29px
+    img
+      align-self: center
+  .alimentos__carbohidratos .alimentos--texto:after
+    content: url("https://axa.mx/documents/2491895/2645839/globo-der.png")
+    right: 5%
+  .alimentos__proteinas .alimentos--texto:after
+    content: url("https://axa.mx/documents/2491895/2645839/globo-izq.png")
+    left: 5%
+  .alimentos__vitaminas
+    .alimentos--texto:after
+      content: url("https://axa.mx/documents/2491895/2645839/globo-izq.png")
+      left: 5%
+    .alimentos--imagenes
+      padding-left: 5%
+  .articulo--footer
+    a, p
+      font-family: Arial, Helvetica, 'sans-serif'
+      font-size: .86rem
+      text-align: left !important
+    p
+      padding: 0 3.83%
+      img
+        display: block
+        margin: 1em auto
+  .content__dos
+    padding-top: 29px
+    h2
+      color: #127300
+      font-size: 1.65rem
+      font-weight: bold
+      line-height: 1.17em
+      text-align: left
+      padding: 0 3.83%
+  .content__cinco
+    padding: 1rem 3.83%
+    figure, div.figure
+      display: flex
+    figcaption, div.figcaption, .imagen
+      align-self: flex-end
+    figcaption, div.figcaption
+      width: 75%
+    p
+      font-family: Arial, Helvetica, 'sans-serif'
+      font-size: 1.15rem
+    .imagen
+      text-align: center
+      width: 25%
+  .content__cuatro
+    background: #103184
+    color: #fff
+    img
+      margin: 0 auto
+      display: block
+      max-width: 100%
+    li, ul
+      overflow: hidden
+    li
+      font-family: Arial, Helvetica, 'sans-serif'
+      font-size: 1.07rem
+      margin-bottom: 2rem
+    ul
+      margin-top: 2rem
+      padding: 0 3.83%
+    .destacado
+      background: url("https://axa.mx/documents/2491895/2645839/bandera_derecha.png") no-repeat right center, url("https://axa.mx/documents/2491895/2645839/bandera_izquierda.png") no-repeat left center
+      color: #fff
+      font-size: em( 97, 16 )
+      font-weight: bold
+      line-height: 1.2em
+      margin: 0 auto 1rem
+      text-align: center
+      width: 80%
+  .content__tres
+    background: rgba(95, 170, 220, 0.3)
+    padding: 29px 3.83% 0
+  .content__uno
+    background: #5faadc
+    padding: 14px 3.83% 13px
+    p
+      color: #fff
+      font-size: 1.43rem
+      font-weight: bold
+      padding-bottom: 13px
+      text-align: center
+    img
+      margin: 0 auto
+      display: block
+      max-width: 100%
+  .content__alimentacion, .content__ejercicio, .content__entrenamiento
+    display: flex
+    padding: 14px 0
+  .content__alimentacion h2, .content__ejercicio h2, .content__entrenamiento h2
+    padding: 0
+  .content__alimentacion p, .content__ejercicio p, .content__entrenamiento p
+    text-align: left
+  .content__alimentacion
+    background: rgba(95, 170, 220, 0.3)
+  .content__ejercicio
+    background: rgba(95, 170, 220, 0.2)
+    h2, p
+      text-align: right
+  .content__entrenamiento
+    background: rgba(95, 170, 220, 0.1)
+    margin-top: 10px
+  .content--figcaption
+    align-self: center
+    width: 55.67%
+  .content--imagen
+    align-self: center
+    text-align: center
+    width: 22.17%
+  .encabezado--logo
+    text-align: right
+/* ==========================================================================
+   iPhone 6 Plus
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+  .estrategia-ganadora
+    h1
+      font-size: em( 16, 16.4 )
+    .articulo--footer
+      padding-bottom: 110px
+    .content__cuatro .destacado
+      background: url("https://axa.mx/documents/2491895/2645839/bandera_derecha.png") no-repeat right center, url("https://axa.mx/documents/2491895/2645839/bandera_izquierda.png") no-repeat left center
+      background-size: auto 50%, auto 50%
+      font-size: 3rem
+    .content__cinco
+      figure, .figure
+        display: flex
+        text-align: center
+      figcaption, .figcaption
+        width: 100% !important
+        p
+          font-size: em( 13, 16 )
+      .imagen
+        margin: 1rem auto 0
+        width: 90%
+    .content__alimentacion, .content__ejercicio, .content__entrenamiento,
+    .content__cinco figure, .content__cinco .figure
+      flex-direction: column
+    .content__alimentacion h2, .content__ejercicio h2, .content__entrenamiento h2,
+    .content__cinco figure h2, .content__cinco .figure h2, .content__alimentacion p,
+    .content__ejercicio p, .content__entrenamiento p, .content__cinco figure p,
+    .content__cinco .figure p
+      text-align: center
+    .content__ejercicio
+      .content--figcaption
+        order: 2
+      .content--imagen
+        &:nth-child(1)
+          order: 3
+        &:nth-child(2)
+          order: 1
+    .alimentos--imagenes
+      flex-wrap: wrap
+      img
+        max-width: 30%
+    .content--figcaption
+      width: 90%
+    .content--imagen
+      width: 50%

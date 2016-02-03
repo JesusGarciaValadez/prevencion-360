@@ -1,0 +1,231 @@
+.importance-of-exercise
+  h1, h2, h3, h4, h5, h6, p, span, ul li, ol li
+    @include font-mask( 'normal', em( 13, 16 ), 1.2em, $franklin, $text-gray )
+  .bulletin-title
+    display: flex
+    flex-flow: row nowrap
+    img
+      align-self: center
+      width: 30%
+    .how-healthy-is-the-mexican
+      width: 70%
+      h2
+        font-size: em( 15, 16 )
+        padding: 0 0.5em
+      img
+        display: block
+        margin: 5px auto
+        width: 100%
+      .section
+        .article
+          width: 100%
+          .image
+            img
+              width: 100%
+          .text
+            p
+        .percentaje.mobile, .bicycle.mobile, .both-parents
+          display: flex
+          flex-flow: row nowrap
+        .percentaje
+          .image
+            &:nth-child( 1 )
+            &:nth-child( 3 )
+            width: 20%
+            img
+          .text
+            padding: 0 3px
+            p
+              margin-bottom: 0
+            &:nth-child( 2 )
+              width: 22%
+            &:nth-child( 4 )
+              width: 36%
+              p
+                line-height: 0.8em
+                margin: 14px auto 0
+        .bicycle
+          .text
+            width: 30%
+            p
+              margin: 0.5em 0
+          .image
+            width: 20%
+            img
+              width: 100%
+        .both-parents
+          .image
+            width: 13%
+            img
+              width: 100%
+          .text
+            padding: 0 0.5em
+            width: 80%
+            p
+              margin: 0
+              strong
+                color: $dark-blue
+  > .accesories.mobile
+    display: flex
+    flex-align: row nowrap
+  > .accesories
+    .text
+      box-sizing: border-box
+      padding: 0 1%
+      width: 60%
+      p
+        font-size: em( 14, 16 )
+        margin: 0.5em 0
+        text-align: right
+        .dark-aqua
+          color: $dark-aqua
+          font-size: em( 14, 14 )
+    .image
+      width: 40%
+      img
+        width: 100%
+  .orange-pleca
+    background: url( '../images/assets/2016/febrero/salud/pleca-mobile.png' ) repeat-x scroll center center transparent
+    border: 0 none transparent
+    height: 5px
+    width: 100%
+  .main
+    .junk-food
+      display: flex
+      flex-flow: row nowrap
+      .left, .right
+        box-sizing: border-box
+        padding: 0 1%
+      .left
+        width: 72%
+        p
+          font-size: em( 13.5, 16 )
+          text-align: right
+          width: 100%
+          .orange
+            color: $orange
+            font-size: em( 13, 13 )
+      .right
+        width: 28%
+        img
+          width: 100%
+    .cvd
+      display: flex
+      flex-flow: row nowrap
+      .article
+        width: 50%
+        &:first-child
+          .title
+            .aqua
+              line-height: em( 17, 16 )
+        &:last-child
+          .title
+            .aqua
+              line-height: em( 37.5, 16 )
+        .title
+          box-sizing: border-box
+          padding: 0 1%
+          img, .aqua
+            float: left
+          img
+            width: 20%
+          .aqua
+            box-sizing: border-box
+            color: $aqua
+            font-size: em( 13, 16 )
+            margin: 0 0 0 0.3em
+            width: 77%
+        .article-body
+          box-sizing: border-box
+          display: flex
+          flex-flow: column nowrap
+          padding: 0 0.5em
+          p
+            align-self: center
+            font-size: em( 13, 16 )
+            margin: 0 auto
+            width: 100%
+    .cancer-posibilities-title
+      box-sizing: border-box
+      padding: 0 0.5em
+      .aqua
+        color: $aqua
+        display: block
+        font-size: em( 18, 16 )
+        margin: 0.5em auto
+        text-align: center
+        width: 80%
+    .cancer-posibilities-body
+      display: flex
+      flex-flow: row nowrap
+      .article.mobile
+        display: flex
+        flex-flow: row nowrap
+      .article
+        box-sizing: border-box
+        padding: 0 1%
+        img
+          align-self: center
+          width: 40%
+        ul
+          padding: 0
+          width: 60%
+          li
+            font-size: em( 13, 16 )
+            margin: 1% 0
+            &:last-child
+              width: 65%
+            strong
+    .activities-examples
+      box-sizing: border-box
+      padding: 0.3em
+      p
+        font-size: em( 13, 16  )
+        display: block
+        margin: 0.3em auto
+        text-align: center
+        strong
+      ul
+        padding: 0 0 0 37px
+        li
+          list-style: none outside
+          position: relative
+          &:before
+            background: url( '../images/assets/2016/febrero/salud/corazon-icono-desktop.png' ) no-repeat scroll left center transparent
+            content: ""
+            height: 32px
+            left: -40px
+            position: absolute
+            top: 0
+            width: 33px
+          p
+            color: $aqua
+            font-size: em( 12.5, 12.9667 )
+            line-height: em( 33, 12.5 )
+            margin: 0 auto
+            text-align: left
+  .footer
+    .block
+    .aqua
+      background-color: $aqua
+      box-sizing: border-box
+      padding: 0.5em
+      p
+        color: $white-color
+        display: block
+        font-size: em( 15, 16 )
+        margin: 0 auto
+        width: 74%
+    .foot-note
+      box-sizing: border-box
+      padding: 0 0.3em
+      p
+        display: block
+        font-size: em( 10.5, 16 )
+  .aqua-pleca
+    border: 0 none solid
+    border-top: 3px dotted $aqua
+    height: 0
+    display: block
+    margin: 0 auto
+    width: 100%

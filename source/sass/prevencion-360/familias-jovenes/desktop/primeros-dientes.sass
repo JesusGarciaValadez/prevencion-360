@@ -1,0 +1,108 @@
+#encabezadoGeneral, #pieGeneral
+  display: flex
+  display: 0
+  justify-content: flex-end
+  padding: 1.64rem 3.83% 2.78rem
+  width: 100%
+  img
+    float: right
+.primeros-dientes
+  p, h1, h2, h3, h4, h5, h6, ul, ol, li, span
+    font-family: $helvetica
+  .articulo--header
+    h1
+      color: #103184
+      font-weight: bold
+      font-size: em( 32, 16 )
+      line-height: 1.2em
+      margin-bottom: 38px
+      text-align: center
+  .articulo--content
+    padding-left: 3.83%
+    padding-right: 3.83%
+  .articulo--footer
+    padding-left: 3.83%
+    padding-right: 3.83%
+    a, p
+      color: #103184
+      font-size: .86rem
+      text-align: left !important
+  .content__cuatro
+    padding-bottom: 27px
+    padding-top: 24px
+    figcaption, div.figcaption
+      width: 68.96%
+      p
+        margin-bottom: 2rem
+    figure, div.figure
+      display: flex
+      display: 0
+    p
+      color: #103184
+  .content__cuatro--imagen
+    text-align: center
+    width: 30.73%
+  .content__dos
+    background: rgba(177, 148, 1, 0.15)
+    padding-bottom: 11px
+    padding-top: 20px
+    figcaption, div.figcaption
+      width: 50.03%
+    figure, div.figure
+      display: flex
+      display: 0
+    li
+      color: #103184
+      font-size: 14px
+      list-style: disc
+      line-height: 1.2em
+      margin-left: .5em
+  .content__dos--imagenes
+    text-align: center
+    width: 49.97%
+  .content__tres
+    background: #5faadc
+    padding-top: 12px
+    padding-bottom: 12px
+    p
+      color: #fff
+      font-size: 1.14rem
+  .content__uno
+    padding-bottom: 32px
+    figcaption, div.figcaption
+      width: 60.08%
+    figure, div.figure
+      display: flex
+      display: 0
+    p
+      color: #103184
+      font-size: em( 19, 16 )
+      line-height: 1.2em
+  .content__uno--imagen
+    text-align: center
+    width: 39.92%
+  .imagen__llorando
+    margin-top: -10px
+.pie--logo
+  img
+    float: right
+
+/* ==========================================================================
+   iPhone 6 Plus
+   ========================================================================== */
+@media only screen and (max-width: em( 736, 16 ))
+  .primeros-dientes
+    p
+      text-align: center
+    .content__cuatro figcaption, .content__dos figcaption, .content__uno figcaption,
+    .content__cuatro div.figcaption, .content__dos div.figcaption, .content__uno div.figcaption
+      margin: .5rem auto
+      width: 90%
+    .content__cuatro figure, .content__dos figure, .content__uno figure,
+    .content__cuatro div.figure, .content__dos div.figure, .content__uno div.figure
+      flex-direction: column
+    .content__cuatro--imagen, .content__dos--imagenes, .content__uno--imagen
+      margin: .5rem auto
+      width: 90%
+    .imagen__llorando
+      margin-top: 0

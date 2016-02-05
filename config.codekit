@@ -1936,7 +1936,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/actividad-sismica.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/actualmente-como-proteges-a-tu-familia-y-patromonio.png": {
 		"fileType": 32768,
@@ -2048,17 +2048,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/lluvia-mobile.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1269,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/lluvia-mobile.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/lluvia-mobile.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/mexico-expuesto-a-desastres-naturales-mobile.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2099,6 +2088,17 @@
 		"initialSize": 22441,
 		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/sabias-que-en-mexico.png",
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/sabias-que-en-mexico.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/tormentas-tropicales-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1269,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/tormentas-tropicales-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/mexico-expuesto-a-desastres-naturales\/tormentas-tropicales-mobile.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
@@ -4215,6 +4215,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/sass\/auto.sass",
 		"outputAbbreviatedPath": "\/css\/auto.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
+	"\/source\/sass\/custom-styles\/desktop\/2016\/febrero\/hogar.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/desktop\/2016\/febrero\/hogar.sass",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/hogar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,

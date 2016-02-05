@@ -4430,6 +4430,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
+	"\/source\/sass\/custom-styles\/tablet\/2016\/febrero\/hogar-portrait.sass": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 2,
+		"fileType": 2,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/tablet\/2016\/febrero\/hogar-portrait.sass",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/hogar-portrait.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": false
+		},
 	"\/source\/sass\/custom-styles\/tablet\/2016\/febrero\/salud-portrait.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,

@@ -1,0 +1,96 @@
+.behind-a-good-driver
+  p, span, h1, h2, h3, h4, h5, h6, ul li, ol li
+    @include font-mask( normal, 3.4375vw, 1.2em, $helvetica, $text-gray-auto-2016 )
+  .dark-blue
+    color: $dark-blue
+  .green
+    background-color: transparent
+    color: $green-auto-2016
+  .advices ul, .driving-school ul
+    padding: 0
+  .bulletin-title, .advices ul li, .driving-school ul, .driving-school ul li
+    display: flex
+  .bulletin-title, .advices ul li
+    flex-flow: row nowrap
+  .driving-school ul li
+    flex-flow: column nowrap
+  .bulletin-title
+    img
+      align-self: flex-start
+      width: 30%
+    .article
+      width: 70%
+      h1
+        box-sizing: border-box
+        color: $dark-blue
+        font-size: 4.6875vw // 15px
+        padding: 0 0.3em
+        text-align: center
+        strong
+      hr
+        border-color: $orange-auto-2016 transparent transparent
+        border-style: solid none none
+        border-width: 1px 0 0
+        height: 0
+        margin: 0.5em auto
+        width: 100%
+      p
+        span.dark-blue
+          strong
+        span.green
+  .bulletin-title .article, .description.mobile
+    p
+      font-size: 2.8125vw // em( 9, 16 )
+      text-align: center
+      span
+        font-size: 1em
+      span.green
+  .description
+    box-sizing: border-box
+    padding: 0 0.3em
+    p
+      font-size: 2.8125vw // 9px
+  .advice
+    box-sizing: border-box
+    padding: 0 4.6875vw // 15px
+    p
+      color: $orange-auto-2016
+      font-size: 3.9375vw // 12.6px
+      margin: 0.2em auto
+      text-align: center
+  .advices
+    ul
+      li
+        margin: 3.125vw auto
+        p
+          box-sizing: border-box
+          font-size: 3.0625vw // em( 9.8, 16 )
+          padding: 0 1.5%
+          text-align: center
+          width: 118%
+          strong.dark-blue
+        img
+          align-self: center
+          height: 7.8125vw // em( 25, 16 )
+          width: 20%
+  .vial-education, .security
+    img
+      width: 100%
+  .driving-school
+    p
+      font-size: 3.125vw // em( 10, 16 )
+      text-align: center
+    ul
+      li
+        width: 25%
+        img
+          display: block
+          width: 50%
+          margin: 0 auto
+        p
+          font-size: 2.5vw // em( 8, 16 )
+          text-align: center
+  .footer
+    p
+      font-size: 2.8125vw // em( 9, 16 )
+      text-align: center

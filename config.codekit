@@ -356,6 +356,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/futuro\/piensas-a-futuro.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/futuro\/piensas-a-futuro.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/hogar\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -2464,17 +2473,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66106,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/header.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/header.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mapa-mobile.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2548,6 +2546,17 @@
 		"initialSize": 6208,
 		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/piensas-a-futuro.png",
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/piensas-a-futuro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/preguntas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42929,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/preguntas.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/preguntas.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1

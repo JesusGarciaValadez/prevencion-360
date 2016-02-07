@@ -1,5 +1,4 @@
-prevencion-360.sublime-workspace
-boletin-axa-prevencion-360.sublime-workspace
+*.sublime-*
 bower_components
 .sass-cache
 config.core.php

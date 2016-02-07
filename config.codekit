@@ -31,6 +31,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/auto\/detras-de-un-buen-conductor-esta-un-padre-responsable.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/auto\/detras-de-un-buen-conductor-esta-un-padre-responsable.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/auto\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -1322,27 +1331,38 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateri݁a.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateria-desktop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 571,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateri݁a.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateri݁a.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateria-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateria-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/Buen-Conductor.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateria-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 294,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateria-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/bateria-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/buen-conductor.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 32717,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/Buen-Conductor.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/Buen-Conductor.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/buen-conductor.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/buen-conductor.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/Captura de pantalla 2016-01-05 a las 13.48.33.png": {
 		"fileType": 32768,
@@ -1353,7 +1373,7 @@
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/Captura de pantalla 2016-01-05 a las 13.48.33.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
 	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/Captura de pantalla 2016-01-05 a las 13.50.42.png": {
 		"fileType": 32768,
@@ -1364,29 +1384,51 @@
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/Captura de pantalla 2016-01-05 a las 13.50.42.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro-desktop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 6115,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturonseguridad.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1535,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/carro-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturon-de-seguridad-desktop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4092,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturonseguridad.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturonseguridad.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturon-de-seguridad-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturon-de-seguridad-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturon-de-seguridad-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1390,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturon-de-seguridad-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/cinturon-de-seguridad-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/COLOR.png": {
 		"fileType": 32768,
@@ -1397,172 +1439,117 @@
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/COLOR.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 778,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/hoja.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 703,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/hoja.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/hoja.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/letreroamarillo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5418,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/letreroamarillo.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/letreroamarillo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/manoycarro.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 52091,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/manoycarro.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/manoycarro.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_amarillo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2382,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_amarillo.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_amarillo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_bateria.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 294,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_bateria.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_bateria.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_carro.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1535,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_carro.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_carro.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_cinturon.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1390,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_cinturon.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_cinturon.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_diploma.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 370,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_diploma.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_diploma.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_flecha.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 400,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_flecha.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_flecha.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_manocarro.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 16005,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_manocarro.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_manocarro.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_semaforo.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 407,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_semaforo.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_semaforo.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_señales.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1958,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_señales.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_señales.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_titular.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/detras-de-un-buen-conductor-esta-un-padre-responsable.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 11001,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_titular.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_titular.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/detras-de-un-buen-conductor-esta-un-padre-responsable.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/detras-de-un-buen-conductor-esta-un-padre-responsable.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_vino.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/diploma-desktop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 1607,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_vino.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/mobile4_vino.png",
+		"initialSize": 703,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/diploma-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/diploma-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/diploma-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 370,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/diploma-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/diploma-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/es-primordial-que-tu-hijo-reciba-una-educacion-vial-profesional-desktop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5418,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/es-primordial-que-tu-hijo-reciba-una-educacion-vial-profesional-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/es-primordial-que-tu-hijo-reciba-una-educacion-vial-profesional-desktop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/es-primordial-que-tu-hijo-reciba-una-educacion-vial-profesional-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2382,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/es-primordial-que-tu-hijo-reciba-una-educacion-vial-profesional-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/es-primordial-que-tu-hijo-reciba-una-educacion-vial-profesional-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha-desktop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 778,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha-desktop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/flecha-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/seguridad-desktop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 52091,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/seguridad-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/seguridad-desktop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/seguridad-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16005,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/seguridad-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/seguridad-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/semaforo-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 407,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/semaforo-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/semaforo-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/semaforo.png": {
 		"fileType": 32768,
@@ -1573,29 +1560,51 @@
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/semaforo.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/sen݃alamientos.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/senales-viales-desktop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 7680,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/sen݃alamientos.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/sen݃alamientos.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/senales-viales-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/senales-viales-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos.png": {
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/senales-viales-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1958,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/senales-viales-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/senales-viales-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos-desktop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4995,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1607,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/detras-de-un-buen-conductor-esta-un-padre-responsable\/vinos-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/assets\/2016\/febrero\/la-importancia-de-ejercitarse\/40-porciento-desktop.png": {
 		"fileType": 32768,
@@ -2411,16 +2420,27 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/_pastel02.png": {
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/76-anios-desktop.png": {
 		"fileType": 32768,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 399,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/_pastel02.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/_pastel02.png",
+		"initialSize": 913,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/76-anios-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/76-anios-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/76-anios.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4144,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/76-anios.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/76-anios.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/color.png": {
 		"fileType": 32768,
@@ -2431,172 +2451,139 @@
 		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/color.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/76an݃os.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4144,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/76an݃os.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/76an݃os.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/humano.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6657,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/humano.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/humano.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/linea_verde_puntos.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 845,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/linea_verde_puntos.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/linea_verde_puntos.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/lineaverde_2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 926,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/lineaverde_2.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/lineaverde_2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/mapa.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11481,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/mapa.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/mapa.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/pastel.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 802,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/pastel.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/pastel.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/pastel_flechas.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2223,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/pastel_flechas.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/pastel_flechas.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/preguntas_header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 66106,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/preguntas_header.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/preguntas_header.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/titularverde.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6208,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/titularverde.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cortes_vida\/titularverde.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_76.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 913,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_76.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_76.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_lineas.png": {
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cuantos-anios-vamos-a-vivir.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 1084,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_lineas.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_lineas.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cuantos-anios-vamos-a-vivir.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/cuantos-anios-vamos-a-vivir.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_lineaverde.png": {
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/header.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 362,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_lineaverde.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_lineaverde.png",
+		"initialSize": 66106,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/header.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/header.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_mapa.png": {
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mapa-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11481,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mapa-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mapa-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mapa-y-personas.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 4198,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_mapa.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_mapa.png",
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mapa-y-personas.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mapa-y-personas.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_pastel_01.png": {
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel-desktop.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 399,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_pastel_01.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_pastel_01.png",
+		"initialSize": 802,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel-desktop.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
 		},
-	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_pastel_03.png": {
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel-mobile.png": {
+		"fileType": 32768,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 399,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 399,
-		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_pastel_03.png",
-		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/mobile3_pastel_03.png",
+		"initialSize": 2223,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/pastel.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 0
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/personas.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6657,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/personas.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/personas.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/piensas-a-futuro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6208,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/piensas-a-futuro.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/piensas-a-futuro.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-desktop-grande.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 845,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-desktop-grande.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-desktop-grande.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-desktop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 926,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-desktop.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-desktop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 362,
+		"inputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-mobile.png",
+		"outputAbbreviatedPath": "\/images\/assets\/2016\/febrero\/piensas-a-futuro\/separador-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
 		},
 	"\/images\/axa-touch-lealtad\/01_futbolista.jpg": {
 		"fileType": 16384,
@@ -3872,9 +3859,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/kit\/detras-de-un-buen-conductor-esta-un-padre-responsable.kit",
-		"outputAbbreviatedPath": "\/source\/detras-de-un-buen-conductor-esta-un-padre-responsable.html",
+		"outputAbbreviatedPath": "\/auto\/detras-de-un-buen-conductor-esta-un-padre-responsable.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/source\/kit\/diversion-sobre-ruedas.kit": {
 		"fileType": 2048,
@@ -4106,9 +4093,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/source\/kit\/piensas-a-futuro.kit",
-		"outputAbbreviatedPath": "\/source\/piensas-a-futuro.html",
+		"outputAbbreviatedPath": "\/futuro\/piensas-a-futuro.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/source\/kit\/pilates.kit": {
 		"fileType": 2048,
@@ -4782,15 +4769,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/auto.sass": {
+	"\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/auto-portrait.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 2,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/auto.sass",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/auto.css",
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/auto-portrait.sass",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/auto-portrait.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -4798,15 +4785,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/futuro.sass": {
+	"\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/futuro-portrait.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/futuro.sass",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/futuro.css",
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/mobile\/2016\/febrero\/futuro-portrait.sass",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/futuro-portrait.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
@@ -4990,15 +4977,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": false
 		},
-	"\/source\/sass\/custom-styles\/tablet\/2016\/febrero\/futuro.sass": {
+	"\/source\/sass\/custom-styles\/tablet\/2016\/febrero\/futuro-portrait.sass": {
 		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 2,
 		"fileType": 2,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/tablet\/2016\/febrero\/futuro.sass",
-		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/futuro.css",
+		"inputAbbreviatedPath": "\/source\/sass\/custom-styles\/tablet\/2016\/febrero\/futuro-portrait.sass",
+		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/css\/futuro-portrait.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,

@@ -1,150 +1,146 @@
-.mexico-exposed
+.think-in-your-future
   p, span, h1, h2, h3, h4, h5, h6, ul li, ol li
-    @include font-mask( normal, em( 11, 16 ), 1.2em, $helvetica, $text-gray )
-  .blue-light
-    color: $light-blue
-  .blue-mid
-    color: $mid-blue
-  .blue-dark
-    color: $hard-blue
+    @include font-mask( normal, 3.4375vw, 1.2em, $helvetica, $text-gray-auto-2016 ) // em( 11, 16 )
+  .light-green
+    color: $green-future-2016
+  .light-blue
+    color: $light-blue-future-2016
+  .mid-blue
+    color: $mid-blue-future-2016
+  .dark-blue
+    color: $dark-blue-future-2016
+  .orange
+    color: $yellow-future-2016
+  .life-hope, .estimating-life-and-cake .estimating-life,
+  .inegi-data-indicates, ul.states, .importance-voluntary-contributions .section
+    box-sizing: border-box,
+    padding: 0 3.125vw //em( 10, 16 )
+  .life-hope, .cake, .map, .importance-voluntary-contributions,
+  .inegi-data .data-and-map.mobile ul.through-years
+    display: flex
+    flex-flow: row nowrap
   .bulletin-title
-    display: flex
-    flex-flow: row nowrap
-    margin: 0.5em auto
     img
-      align-self: flex-start
-      width: 40%
-    .article
+      width: 100%
+    h1
       box-sizing: border-box
-      padding: 0 0.2em
-      width: 60%
-      h1
+      padding: 0 0.3em
+      text-align: center
+      strong.dark-blue
+  .future-2016-separator
+    img
+      display: block
+      margin-left: auto
+      margin-right: auto
+  .life-hope
+    img
+      align-self: center
+      box-sizing: border-box
+      padding: 0 5%
+      width: 30%
+    p
+      font-size: 3.4375vw // em( 11, 16 )
+      text-align: center
+      width: 70%
+      strong.green
+  .estimating-life-and-cake
+    .estimating-life
+      p
+        margin: 0.3em auto
         text-align: center
-      .article.mobile
-        display: flex
-        flex-flow: row nowrap
-      .article
-        width: 100%
-        .sinisters
-          width: 30%
-  .you-know.mobile
-    display: flex
-    flex-flow: row nowrap
-  .you-know
-    width: 100%
-    .article
+        strong.mid-blue
+    .cake
       box-sizing: border-box
-      &:nth-child( 1 )
-        width: 45%
-      &:nth-child( 2 )
-        width: 15%
-      &:nth-child( 3 )
-        padding: 0 0.5em
-        width: 40%
+      padding: 0 0.3em
       img
-        width: 100%
-      p
-        font-size: em( 11, 16 )
-        margin: 12px auto
-  .main
-    .natural-disasters
-      display: flex
-      flex-flow: row nowrap
-      .aside.desktop
-        .percentage-of-territory
-          .article
-            img
-            p
-        .geographic-ubication
-          img
-          p
-      .one-hundred-disasters
-        box-sizing: border-box
-        padding: 0 0.5em
-        width: 40%
-        img
-          display: block
-          margin: 0 auto
-          width: 80%
-        p
-          display: block
-          font-size: em( 11, 16 )
-          margin: 0.5em auto
-          text-align: center
-          width: 100%
-      .aside
-        width: 60%
-        .seventy-population
-          img
-            float: left
-            width: 20%
-          p
-            font-size: em( 11, 16 )
-            margin-left: 44px
-        .nine-hundred-millions
-          box-sizing: border-box
-          padding: 0 0.2em
-          p
-            font-size: em( 9, 16 )
-            text-align: center
-            width: 95%
-            strong
-    .arrow.mobile
-      display: flex
-      flex-flow: row nowrap
-    .arrow
-      img
-        &:nth-child( 1 )
-          width: 10%
-        &:nth-child( 3 )
-          align-self: flex-start
-          width: 20%
-      p
-        display: block
-        font-size: 3.232vw // 10.1px
-        margin: 0 0.2em
-        width: 70%
-    .vulnerabilities-to-disasters
-      ol
-        padding-left: 20px
-        position: static
-        li
-          font-size: em( 10.2, 16 )
-          list-style: decimal outside
-          margin: 0.5em 0
-          strong
-    .measures-can-be-taken
-      display: flex
-      flex-flow: row nowrap
-      img
-        width: 30%
+        align-self: center
+        width: 20%
       p
         align-self: center
-        box-sizing: border-box
-        font-size: em( 10, 16 )
-        padding: 0.5em auto
-        width: 70%
-  .footer
-    .block
-    .dark-aqua
-      background-color: $dark-aqua
-      display: block
-      float: left
-      width: 100%
-      .bulletin-centered
-        color: $white-color
-        display: block
-        float: left
-        margin: 0.8em auto
+        font-size: 3.28125vw // em( 10.5, 16 )
+        margin: 0 0 0 0.3em
         text-align: center
-        width: 100%
-        strong
-    .foot-note
-      display: block
-      width: 100%
+        strong.dark-blue
+  .inegi-data-indicates
+    p
+      text-align: center
+  ul.states
+    li
+      text-align: center
+      .green
+      .light-blue
+      .orange
+  ul.through-years
+    li
+      img
+        float: left
       p
-        float: left
-        font-size: 2.56vw // 8px
-        margin: 1em auto
+        display: block
+        font-size: 3.4375vw // em( 11, 16 )
+        margin: 0 1.5625vw // em( 5, 16 )
         text-align: center
-        width: 100%
+  .inegi-data
+    .data-and-map.mobile
+      ul.states
+        li
+          margin: 3.125vw auto // em( 10, 16 ) auto
+          .green
+          .light-blue
+          .orange
+      .map
+        img
+          width: 50%
+        p
+          align-self: center
+          font-size: 4.0625vw // em( 13, 16 )
+          margin: 0
+          text-align: center
+          width: 50%
+          strong
+      ul.through-years
+        padding: 0
+        li
+          width: 33.3%
+          img
+          p
+    .data-and-map.desktop
+      ul.states
+        li
+          .green
+          .light-blue
+          .orange
+      img
+      .people
+        img
+        p.dark-blue
+          strong
+        .through-years
+          li
+            img
+            p
+        p
+  .importance-voluntary-contributions
+    .section
+      padding: 0 1.5625vw
+      width: 50%
+      &:nth-child( 1 )
+        text-align: right
+      &:nth-child( 2 )
+        text-align: left
+      p
+        span
+        strong
+  .footer
+    .foot-note.mobile
+      p
+        margin-top: 0
+        text-align: center
+    .aqua
+      background-color: $green-future-2016
+      box-sizing: border-box
+      padding: 0.3125vw 4.6875vw // 1px 15px
+      p
+        color: $white-color
+        font-size: 3.4375vw em( 11, 16 )
+        text-align: center
+        strong

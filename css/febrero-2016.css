@@ -16020,51 +16020,28 @@ footer.footer {
       text-align: center;
       width: 100%; }
 
-  .mexico-exposed p, .mexico-exposed span, .mexico-exposed h1, .mexico-exposed h2, .mexico-exposed h3, .mexico-exposed h4, .mexico-exposed h5, .mexico-exposed h6, .mexico-exposed ul li, .mexico-exposed ol li {
-    color: #595959;
+  .think-in-your-future p, .think-in-your-future span, .think-in-your-future h1, .think-in-your-future h2, .think-in-your-future h3, .think-in-your-future h4, .think-in-your-future h5, .think-in-your-future h6, .think-in-your-future ul li, .think-in-your-future ol li {
+    color: #8C8C8C;
     font-family: Helvetica, Arial, "sans-serif";
-    font-size: 0.69em;
+    font-size: 3.44vw;
     font-weight: normal;
     line-height: 1.2em; }
-  .mexico-exposed .blue-light {
-    color: #38A9D5; }
-  .mexico-exposed .blue-mid {
-    color: #248ABE; }
-  .mexico-exposed .blue-dark {
-    color: #1C5A7D; }
-  .mexico-exposed .bulletin-title {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
-    margin: 0.5em auto; }
-    .mexico-exposed .bulletin-title img {
-      -webkit-align-self: flex-start;
-          -ms-flex-item-align: start;
-              align-self: flex-start;
-      width: 40%; }
-    .mexico-exposed .bulletin-title .article {
-      box-sizing: border-box;
-      padding: 0 0.2em;
-      width: 60%; }
-      .mexico-exposed .bulletin-title .article h1 {
-        text-align: center; }
-      .mexico-exposed .bulletin-title .article .article.mobile {
-        display: -webkit-box;
-        display: -webkit-flex;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-flex-flow: row nowrap;
-            -ms-flex-flow: row nowrap;
-                flex-flow: row nowrap; }
-      .mexico-exposed .bulletin-title .article .article {
-        width: 100%; }
-        .mexico-exposed .bulletin-title .article .article .sinisters {
-          width: 30%; }
-  .mexico-exposed .you-know.mobile {
+  .think-in-your-future .light-green {
+    color: #25CE9E; }
+  .think-in-your-future .light-blue {
+    color: #3F96E9; }
+  .think-in-your-future .mid-blue {
+    color: #2B71B5; }
+  .think-in-your-future .dark-blue {
+    color: #1C3E58; }
+  .think-in-your-future .orange {
+    color: #FABF62; }
+  .think-in-your-future .life-hope, .think-in-your-future .estimating-life-and-cake .estimating-life,
+  .think-in-your-future .inegi-data-indicates, .think-in-your-future ul.states, .think-in-your-future .importance-voluntary-contributions .section {
+    box-sizing: border-box;
+    padding: 0 3.13vw; }
+  .think-in-your-future .life-hope, .think-in-your-future .cake, .think-in-your-future .map, .think-in-your-future .importance-voluntary-contributions,
+  .think-in-your-future .inegi-data .data-and-map.mobile ul.through-years {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -16072,125 +16049,90 @@ footer.footer {
     -webkit-flex-flow: row nowrap;
         -ms-flex-flow: row nowrap;
             flex-flow: row nowrap; }
-  .mexico-exposed .you-know {
+  .think-in-your-future .bulletin-title img {
     width: 100%; }
-    .mexico-exposed .you-know .article {
-      box-sizing: border-box; }
-      .mexico-exposed .you-know .article:nth-child(1) {
-        width: 45%; }
-      .mexico-exposed .you-know .article:nth-child(2) {
-        width: 15%; }
-      .mexico-exposed .you-know .article:nth-child(3) {
-        padding: 0 0.5em;
-        width: 40%; }
-      .mexico-exposed .you-know .article img {
-        width: 100%; }
-      .mexico-exposed .you-know .article p {
-        font-size: 0.69em;
-        margin: 12px auto; }
-  .mexico-exposed .main .natural-disasters {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap; }
-    .mexico-exposed .main .natural-disasters .one-hundred-disasters {
-      box-sizing: border-box;
-      padding: 0 0.5em;
-      width: 40%; }
-      .mexico-exposed .main .natural-disasters .one-hundred-disasters img {
-        display: block;
-        margin: 0 auto;
-        width: 80%; }
-      .mexico-exposed .main .natural-disasters .one-hundred-disasters p {
-        display: block;
-        font-size: 0.69em;
-        margin: 0.5em auto;
-        text-align: center;
-        width: 100%; }
-    .mexico-exposed .main .natural-disasters .aside {
-      width: 60%; }
-      .mexico-exposed .main .natural-disasters .aside .seventy-population img {
-        float: left;
-        width: 20%; }
-      .mexico-exposed .main .natural-disasters .aside .seventy-population p {
-        font-size: 0.69em;
-        margin-left: 44px; }
-      .mexico-exposed .main .natural-disasters .aside .nine-hundred-millions {
-        box-sizing: border-box;
-        padding: 0 0.2em; }
-        .mexico-exposed .main .natural-disasters .aside .nine-hundred-millions p {
-          font-size: 0.56em;
-          text-align: center;
-          width: 95%; }
-  .mexico-exposed .main .arrow.mobile {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap; }
-  .mexico-exposed .main .arrow img:nth-child(1) {
-    width: 10%; }
-  .mexico-exposed .main .arrow img:nth-child(3) {
-    -webkit-align-self: flex-start;
-        -ms-flex-item-align: start;
-            align-self: flex-start;
-    width: 20%; }
-  .mexico-exposed .main .arrow p {
+  .think-in-your-future .bulletin-title h1 {
+    box-sizing: border-box;
+    padding: 0 0.3em;
+    text-align: center; }
+  .think-in-your-future .future-2016-separator img {
     display: block;
-    font-size: 3.23vw;
-    margin: 0 0.2em;
+    margin-left: auto;
+    margin-right: auto; }
+  .think-in-your-future .life-hope img {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    box-sizing: border-box;
+    padding: 0 5%;
+    width: 30%; }
+  .think-in-your-future .life-hope p {
+    font-size: 3.44vw;
+    text-align: center;
     width: 70%; }
-  .mexico-exposed .main .vulnerabilities-to-disasters ol {
-    padding-left: 20px;
-    position: static; }
-    .mexico-exposed .main .vulnerabilities-to-disasters ol li {
-      font-size: 0.64em;
-      list-style: decimal outside;
-      margin: 0.5em 0; }
-  .mexico-exposed .main .measures-can-be-taken {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap; }
-    .mexico-exposed .main .measures-can-be-taken img {
-      width: 30%; }
-    .mexico-exposed .main .measures-can-be-taken p {
+  .think-in-your-future .estimating-life-and-cake .estimating-life p {
+    margin: 0.3em auto;
+    text-align: center; }
+  .think-in-your-future .estimating-life-and-cake .cake {
+    box-sizing: border-box;
+    padding: 0 0.3em; }
+    .think-in-your-future .estimating-life-and-cake .cake img {
       -webkit-align-self: center;
           -ms-flex-item-align: center;
               align-self: center;
-      box-sizing: border-box;
-      font-size: 0.63em;
-      padding: 0.5em auto;
-      width: 70%; }
-  .mexico-exposed .footer .dark-aqua {
-    background-color: #2B5D85;
+      width: 20%; }
+    .think-in-your-future .estimating-life-and-cake .cake p {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+      font-size: 3.28vw;
+      margin: 0 0 0 0.3em;
+      text-align: center; }
+  .think-in-your-future .inegi-data-indicates p {
+    text-align: center; }
+  .think-in-your-future ul.states li {
+    text-align: center; }
+  .think-in-your-future ul.through-years li img {
+    float: left; }
+  .think-in-your-future ul.through-years li p {
     display: block;
-    float: left;
-    width: 100%; }
-    .mexico-exposed .footer .dark-aqua .bulletin-centered {
+    font-size: 3.44vw;
+    margin: 0 1.56vw;
+    text-align: center; }
+  .think-in-your-future .inegi-data .data-and-map.mobile ul.states li {
+    margin: 3.13vw auto; }
+  .think-in-your-future .inegi-data .data-and-map.mobile .map img {
+    width: 50%; }
+  .think-in-your-future .inegi-data .data-and-map.mobile .map p {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 4.06vw;
+    margin: 0;
+    text-align: center;
+    width: 50%; }
+  .think-in-your-future .inegi-data .data-and-map.mobile ul.through-years {
+    padding: 0; }
+    .think-in-your-future .inegi-data .data-and-map.mobile ul.through-years li {
+      width: 33.3%; }
+  .think-in-your-future .importance-voluntary-contributions .section {
+    padding: 0 1.56vw;
+    width: 50%; }
+    .think-in-your-future .importance-voluntary-contributions .section:nth-child(1) {
+      text-align: right; }
+    .think-in-your-future .importance-voluntary-contributions .section:nth-child(2) {
+      text-align: left; }
+  .think-in-your-future .footer .foot-note.mobile p {
+    margin-top: 0;
+    text-align: center; }
+  .think-in-your-future .footer .aqua {
+    background-color: #25CE9E;
+    box-sizing: border-box;
+    padding: 0.31vw 4.69vw; }
+    .think-in-your-future .footer .aqua p {
       color: #FFF;
-      display: block;
-      float: left;
-      margin: 0.8em auto;
-      text-align: center;
-      width: 100%; }
-  .mexico-exposed .footer .foot-note {
-    display: block;
-    width: 100%; }
-    .mexico-exposed .footer .foot-note p {
-      float: left;
-      font-size: 2.56vw;
-      margin: 1em auto;
-      text-align: center;
-      width: 100%; }
+      font-size: 3.44vw 0.69em;
+      text-align: center; }
 
   .behind-a-good-driver p, .behind-a-good-driver span, .behind-a-good-driver h1, .behind-a-good-driver h2, .behind-a-good-driver h3, .behind-a-good-driver h4, .behind-a-good-driver h5, .behind-a-good-driver h6, .behind-a-good-driver ul li, .behind-a-good-driver ol li {
     color: #8C8C8C;

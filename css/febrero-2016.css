@@ -16055,8 +16055,9 @@ footer.footer {
     box-sizing: border-box;
     padding: 0 0.3em;
     text-align: center; }
+  .think-in-your-future .future-2016-separator img.mobile {
+    display: block; }
   .think-in-your-future .future-2016-separator img {
-    display: block;
     margin-left: auto;
     margin-right: auto; }
   .think-in-your-future .life-hope img {
@@ -16070,6 +16071,8 @@ footer.footer {
     font-size: 3.44vw;
     text-align: center;
     width: 70%; }
+    .think-in-your-future .life-hope p span.light-green {
+      font-size: 1em; }
   .think-in-your-future .estimating-life-and-cake .estimating-life p {
     margin: 0.3em auto;
     text-align: center; }
@@ -16122,6 +16125,8 @@ footer.footer {
       text-align: right; }
     .think-in-your-future .importance-voluntary-contributions .section:nth-child(2) {
       text-align: left; }
+    .think-in-your-future .importance-voluntary-contributions .section p span, .think-in-your-future .importance-voluntary-contributions .section p strong {
+      font-size: 1em; }
   .think-in-your-future .footer .foot-note.mobile p {
     margin-top: 0;
     text-align: center; }
@@ -16131,7 +16136,7 @@ footer.footer {
     padding: 0.31vw 4.69vw; }
     .think-in-your-future .footer .aqua p {
       color: #FFF;
-      font-size: 3.44vw 0.69em;
+      font-size: 3.44vw;
       text-align: center; }
 
   .behind-a-good-driver p, .behind-a-good-driver span, .behind-a-good-driver h1, .behind-a-good-driver h2, .behind-a-good-driver h3, .behind-a-good-driver h4, .behind-a-good-driver h5, .behind-a-good-driver h6, .behind-a-good-driver ul li, .behind-a-good-driver ol li {
@@ -16808,6 +16813,103 @@ footer.footer {
     font-size: 1.38em; }
   .mexico-exposed .footer .foot-note p {
     font-size: 0.56em; }
+
+  .think-in-your-future p, .think-in-your-future span, .think-in-your-future h1, .think-in-your-future h2, .think-in-your-future h3, .think-in-your-future h4, .think-in-your-future h5, .think-in-your-future h6, .think-in-your-future ul li, .think-in-your-future ol li {
+    color: #8C8C8C;
+    font-family: Helvetica, Arial, "sans-serif";
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.2em; }
+  .think-in-your-future .life-hope, .think-in-your-future .estimating-life-and-cake .estimating-life,
+  .think-in-your-future .inegi-data-indicates, .think-in-your-future ul.states, .think-in-your-future .importance-voluntary-contributions .section {
+    box-sizing: border-box;
+    padding: 0 3.13vw; }
+  .think-in-your-future .estimating-life-and-cake, .think-in-your-future .people, .think-in-your-future ul.through-years li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap; }
+  .think-in-your-future .bulletin-title img {
+    display: block;
+    margin: 0 auto;
+    width: auto; }
+  .think-in-your-future .bulletin-title h1 {
+    font-size: 1.63em; }
+  .think-in-your-future .future-2016-separator img.desktop {
+    display: block; }
+  .think-in-your-future .life-hope img {
+    padding: 0 5%;
+    width: 30%; }
+  .think-in-your-future .life-hope p {
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 1.31em;
+    margin: 0 auto; }
+  .think-in-your-future .estimating-life-and-cake .estimating-life {
+    width: 50%; }
+    .think-in-your-future .estimating-life-and-cake .estimating-life p {
+      font-size: 1.31em; }
+  .think-in-your-future .estimating-life-and-cake .cake {
+    width: 50%; }
+    .think-in-your-future .estimating-life-and-cake .cake img {
+      width: 35%; }
+    .think-in-your-future .estimating-life-and-cake .cake p {
+      font-size: 1.25em; }
+  .think-in-your-future .inegi-data-indicates p {
+    font-size: 1.31em; }
+  .think-in-your-future ul.states {
+    padding: 0 10px; }
+    .think-in-your-future ul.states li {
+      font-size: 1.44em;
+      margin: 25px auto; }
+  .think-in-your-future ul.through-years {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column nowrap;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    padding: 0; }
+    .think-in-your-future ul.through-years li p {
+      font-size: 1.25em;
+      margin: 0 1.56vw; }
+  .think-in-your-future .inegi-data .data-and-map.desktop ul.states, .think-in-your-future .inegi-data .data-and-map.desktop img {
+    float: left;
+    width: 50%; }
+  .think-in-your-future .inegi-data .data-and-map.desktop .people {
+    clear: both; }
+    .think-in-your-future .inegi-data .data-and-map.desktop .people img, .think-in-your-future .inegi-data .data-and-map.desktop .people p, .think-in-your-future .inegi-data .data-and-map.desktop .people ul {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+      margin-left: 0.5%;
+      margin-right: 0.5%;
+      width: 24%; }
+    .think-in-your-future .inegi-data .data-and-map.desktop .people img {
+      height: 147px;
+      width: 174px; }
+    .think-in-your-future .inegi-data .data-and-map.desktop .people p.dark-blue {
+      font-size: 1.25em;
+      text-align: center; }
+    .think-in-your-future .inegi-data .data-and-map.desktop .people .through-years li img {
+      height: 34px;
+      width: 37px; }
+    .think-in-your-future .inegi-data .data-and-map.desktop .people .through-years li p {
+      font-size: 1.25em;
+      width: 100%; }
+    .think-in-your-future .inegi-data .data-and-map.desktop .people p {
+      font-size: 1.25em; }
+  .think-in-your-future .importance-voluntary-contributions .section p {
+    font-size: 1.19em; }
+  .think-in-your-future .footer .aqua {
+    padding: 0.31vw 0; }
+    .think-in-your-future .footer .aqua p {
+      font-size: 1.25em; }
 
   .behind-a-good-driver .bulletin-title img {
     width: 45%; }

@@ -1,112 +1,110 @@
-.mexico-exposed
+.think-in-your-future
   p, span, h1, h2, h3, h4, h5, h6, ul li, ol li
-    @include font-mask( normal, em( 11, 16 ), 1.2em, $helvetica, $text-gray )
+    @include font-mask( normal, em( 16, 16 ), 1.2em, $helvetica, $text-gray-auto-2016 ) // em( 11, 16 )
+  .life-hope, .estimating-life-and-cake .estimating-life,
+  .inegi-data-indicates, ul.states, .importance-voluntary-contributions .section
+    box-sizing: border-box,
+    padding: 0 3.125vw //em( 10, 16 )
+  .estimating-life-and-cake, .people, ul.through-years li
+    display: flex
+    flex-flow: row nowrap
   .bulletin-title
     img
-    .article
-      padding: 0 0.2em
-      width: 60%
-      h1
-        font-size: em( 15, 16 )
-      .article
-        .sinister
-          width: 33.3%
-      .article.desktop
-        img
-          display: block
-          margin: 0.5em auto
-          width: auto
-  .main
-    .natural-disasters
-      display: flex
-      flex-flow: row nowrap
-      .aside.desktop
-        width: 70%
-        .percentage-of-territory
-          display: flex
-          flex-flow: row nowrap
-          margin-bottom: 1em
-          .article
-            display: flex
-            flex-flow: row nowrap
-            img
-              align-self: flex-start
-            p
-              align-self: flex-end
-              font-size: em( 15, 16 )
-              margin: 0px
-              padding-left: em( 4.5, 16 )
-        .geographic-ubication
-          img
-            display: block
-            margin: 0 auto
-            width: auto
-          p
-            font-size: em( 18, 16 )
-            margin: 0 auto
-            text-align: center
-      .one-hundred-disasters
-        width: 50%
-        img
-          width: 100%
-        p
-          font-size: em( 15, 16 )
-      .aside
-        width: 60%
-        .seventy-population
-          img
-            display: block
-            width: auto
-          p
-            font-size: em( 20, 16 )
-            display: block
-            margin: 0px 0px 0px 70px
-        .nine-hundred-millions
-          img
-            display: block
-            margin: 0px auto
-          p
-            font-size: em( 22, 16 )
-            margin: 0px auto
-            display: block
-            strong
-    .arrow.desktop
       display: block
-    .arrow
-      width: 40%
+      margin: 0 auto
+      width: auto
+    h1
+      font-size: em( 26, 16 )
+      strong.dark-blue
+  .future-2016-separator
+    img.desktop
+      display: block
+  .life-hope
+    img
+      padding: 0 5%
+      width: 30%
+    p
+      align-self: center
+      font-size: em( 21, 16 )
+      margin: 0 auto
+      span.light-green
+  .estimating-life-and-cake
+    .estimating-life
+      width: 50%
+      p
+        font-size: em( 21, 16 )
+        strong.mid-blue
+    .cake
+      width: 50%
       img
-        display: block
-        margin: 0 auto
-        width: auto !important
-    .vulnerabilities-to-disasters
-      float: left
-      width: 40%
-      ol
-        margin: 0 auto
-        padding-left: 0
-        width: 100%
+        width: 35%
+      p
+        font-size: em( 20, 16 )
+        strong.dark-blue
+  .inegi-data-indicates
+    p
+      font-size: em( 21, 16 )
+  ul.states
+    padding: 0 10px
+    li
+      font-size: em( 23, 16 )
+      margin: 25px auto
+      .green
+      .light-blue
+      .orange
+  ul.through-years
+    display: flex
+    flex-flow: column nowrap
+    padding: 0
+    li
+      img
+      p
+        font-size: em( 20, 16 )
+        margin: 0 1.5625vw // em( 5, 16 )
+  .inegi-data
+    .data-and-map.desktop
+      ul.states, img
+        float: left
+        width: 50%
+      ul.states
         li
-          font-size: em( 14, 16 )
+          .green
+          .light-blue
+          .orange
+      img
+      .people
+        clear: both
+        img, p, ul
+          align-self: center
+          margin-left: 0.5%
+          margin-right: 0.5%
+          width: 24%
+        img
+          height: 147px
+          width: 174px
+        p.dark-blue
+          font-size: em( 20, 16 )
           text-align: center
           strong
-    .measures-can-be-taken
-      float: left
-      width: 60%
-      img
-        align-self: center
-        height: 128px
-        width: 150px
+        .through-years
+          li
+            img
+              height: 34px
+              width: 37px
+            p
+              font-size: em( 20, 16 )
+              width: 100%
+        p
+          font-size: em( 20, 16 )
+  .importance-voluntary-contributions
+    .section
       p
-        align-self: center
-        font-size: em( 18, 16 )
-        padding: 0.5em
-        width: 70%
-  .footer
-    .block
-    .dark-aqua
-      .bulletin-centered
-        font-size: em( 22, 16 )
+        font-size: em( 19, 16 )
+        span
         strong
-    .foot-note
+  .footer
+    .aqua
+      padding: 0.3125vw 0 // 1px 0
       p
-        font-size: em( 9, 16 )
+        font-size: em( 20, 16 )
+        strong

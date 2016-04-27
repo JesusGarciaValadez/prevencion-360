@@ -147,10 +147,7 @@ El que ahorra más, vive mejor
   https://axa.mx/documents/2491895/2669525/moneda-cuatro-porciento.png
   https://axa.mx/documents/2491895/2669525/monedas-icono.png
   https://axa.mx/documents/2491895/2669525/muela-nueve-porciento.png
-<<<<<<< HEAD
   https://axa.mx/documents/2491895/2669525/porcentajes-de-gasto-promedio.png
-=======
->>>>>>> 21ca88b52ecd5d5d9c7ebc962e6501a05cca19a4
   https://axa.mx/documents/2491895/2669525/resultado-que-deja-un-cero-porciento-para-el-ahorro.png
   https://axa.mx/documents/2491895/2669525/tambien-puedes.png
 
@@ -175,3 +172,19 @@ Elabora tu plan familiar
   https://axa.mx/documents/2491895/2669529/siempre-cuenta-con.png
   https://axa.mx/documents/2491895/2669529/tanque.png
   https://axa.mx/documents/2491895/2669529/telefonos-de-emergencia.png
+
+Piensas a futuro
+  https://axa.mx/documents/2491895/2761698/76-anios-desktop.png
+  https://axa.mx/documents/2491895/2761698/76-anios-desktop.png
+  https://axa.mx/documents/2491895/2761698/cuantos-anios-vamos-a-vivir.png
+  https://axa.mx/documents/2491895/2761698/mapa-desktop.png
+  https://axa.mx/documents/2491895/2761698/mapa-mobile.png
+  https://axa.mx/documents/2491895/2761698/pastel-desktop.png
+  https://axa.mx/documents/2491895/2761698/pastel-mobile.png
+  https://axa.mx/documents/2491895/2761698/pastel.png
+  https://axa.mx/documents/2491895/2761698/personas.png
+  https://axa.mx/documents/2491895/2761698/piensas-a-futuro.png
+  https://axa.mx/documents/2491895/2761698/preguntas.png
+  https://axa.mx/documents/2491895/2761698/separador-desktop-grande.png
+  https://axa.mx/documents/2491895/2761698/separador-desktop.png
+  https://axa.mx/documents/2491895/2761698/separador-mobile.png

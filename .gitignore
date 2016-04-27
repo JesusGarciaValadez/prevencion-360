@@ -2,10 +2,10 @@
 bower_components
 .sass-cache
 config.core.php
+config.codekit
 index.php
 connectors
 core
 manager
 setup
-assets
 .DS_Store

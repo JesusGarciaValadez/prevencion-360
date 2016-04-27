@@ -1,6 +1,6 @@
 .importance-of-exercise
   h1, h2, h3, h4, h5, h6, p, span, ul li, ol li
-    @include font-mask( 'normal', em( 13, 16 ), 1.2em, $franklin, $text-gray )
+    @include font-mask( 'normal', em( 12, 16 ), 1.2em, $franklin, $text-gray )
   .bulletin-title
     display: flex
     flex-flow: row nowrap
@@ -10,7 +10,7 @@
     .how-healthy-is-the-mexican
       width: 70%
       h2
-        font-size: em( 15, 16 )
+        font-size: 4.0625vw // em( 13, 16 )
         padding: 0 0.5em
       img
         display: block
@@ -42,7 +42,7 @@
             &:nth-child( 4 )
               width: 36%
               p
-                line-height: 0.8em
+                line-height: 1em
                 margin: 14px auto 0
         .bicycle
           .text
@@ -74,18 +74,18 @@
       padding: 0 1%
       width: 60%
       p
-        font-size: em( 14, 16 )
+        font-size: em( 13, 16 )
         margin: 0.5em 0
         text-align: right
         .dark-aqua
           color: $dark-aqua
-          font-size: em( 14, 14 )
+          font-size: 1em
     .image
       width: 40%
       img
         width: 100%
   .orange-pleca
-    background: url( '../images/assets/2016/febrero/salud/pleca-mobile.png' ) repeat-x scroll center center transparent
+    background: url( 'https://axa.mx/documents/2491895/2760566/pleca-mobile.png' ) repeat-x scroll center center transparent
     border: 0 none transparent
     height: 5px
     width: 100%
@@ -99,7 +99,7 @@
       .left
         width: 72%
         p
-          font-size: em( 13.5, 16 )
+          font-size: em( 11, 16 )
           text-align: right
           width: 100%
           .orange
@@ -142,7 +142,7 @@
           padding: 0 0.5em
           p
             align-self: center
-            font-size: em( 13, 16 )
+            font-size: em( 12, 16 )
             margin: 0 auto
             width: 100%
     .cancer-posibilities-title
@@ -158,30 +158,30 @@
     .cancer-posibilities-body
       display: flex
       flex-flow: row nowrap
+      .article.mobile
+        display: flex
+        flex-flow: row nowrap
       .article
         box-sizing: border-box
         padding: 0 1%
-        &:first-child
-          display: flex
-          flex-flow: row nowrap
-          width: 38%
-          .aqua
-          img
-            align-self: center
-            width: 100%
-        &:last-child
-          width: 62%
-          ul
-            padding: 0
-            li
-              font-size: em( 12, 16 )
-              margin: 1% 0
-              strong
+        img
+          align-self: center
+          width: 40%
+        ul
+          padding: 0
+          width: 60%
+          li
+            font-size: 3.125vw // em( 10, 16 )
+            margin: 1% 0
+            text-align: left
+            &:last-child
+              width: 65%
+            strong
     .activities-examples
       box-sizing: border-box
       padding: 0.3em
       p
-        font-size: em( 13, 16  )
+        font-size: 3.4375vw // em( 11, 16  )
         display: block
         margin: 0.3em auto
         text-align: center
@@ -192,7 +192,7 @@
           list-style: none outside
           position: relative
           &:before
-            background: url( '../images/assets/2016/febrero/salud/corazon-icono-desktop.png' ) no-repeat scroll left center transparent
+            background: url( 'https://axa.mx/documents/2491895/2760566/corazon-icono-desktop.png' ) no-repeat scroll left center transparent
             content: ""
             height: 32px
             left: -40px
@@ -201,8 +201,8 @@
             width: 33px
           p
             color: $aqua
-            font-size: em( 12.5, 12.9667 )
-            line-height: em( 33, 12.5 )
+            font-size: 2.8125vw // em( 12.5, 12.9667 )
+            line-height: 3em // em( 33, 12.5 )
             margin: 0 auto
             text-align: left
   .footer
@@ -214,12 +214,12 @@
       p
         color: $white-color
         display: block
-        font-size: em( 15, 16 )
+        font-size: 3.75vw // em( 12, 16 )
         margin: 0 auto
         width: 74%
     .foot-note
       box-sizing: border-box
-      padding: 0 0.3em
+      padding: 0.3em
       p
         display: block
         font-size: em( 10.5, 16 )

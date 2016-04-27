@@ -22,7 +22,7 @@
 @import "prevencion-360/default-styles/_variables"
 @import "prevencion-360/default-styles/_mixins"
 @import "prevencion-360/default-styles/_colors"
-@import "prevencion-360/default-styles/_general"
+// @import "prevencion-360/default-styles/_general"
 
 @import "prevencion-360/auto/desktop/el-impacto-de-la-reforma-laboral-en-los-seguros-de-autos-responsabilidad-civil-una-opcion"
 @import "prevencion-360/auto/desktop/conoce-las-estadisticas-y-toma-precauciones"
@@ -46,46 +46,55 @@
    Modify as content requires.
    ========================================================================== */
 
+// @media only screen and (min-width: em( 320, 16 ))
+
+/* ==========================================================================
+   iPhone 5/5S Orientation
+   ========================================================================== */
+//@media only screen and (min-width: em( 320, 16 )) and (max-width: em( 568, 16 ))
+@media only screen and (min-width: em( 320, 16 ))
+  @import "prevencion-360/auto/mobile/detras-de-un-buen-conductor-esta-un-padre-responsable-portrait"
+  @import "prevencion-360/default-styles/_general_mobile"
+
+// @media only screen and (min-width: em( 568, 16 )) and (max-width: em( 1023, 16 )) and (orientation: landscape)
+
+/* ==========================================================================
+   iPhone 6 Orientations
+   ========================================================================== */
+// @media only screen and (min-width: em( 375, 16 )) and (max-width: em( 1023, 16 ))
+
+// @media only screen and (min-width: em( 667, 16 )) and (max-width: em( 1023, 16 )) and (orientation: landscape)
+
+/* ==========================================================================
+   iPhone 6 Plus Orientation
+   ========================================================================== */
+// @media only screen and (min-width: em( 414, 16 )) and (max-width: em( 1023, 16 ))
+
+// @media only screen and (min-width: em( 736, 16 )) and (max-width: em( 1023, 16 )) and (orientation: landscape)
+
+/* ==========================================================================
+   iPad Orientation
+   ========================================================================== */
+@media only screen and (min-width: em( 768, 16 )) and (max-width: em( 1023, 16 )) and (orientation: portrait)
+
+@media only screen and (min-width: em( 1024, 16 ))
+  @import "prevencion-360/auto/tablet/detras-de-un-buen-conductor-esta-un-padre-responsable-portrait"
+  @import "prevencion-360/default-styles/_general"
+
 /* ==========================================================================
    Desktop High Resolution
    ========================================================================== */
-@media print, ( -webkit-min-device-pixel-ratio: 1.25 ), ( min-resolution: 1.25dppx ), ( min-resolution: 120dpi )
+@media only screen and (min-width: em( 1024, 16 ))
+  @import "prevencion-360/auto/desktop/detras-de-un-buen-conductor-esta-un-padre-responsable"
 
 /* ==========================================================================
-   iPad
+   Desktop High Resolution
    ========================================================================== */
-@media only screen and ( max-width: em( 1024, 16 ) )
-
-@media only screen and ( max-width: em( 1024, 16 ) ) and ( orientation: portrait )
+@media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi)
+  @import "prevencion-360/default-styles/_print_stylesheet"
 
 /* ==========================================================================
-   iPhone 6 Plus Landscape Orientation
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
-@media only screen and ( max-width: em( 736, 16 ) )
-
-@media only screen and ( max-width: em( 736, 16 ) ) and ( orientation: landscape )
-
-/* ==========================================================================
-   iPhone 6
-   ========================================================================== */
-@media only screen and ( max-width: em( 667, 16 ) ) and ( orientation: landscape )
-
-@media only screen and ( max-width: em( 667, 16 ) )
-
-/* ==========================================================================
-   iPhone 5/5S
-   ========================================================================== */
-@media only screen and ( max-width: em( 568, 16 ) ) and ( orientation: landscape )
-
-@media only screen and ( max-width: em( 568, 16 ) )
-   @import "prevencion-360/default-styles/_general_mobile"
-
-/* ==========================================================================
-   iPhone 3GS/4/4S
-   ========================================================================== */
-@media only screen and ( max-width: em( 480, 16 ) )
-
-@media only screen and ( max-width: em( 480, 16 ) ) and ( orientation: landscape )
-
-@media print
-   @import "prevencion-360/default-styles/_print_stylesheet"
+@media only print

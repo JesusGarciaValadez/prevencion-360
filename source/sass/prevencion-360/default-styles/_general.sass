@@ -60,6 +60,9 @@ hr.rule-information
   p,h1,h2,h3,h4,h5,h6
     color: $white-color !important
 
+.bulletin-central
+  width: 960px
+
 .wrapper, .wrapper-prevencion
   box-sizing: border-box
   clear: both
@@ -90,22 +93,20 @@ footer
   margin-left: auto !important
   margin-right: auto !important
   text-align: center
-.bulletin-wrapper .desktop
+
+.bulletin-wrapper .desktop, .desktop
   display: block
-.bulletin-wrapper .mobile
+.bulletin-wrapper .mobile, .mobile
   display: none !important
+
 .bulletin-central
   width: 960px
-.desktop
-  display: block
-.mobile
-  display: none
+
+footer.footer
+  flex-flow: row nowrap
+
 
 @media (min-width: 20em) and (max-width: 50em)
   .central, .central-prevencion
     display: block !important
-  .desktop
-    display: none
-  .mobile
-    display: block
 

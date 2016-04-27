@@ -6103,7 +6103,7 @@ table {
 
   .aui .row-fluid .offset1 {
     margin-left: 11.11111%;
-    *margin-left: 11.0%; }
+    *margin-left: 11%; }
 
   .aui .row-fluid .offset1:first-child {
     margin-left: 8.54701%;
@@ -6385,7 +6385,7 @@ table {
 
   .aui .row-fluid .span5 {
     width: 40.05525%;
-    *width: 40.0%; }
+    *width: 40%; }
 
   .aui .row-fluid .span6 {
     width: 48.61878%;
@@ -6990,30 +6990,25 @@ table {
 
 .aui .icon-rotate-90:before {
   -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
   transform: rotate(90deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1); }
 
 .aui .icon-rotate-180:before {
   -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2); }
 
 .aui .icon-rotate-270:before {
   -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
   transform: rotate(270deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); }
 
 .aui .icon-flip-horizontal:before {
   -webkit-transform: scale(-1, 1);
-  -ms-transform: scale(-1, 1);
   transform: scale(-1, 1); }
 
 .aui .icon-flip-vertical:before {
   -webkit-transform: scale(1, -1);
-  -ms-transform: scale(1, -1);
   transform: scale(1, -1); }
 
 .aui a .icon-rotate-90:before, .aui a .icon-rotate-180:before, .aui a .icon-rotate-270:before, .aui a .icon-flip-horizontal:before, .aui a .icon-flip-vertical:before {
@@ -10076,7 +10071,6 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
     max-width: 200px; } }
 .portlet-boundary.yui3-dd-dragging {
   -webkit-transform: scale(0.8);
-  -ms-transform: scale(0.8);
   transform: scale(0.8);
   -webkit-transition: -webkit-transform .3s ease;
   -webkit-transition: -webkit-transform 0.3s ease;
@@ -10097,7 +10091,6 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
     background-color: #ddedde;
     border-color: #7D7;
     -webkit-transform: scale(1.1, 1.1);
-    -ms-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1); }
   75% {
     background-color: #ddedde;
@@ -10113,7 +10106,6 @@ body:first-of-type .portlet-content:hover .lfr-icon-actions .taglib-text {
     background-color: #ddedde;
     border-color: #7D7;
     -webkit-transform: scale(1.1, 1.1);
-    -ms-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1); }
   75% {
     background-color: #ddedde;
@@ -12805,9 +12797,8 @@ ul.axa_social_list li {
   padding: 20px 10px;
   background: white;
   border-color: #0060d6;
-  -webkit-border-image: none;
-       -o-border-image: none;
-          border-image: none;
+  -o-border-image: none;
+     border-image: none;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   color: #333;
   height: auto;
@@ -16998,7 +16989,7 @@ footer.footer {
     max-width: 100% !important; }
 
   @page {
-    margin: 0.5cm; }
+    margin: .5cm; }
   p,
   h2,
   h3 {

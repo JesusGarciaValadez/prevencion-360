@@ -116,31 +116,94 @@
         img
           width: auto
     .cvd
+      float: left
+      width: 66%
       .article
         .title
+          position: relative
           img
-          p
-            font-size: em( 19, 16 )
+            bottom: -60px
+            left: 0
+            position: absolute
+            transform: translate( 25%, 0 )
           .aqua
+            float: right
+            font-size: em( 22, 16 )
         .article-body
+          float: right
+          width: 75%
           p
+            font-size: em( 18, 16 )
     .cancer-posibilities-title
+      clear: right
+      float: left
+      width: 33%
       p
+        font-size: em( 18, 16 )
+        margin-top: 30px
         .aqua
+          font-weight: bold
+          width: auto
     .cancer-posibilities-body
+      display: block
+      float: left
+      width: 100%
       .article
-        p.aqua
-        img
-      .article
-        ul
-          li
-            strong
+        .left, .right
+          float: left
+        .left
+          display: flex
+          flex-flow: column nowrap
+          height: 221px
+          width: 33%
+          .aqua
+            @include font-mask( normal, em( 25, 16 ), 1em, $helvetica, $aqua )
+            float: left
+            text-align: center
+            top: 20px
+          img
+            align-self: flex-end
+            display: block
+            margin: 0.3em auto
+            width: 60%
+        .right
+          display: flex
+          flex-flow: row nowrap
+          width: 66%
+          img
+            width: 40.01%
+          ul
+            width: 60%
+            li
+              font-size: em( 16, 16 )
+              margin: 3% 0
+              strong
     .activities-examples
       p
+        float: left
+        font-size: em( 17, 16 )
+        margin: 0 1% 0 0
+        width: 32%
         strong
       ul
+        float: left
+        height: 160px
+        width: 33%
+        &:last-child
+          li
+            &:before
+              top: 20px
         li
+          height: 50%
+          width: 100%
+          &:before
+            top: 7px
+          &:last-child
+            margin-top: 5px
           p
+            font-size: em( 25, 19.0333 )
+            line-height: 1em
+            width: 100%
   .footer
     .block
     .aqua

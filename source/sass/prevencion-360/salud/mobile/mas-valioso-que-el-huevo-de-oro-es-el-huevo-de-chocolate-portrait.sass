@@ -1,0 +1,98 @@
+.huevo-chocolate
+  h1, h2, h3, h4, h5, h6, p, span, ul li, ol li
+    @include font-mask( normal, em( 12, 16 ), 1.2em, $franklin, $text-gray )
+  .bulletin-header
+    .section
+      p
+        img
+    hr
+      border: 0 none transparent
+      border-top: 3px solid #4C3825
+      height: 0
+      margin: 0.5em auto
+      padding: 0
+  .bulletin-title
+    .bulletin-central
+      padding: 0
+      img
+        padding: 0
+  .bulletin-sub-title
+    background-color: #AFC635
+    .bulletin-central
+      display: flex
+      flex-flow: row nowrap
+      > div
+        align-self: center
+      .bit-70
+        width: 70%
+        p
+          text-align: justify
+          strong
+      .bit-30
+        display: flex
+        flex-flow: row nowrap
+        width: 30%
+        img
+          align-self: center
+          display: block
+          margin: 0 auto
+          width: 100%
+  .dark-chocolate
+    .bulletin-central
+      display: flex
+      flex-flow: row nowrap
+      padding: 0
+      > div
+        align-self: center
+        padding: 0
+      .bit-40
+        width: 40%
+        img
+          padding: 0
+      .bit-60
+        padding: 0 2.34375vw
+        width: 60%
+        p
+          display: block
+          font-size: 4.6875vw
+          margin: auto
+          padding: 0
+          strong
+  .dark-chocolate-benefits
+    .bulletin-central
+      ul.mobile
+        margin: 0
+        padding: 0
+        li
+          display: flex
+          flex-flow: row nowrap
+          > div
+            align-self: center
+          .figure
+            width: 33%
+            img
+          .bit-60
+            width: 60%
+            p
+              font-size: 3.75vw
+              margin: 0 auto
+              padding: 0
+              text-align: left
+              strong
+                &.red
+                  color: #8B0011
+            img.centered
+  .footer--dark-chocolate
+    background: url("../images/mas-valioso-que-el-huevo-de-oro-es-el-huevo-de-chocolate/chocolate-footer.png") no-repeat scroll center bottom transparent
+    background-size: auto 100%
+    height: 77px
+    .bulletin-central
+      display: flex
+      flex-flow: row nowrap
+      height: 100%
+      p
+        @include font-mask( normal, 4.0625vw, 1.2em, $franklin, $white )
+        align-self: flex-end
+        margin: 0 5px 5px
+        padding: 0
+        text-align: left
